@@ -1,0 +1,693 @@
+{
+ "outbounds": [
+  {
+   "type": "selector",
+   "tag": "select",
+   "outbounds": [
+    "auto",
+    "MarkazeAhan | SERVER 1 § 0",
+    "MarkazeAhan | SERVER 2 § 1",
+    "MarkazeAhan | SERVER 3 § 2",
+    "MarkazeAhan | SERVER 4 § 3",
+    "MarkazeAhan | SERVER 5 § 4",
+    "MarkazeAhan | SERVER 6 § 5",
+    "MarkazeAhan | SERVER 7 § 6",
+    "MarkazeAhan | SERVER 8 § 7",
+    "MarkazeAhan | SERVER 9 § 8",
+    "MarkazeAhan | SERVER 10 § 9",
+    "MarkazeAhan | SERVER 11 § 10",
+    "MarkazeAhan | SERVER 12 § 11",
+    "MarkazeAhan | SERVER 13 § 12",
+    "MarkazeAhan | SERVER 14 § 13",
+    "MarkazeAhan | SERVER 15 § 14",
+    "MarkazeAhan | SERVER 16 § 15",
+    "MarkazeAhan | SERVER 17 § 16",
+    "MarkazeAhan | SERVER 18 § 17",
+    "MarkazeAhan | SERVER 19 § 18",
+    "MarkazeAhan | SERVER 20 § 19",
+    "MarkazeAhan | SERVER 21 § 20",
+    "MarkazeAhan | SERVER 22 § 21",
+    "MarkazeAhan | SERVER 23 § 22",
+    "MarkazeAhan | SERVER 24 § 23",
+    "MarkazeAhan | SERVER 25 § 24",
+    "MarkazeAhan | SERVER 26 § 25",
+    "MarkazeAhan | SERVER 27 § 26",
+    "MarkazeAhan | SERVER 28 § 27",
+    "MarkazeAhan | SERVER 29 § 28",
+    "MarkazeAhan | SERVER 30 § 29",
+    "MarkazeAhan | SERVER 29 § 30",
+    "MarkazeAhan | SERVER 32 § 31",
+    "MarkazeAhan | SERVER 33 § 32",
+    "MarkazeAhan | SERVER 34 § 33",
+    "MarkazeAhan | SERVER 35 § 34",
+    "MarkazeAhan | SERVER 36 § 35"
+   ],
+   "default": "auto",
+   "interrupt_exist_connections": true
+  },
+  {
+   "type": "urltest",
+   "tag": "auto",
+   "outbounds": [
+    "MarkazeAhan | SERVER 1 § 0",
+    "MarkazeAhan | SERVER 2 § 1",
+    "MarkazeAhan | SERVER 3 § 2",
+    "MarkazeAhan | SERVER 4 § 3",
+    "MarkazeAhan | SERVER 5 § 4",
+    "MarkazeAhan | SERVER 6 § 5",
+    "MarkazeAhan | SERVER 7 § 6",
+    "MarkazeAhan | SERVER 8 § 7",
+    "MarkazeAhan | SERVER 9 § 8",
+    "MarkazeAhan | SERVER 10 § 9",
+    "MarkazeAhan | SERVER 11 § 10",
+    "MarkazeAhan | SERVER 12 § 11",
+    "MarkazeAhan | SERVER 13 § 12",
+    "MarkazeAhan | SERVER 14 § 13",
+    "MarkazeAhan | SERVER 15 § 14",
+    "MarkazeAhan | SERVER 16 § 15",
+    "MarkazeAhan | SERVER 17 § 16",
+    "MarkazeAhan | SERVER 18 § 17",
+    "MarkazeAhan | SERVER 19 § 18",
+    "MarkazeAhan | SERVER 20 § 19",
+    "MarkazeAhan | SERVER 21 § 20",
+    "MarkazeAhan | SERVER 22 § 21",
+    "MarkazeAhan | SERVER 23 § 22",
+    "MarkazeAhan | SERVER 24 § 23",
+    "MarkazeAhan | SERVER 25 § 24",
+    "MarkazeAhan | SERVER 26 § 25",
+    "MarkazeAhan | SERVER 27 § 26",
+    "MarkazeAhan | SERVER 28 § 27",
+    "MarkazeAhan | SERVER 29 § 28",
+    "MarkazeAhan | SERVER 30 § 29",
+    "MarkazeAhan | SERVER 29 § 30",
+    "MarkazeAhan | SERVER 32 § 31",
+    "MarkazeAhan | SERVER 33 § 32",
+    "MarkazeAhan | SERVER 34 § 33",
+    "MarkazeAhan | SERVER 35 § 34",
+    "MarkazeAhan | SERVER 36 § 35"
+   ],
+   "url": "https://www.gstatic.com/generate_204",
+   "interval": "3m",
+   "tolerance": 50,
+   "interrupt_exist_connections": true
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 1 § 0",
+   "server": "86.54.82.184",
+   "server_port": 443,
+   "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "example.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 2 § 1",
+   "server": "188.114.96.19",
+   "server_port": 80,
+   "uuid": "c5965d47-45d6-45af-b619-3b2a6bf896a2",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "httpupgrade",
+    "path": "/",
+    "host": "google.whatsapp.snapp.torob.basalam.dns-look.space."
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 3 § 2",
+   "server": "dog-jp.kunlun01dns.com",
+   "server_port": 21014,
+   "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 4 § 3",
+   "server": "zfd-hkv2.kunlun01dns.com",
+   "server_port": 16115,
+   "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "MarkazeAhan | SERVER 5 § 4",
+   "server": "4.168.234.190",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "SBw5b6E9noHolBdA"
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 6 § 5",
+   "server": "dog-hk.kunlun01dns.com",
+   "server_port": 21021,
+   "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "MarkazeAhan | SERVER 7 § 6",
+   "server": "20.238.125.195",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "Qr3RLHJLngbplPWd"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "MarkazeAhan | SERVER 8 § 7",
+   "server": "sw.roshdiran1.ir",
+   "server_port": 53425,
+   "method": "chacha20-ietf-poly1305",
+   "password": "aIeil4UUGSF5wo1kg9TebZfXOFLCZ66G"
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 9 § 8",
+   "server": "199.232.78.159",
+   "server_port": 443,
+   "uuid": "c0e8fb58-a60f-4c15-9444-4e7c109797a8",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "ssl.fastly.com"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "canadajji.global.ssl.fastly.net."
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 10 § 9",
+   "server": "dorado.yokkastars.com",
+   "server_port": 40443,
+   "uuid": "af5eac96-e478-488a-bc8c-45269d7e8847",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "deepl.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
+     "short_id": "68a8"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 11 § 10",
+   "server": "185.242.247.44",
+   "server_port": 443,
+   "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "example.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 12 § 11",
+   "server": "cloud.ghostdev.lk",
+   "server_port": 80,
+   "uuid": "1eaed465-d720-400b-9f9f-439600a2d093",
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "m.zoom.us"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 13 § 12",
+   "server": "89.208.244.252",
+   "server_port": 13779,
+   "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "tesla.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
+     "short_id": "af1bdd293097b664"
+    }
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "MarkazeAhan | SERVER 14 § 13",
+   "server": "bale.xv98.ir",
+   "server_port": 5051,
+   "method": "chacha20-ietf-poly1305",
+   "password": "68mL2QkZEBlxWa3hcslGDw"
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 15 § 14",
+   "server": "r8f4n-g05.jp02-e3-vm0.entry.fr0528.art",
+   "server_port": 11777,
+   "uuid": "8ee65c79-4487-32ff-b896-62c8dce05921",
+   "security": "auto",
+   "alter_id": 1,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 16 § 15",
+   "server": "ist1d.lynch.ir",
+   "server_port": 2045,
+   "uuid": "d7e99010-e7c3-4978-9d30-2e63882dcfbe",
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "http",
+    "path": "/",
+    "host": [
+     "speedtest.net"
+    ]
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 17 § 16",
+   "server": "tk1.high-speed-test-56424.me",
+   "server_port": 443,
+   "uuid": "37615d66-5467-44a3-bc23-f2c3bef7f761",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "aws.amazon.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM",
+     "short_id": "21270a66"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 18 § 17",
+   "server": "icn-a-01.auuas.com",
+   "server_port": 1891,
+   "uuid": "81c4547b-e5d8-4af8-baf0-91c5c0c05a9b",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.npmjs.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "mKvw6P0pTdasFPgyT3d_rHJSJfA-aaCxV8krGByqQS0",
+     "short_id": "8378f267"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 19 § 18",
+   "server": "199.232.78.159",
+   "server_port": 443,
+   "uuid": "8453bdb7-dd58-419d-b002-9456dd2e73d7",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "ssl.fastly.com"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "pan2e.global.ssl.fastly.net"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 20 § 19",
+   "server": "ee.monkora.org",
+   "server_port": 443,
+   "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "example.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 21 § 20",
+   "server": "tk1.high-speed-test-56424.me",
+   "server_port": 443,
+   "uuid": "37615d66-5467-44a3-bc23-f2c3bef7f761",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "aws.amazon.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM",
+     "short_id": "21270a66"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 22 § 21",
+   "server": "199.232.78.159",
+   "server_port": 443,
+   "uuid": "36e8e5e8-8010-45a1-9fb7-9fa21f7e4c66",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "ssl.fastly.com"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "pannn1.global.ssl.fastly.net"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 23 § 22",
+   "server": "62.192.153.132",
+   "server_port": 443,
+   "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "example.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 24 § 23",
+   "server": "144.31.219.97",
+   "server_port": 443,
+   "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "example.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 25 § 24",
+   "server": "91.107.191.165",
+   "server_port": 2,
+   "uuid": "9f15b600-ce52-447f-b388-ef70de75308e",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 26 § 25",
+   "server": "199.68.198.13",
+   "server_port": 443,
+   "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "example.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 27 § 26",
+   "server": "199.232.78.159",
+   "server_port": 443,
+   "uuid": "2e8cd1fa-0dcc-4402-bb99-be3d623fc1d5",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "ssl.fastly.com"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "pokerrr.global.ssl.fastly.net"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 28 § 27",
+   "server": "91.107.191.165",
+   "server_port": 1,
+   "uuid": "9f15b600-ce52-447f-b388-ef70de75308e",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 29 § 28",
+   "server": "85.159.228.223",
+   "server_port": 443,
+   "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "example.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 30 § 29",
+   "server": "fast.jkerm.com",
+   "server_port": 443,
+   "uuid": "c0e8fb58-a60f-4c15-9444-4e7c109797a8",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "ssl.fastly.com"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "pokerrr.global.ssl.fastly.net."
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 29 § 30",
+   "server": "dog-us.kunlun01dns.com",
+   "server_port": 21011,
+   "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 32 § 31",
+   "server": "199.68.198.13",
+   "server_port": 443,
+   "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "example.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "MarkazeAhan | SERVER 33 § 32",
+   "server": "dog-hk.kunlun01dns.com",
+   "server_port": 21022,
+   "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 34 § 33",
+   "server": "germanybeforelanz.site",
+   "server_port": 443,
+   "uuid": "f811a2e8-08ed-4b30-b44c-449a7cab54d8",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "germanybeforelanz.site",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "qxeqNkLoTs6t9YIbarwpV53bfBei0dBBiaC52fQ_NlY",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 35 § 34",
+   "server": "167.233.96.254",
+   "server_port": 2087,
+   "uuid": "c0e8fb58-a60f-4c15-9444-4e7c109797a8",
+   "packet_encoding": "xudp",
+   "transport": {
+    "type": "http",
+    "path": "/",
+    "host": [
+     "play.google.com"
+    ]
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "MarkazeAhan | SERVER 36 § 35",
+   "server": "ee.monkora.org",
+   "server_port": 443,
+   "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "example.org",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+     "short_id": ""
+    }
+   }
+  }
+ ],
+ "endpoints": [],
+ "route": {
+  "final": "select"
+ }
+}

@@ -1,0 +1,668 @@
+{
+ "outbounds": [
+  {
+   "type": "selector",
+   "tag": "select",
+   "outbounds": [
+    "auto",
+    "法国 国际航空电讯集团公司(SITA) § 0",
+    "1|🇨🇭2 |  5.0MB/s § 1",
+    "0|-https://t.me/MrXbin-97 § 2",
+    "[🏁]t.me/ConfigsHub § 3",
+    "t.me/ConfigsHub § 4",
+    "Channel id: @ShadowProxy66🇩🇪 § 5",
+    "Channel id: @ShadowProxy66🇩🇪 § 6",
+    "1|🌀13-RO |  1.8MB/s § 7",
+    "🇯🇵JP-107.148.6.67-5005 § 8",
+    "Channel id: @ShadowProxy66🇨🇦 § 9",
+    "伊朗 v2rayfree.eu.org § 10",
+    "🏁RELAY-172.67.156.210-2892 § 11",
+    "法国 国际航空电讯集团公司(SITA) § 12",
+    "✅سرورهایبیشتردرکانال:prrofile_purple@✅ § 13",
+    "🇺🇸US-77.83.141.171-1131 § 14",
+    "0|--26 § 15",
+    "🇩🇪DE-23.158.56.241-0823 § 16",
+    "Channel id: @ShadowProxy66🇬🇧 § 17",
+    "🏁RELAY-172.67.207.26-0163 § 18",
+    "Channel id: @ShadowProxy66🇩🇪 § 19",
+    "0|--30 § 20",
+    "0|--32 § 21",
+    "🏁RELAY-172.67.170.13-1522 § 22",
+    "0|--38 § 23",
+    "0|--86 § 24",
+    "@V2ray1_Ng § 25",
+    "🇨🇦CA-15.235.50.172-1645 § 26",
+    "Channel id: @ShadowProxy66🇺🇸 § 27",
+    "13|🇸🇬 新加坡4|@ripaojiedian § 28",
+    "🏁RELAY-104.21.15.212-0196 § 29",
+    "美国 v2rayfree.eu.org § 30"
+   ],
+   "default": "auto",
+   "interrupt_exist_connections": true
+  },
+  {
+   "type": "urltest",
+   "tag": "auto",
+   "outbounds": [
+    "法国 国际航空电讯集团公司(SITA) § 0",
+    "1|🇨🇭2 |  5.0MB/s § 1",
+    "0|-https://t.me/MrXbin-97 § 2",
+    "[🏁]t.me/ConfigsHub § 3",
+    "t.me/ConfigsHub § 4",
+    "Channel id: @ShadowProxy66🇩🇪 § 5",
+    "Channel id: @ShadowProxy66🇩🇪 § 6",
+    "1|🌀13-RO |  1.8MB/s § 7",
+    "🇯🇵JP-107.148.6.67-5005 § 8",
+    "Channel id: @ShadowProxy66🇨🇦 § 9",
+    "伊朗 v2rayfree.eu.org § 10",
+    "🏁RELAY-172.67.156.210-2892 § 11",
+    "法国 国际航空电讯集团公司(SITA) § 12",
+    "✅سرورهایبیشتردرکانال:prrofile_purple@✅ § 13",
+    "🇺🇸US-77.83.141.171-1131 § 14",
+    "0|--26 § 15",
+    "🇩🇪DE-23.158.56.241-0823 § 16",
+    "Channel id: @ShadowProxy66🇬🇧 § 17",
+    "🏁RELAY-172.67.207.26-0163 § 18",
+    "Channel id: @ShadowProxy66🇩🇪 § 19",
+    "0|--30 § 20",
+    "0|--32 § 21",
+    "🏁RELAY-172.67.170.13-1522 § 22",
+    "0|--38 § 23",
+    "0|--86 § 24",
+    "@V2ray1_Ng § 25",
+    "🇨🇦CA-15.235.50.172-1645 § 26",
+    "Channel id: @ShadowProxy66🇺🇸 § 27",
+    "13|🇸🇬 新加坡4|@ripaojiedian § 28",
+    "🏁RELAY-104.21.15.212-0196 § 29",
+    "美国 v2rayfree.eu.org § 30"
+   ],
+   "url": "https://www.gstatic.com/generate_204",
+   "interval": "3m",
+   "tolerance": 50,
+   "interrupt_exist_connections": true
+  },
+  {
+   "type": "vmess",
+   "tag": "法国 国际航空电讯集团公司(SITA) § 0",
+   "server": "57.129.24.125",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "1|🇨🇭2 |  5.0MB/s § 1",
+   "server": "186.190.215.193",
+   "server_port": 22324,
+   "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "0|-https://t.me/MrXbin-97 § 2",
+   "server": "146.59.55.50",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "o.metuji.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "[🏁]t.me/ConfigsHub § 3",
+   "server": "23.166.88.183",
+   "server_port": 22324,
+   "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "t.me/ConfigsHub § 4",
+   "server": "172.67.170.103",
+   "server_port": 443,
+   "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "glweidf.sbs",
+    "alpn": [
+     "h3"
+    ],
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkws",
+    "headers": {
+     "Host": "glweidf.sbs"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "Channel id: @ShadowProxy66🇩🇪 § 5",
+   "server": "135.125.182.74",
+   "server_port": 28213,
+   "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "Channel id: @ShadowProxy66🇩🇪 § 6",
+   "server": "57.129.28.65",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "kapelleng.com"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "kapelleng.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "1|🌀13-RO |  1.8MB/s § 7",
+   "server": "5.182.37.231",
+   "server_port": 49664,
+   "uuid": "9395474c-e2a1-4565-ba56-c16e7373c4c4",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "🇯🇵JP-107.148.6.67-5005 § 8",
+   "server": "107.148.6.67",
+   "server_port": 30001,
+   "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+   "security": "auto",
+   "alter_id": 64,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/path/170733132233",
+    "headers": {
+     "Host": "www.53865734.xyz"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "Channel id: @ShadowProxy66🇨🇦 § 9",
+   "server": "51.79.86.182",
+   "server_port": 42610,
+   "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "伊朗 v2rayfree.eu.org § 10",
+   "server": "beyonddsz.cfd",
+   "server_port": 443,
+   "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkws",
+    "headers": {
+     "Host": "beyonddsz.cfd"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "🏁RELAY-172.67.156.210-2892 § 11",
+   "server": "172.67.156.210",
+   "server_port": 443,
+   "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkws",
+    "headers": {
+     "Host": "glweidf.sbs"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "法国 国际航空电讯集团公司(SITA) § 12",
+   "server": "57.129.28.69",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "baradiha.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "✅سرورهایبیشتردرکانال:prrofile_purple@✅ § 13",
+   "server": "kapelleng.com",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "kapelleng.com"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "kapelleng.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "🇺🇸US-77.83.141.171-1131 § 14",
+   "server": "vc.fly.dev",
+   "server_port": 443,
+   "uuid": "35379219-6535-4f2e-a4fe-3e44f61e0eee",
+   "security": "auto",
+   "alter_id": 32,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "vc.fly.dev"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/vc",
+    "headers": {
+     "Host": "vc.fly.dev"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "0|--26 § 15",
+   "server": "57.129.25.22",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "o.metuji.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "🇩🇪DE-23.158.56.241-0823 § 16",
+   "server": "23.158.56.241",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "Channel id: @ShadowProxy66🇬🇧 § 17",
+   "server": "51.38.64.209",
+   "server_port": 44023,
+   "uuid": "7da457da-ed0f-437d-c81d-6c35885bbea3",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "🏁RELAY-172.67.207.26-0163 § 18",
+   "server": "172.67.207.26",
+   "server_port": 443,
+   "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "glweidf.sbs"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkws",
+    "headers": {
+     "Host": "glweidf.sbs"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "Channel id: @ShadowProxy66🇩🇪 § 19",
+   "server": "57.129.64.238",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "kapelleng.com"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "kapelleng.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "0|--30 § 20",
+   "server": "38.99.82.193",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "tilebani.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "0|--32 § 21",
+   "server": "57.129.25.25",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "f.khilei.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "🏁RELAY-172.67.170.13-1522 § 22",
+   "server": "172.67.170.13",
+   "server_port": 443,
+   "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkws",
+    "headers": {
+     "Host": "glweidf.sbs"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "0|--38 § 23",
+   "server": "15.235.83.227",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "mankadmu.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "0|--86 § 24",
+   "server": "57.129.24.124",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "aveiror.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "@V2ray1_Ng § 25",
+   "server": "66.94.114.122",
+   "server_port": 53503,
+   "uuid": "c9b9dea3-5868-477f-e54d-2c8f124f647d",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "🇨🇦CA-15.235.50.172-1645 § 26",
+   "server": "15.235.50.172",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws",
+    "headers": {
+     "Host": "baradiha.com"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "Channel id: @ShadowProxy66🇺🇸 § 27",
+   "server": "15.204.11.190",
+   "server_port": 15361,
+   "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "13|🇸🇬 新加坡4|@ripaojiedian § 28",
+   "server": "38.47.176.251",
+   "server_port": 56051,
+   "uuid": "2bca3569-0662-47f7-fdf8-421f30e71f44",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "🏁RELAY-104.21.15.212-0196 § 29",
+   "server": "104.21.15.212",
+   "server_port": 443,
+   "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "glweidf.sbs"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkws",
+    "headers": {
+     "Host": "glweidf.sbs"
+    }
+   }
+  },
+  {
+   "type": "vmess",
+   "tag": "美国 v2rayfree.eu.org § 30",
+   "server": "23.162.200.227",
+   "server_port": 443,
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "security": "auto",
+   "alter_id": 0,
+   "authenticated_length": true,
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/linkvws"
+   }
+  }
+ ],
+ "endpoints": [],
+ "route": {
+  "final": "select"
+ }
+}

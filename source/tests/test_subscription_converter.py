@@ -252,22 +252,56 @@ class SubscriptionConversionTest(unittest.TestCase):
         save = Mock()
         upload = Mock()
         convert = Mock()
+        hiddify = Mock(return_value=["hiddify/1.json"])
         namespace = {
             "GITHUB_TOKEN": "dummy-token", "REPO_NAME_1": "owner/repo",
             "URLS": ["source"], "LOCAL_PATHS": [original], "REMOTE_PATHS": [original],
             "fetch_data": Mock(return_value="data"), "save_to_local_file": save,
             "save_raw_subscription": convert, "upload_to_github": upload,
+            "save_hiddify_subscription": hiddify,
             "print_progress": Mock(), "print": Mock(), "os": os
         }
         exec(compile(ast.Module(body=[main], type_ignores=[]), "main.py", "exec"), namespace)
         namespace["main"]()
         save.assert_called_once_with(original, "data")
         convert.assert_called_once_with("data", raw)
-        self.assertEqual([call.args for call in upload.call_args_list], [(original, original), (raw, raw)])
+        hiddify.assert_called_once_with(convert.return_value, "hiddify/1.json")
+        self.assertEqual([call.args for call in upload.call_args_list], [
+            (original, original), (raw, raw), ("hiddify/1.json", "hiddify/1.json")
+        ])
         upload.reset_mock()
         convert.side_effect = ConversionError("Unsupported source")
         namespace["main"]()
         upload.assert_called_once_with(original, original)
+
+    def test_local_only_skips_token_upload_and_unavailable_sources(self):
+        module = ast.parse((Path(__file__).parents[1] / "main.py").read_text())
+        main = next(node for node in module.body if isinstance(node, ast.FunctionDef) and node.name == "main")
+        save = Mock()
+        upload = Mock()
+        convert = Mock()
+        namespace = {
+            "GITHUB_TOKEN": None, "REPO_NAME_1": "owner/repo",
+            "URLS": ["missing", "working"],
+            "LOCAL_PATHS": ["githubmirror/1.txt", "githubmirror/2.txt"],
+            "REMOTE_PATHS": ["githubmirror/1.txt", "githubmirror/2.txt"],
+            "fetch_data": Mock(side_effect=[RuntimeError("404"), "data"]),
+            "requests": Mock(RequestException=RuntimeError),
+            "save_to_local_file": save, "save_raw_subscription": convert,
+            "save_hiddify_subscription": Mock(return_value=["hiddify/2.json"]),
+            "upload_to_github": upload, "print_progress": Mock(),
+            "print": Mock(), "os": os, "getpass": Mock()
+        }
+        exec(compile(ast.Module(body=[main], type_ignores=[]), "main.py", "exec"), namespace)
+        namespace["main"](local_only=True)
+        namespace["getpass"].assert_not_called()
+        upload.assert_not_called()
+        save.assert_called_once_with("githubmirror/2.txt", "data")
+        convert.assert_called_once_with("data", "raw/2.txt")
+        self.assertTrue(any(
+            "raw/1.txt; hiddify/1.json" in call.args[0]
+            for call in namespace["print"].call_args_list
+        ))
 
 
 if __name__ == "__main__":

@@ -1,11 +1,13 @@
 import os
 import sys
+import argparse
 from getpass import getpass
 import requests
 from github import Github, GithubException
 from datetime import datetime
 import zoneinfo
 from subscription_converter import save_raw_subscription
+from hiddify_subscription import save_hiddify_subscription
 
 # Определение времени по МСК
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
@@ -51,7 +53,7 @@ LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
 
 def fetch_data(url):
-    response = requests.get(url)
+    response = requests.get(url, timeout=30)
     response.raise_for_status()
     return response.text
 
@@ -97,15 +99,15 @@ def print_progress(completed, total):
     filled = int(20 * fraction)
     bar = "#" * filled + "-" * (20 - filled)
     print(
-        f"Прогресс: [{bar}] {fraction:.0%} ({completed}/{total})",
+        f"Обработано: [{bar}] {fraction:.0%} ({completed}/{total})",
         flush=True
     )
 
 
-def main():
+def main(local_only=False):
     global GITHUB_TOKEN
 
-    if not GITHUB_TOKEN:
+    if not local_only and not GITHUB_TOKEN:
         if not sys.stdin.isatty():
             raise RuntimeError(
                 "Для ввода токена запустите скрипт в терминале или задайте "
@@ -117,13 +119,14 @@ def main():
             ).strip()
         except EOFError:
             raise RuntimeError("Ввод токена прерван.") from None
-    if not GITHUB_TOKEN:
+    if not local_only and not GITHUB_TOKEN:
         raise RuntimeError(
             "Токен не введён. Нужен GitHub токен с правом записи Contents "
             "в репозиторий " + REPO_NAME_1
         )
     total = len(URLS)
     completed = 0
+    failed_sources = []
     print(f"Обновление {total} конфигов в {REPO_NAME_1}", flush=True)
     print_progress(completed, total)
     try:
@@ -131,37 +134,79 @@ def main():
             zip(URLS, LOCAL_PATHS, REMOTE_PATHS), start=1
         ):
             print(f"\n[{index}/{total}] Скачивание {url}", flush=True)
-            data = fetch_data(url)
+            try:
+                data = fetch_data(url)
+                if not data.strip():
+                    raise ValueError("Источник вернул пустые данные")
+            except (requests.RequestException, ValueError) as error:
+                failed_sources.append((url, local_path, str(error)))
+                print(f"[{index}/{total}] Источник пропущен: {error}", flush=True)
+                print_progress(index, total)
+                continue
             print(f"[{index}/{total}] Сохранение {local_path}", flush=True)
             save_to_local_file(local_path, data)
             raw_path = os.path.join("raw", os.path.basename(local_path))
+            hiddify_paths = []
             print(f"[{index}/{total}] Преобразование в {raw_path}", flush=True)
             try:
-                save_raw_subscription(data, raw_path)
+                config = save_raw_subscription(data, raw_path)
             except ValueError as error:
                 print(
                     f"[{index}/{total}] JSON не создан для {raw_path}: {error}",
                     flush=True
                 )
                 raw_path = None
-            print(
-                f"[{index}/{total}] Отправка {remote_path} в GitHub",
-                flush=True
-            )
-            upload_to_github(local_path, remote_path)
             if raw_path:
-                print(f"[{index}/{total}] Отправка {raw_path} в GitHub", flush=True)
-                upload_to_github(raw_path, raw_path)
+                hiddify_path = os.path.join(
+                    "hiddify", os.path.splitext(os.path.basename(local_path))[0] + ".json"
+                )
+                try:
+                    hiddify_paths = save_hiddify_subscription(config, hiddify_path)
+                except ValueError as error:
+                    print(
+                        f"[{index}/{total}] Подписка Hiddify не создана для "
+                        f"{hiddify_path}: {error}",
+                        flush=True
+                    )
+            if not local_only:
+                print(
+                    f"[{index}/{total}] Отправка {remote_path} в GitHub",
+                    flush=True
+                )
+                upload_to_github(local_path, remote_path)
+                if raw_path:
+                    print(f"[{index}/{total}] Отправка {raw_path} в GitHub", flush=True)
+                    upload_to_github(raw_path, raw_path)
+                for hiddify_path in hiddify_paths:
+                    print(f"[{index}/{total}] Отправка {hiddify_path} в GitHub", flush=True)
+                    upload_to_github(hiddify_path, hiddify_path)
             completed += 1
-            print_progress(completed, total)
+            print_progress(index, total)
     except Exception as e:
         print(
             f"Произошла ошибка: {e}. Завершено {completed}/{total} конфигов.",
             flush=True
         )
         raise
-    print(f"\nГотово: отправлено {completed}/{total} конфигов.", flush=True)
+    action = "обновлено локально" if local_only else "отправлено"
+    print(f"\nОбработка завершена: {action} {completed}/{total} конфигов.", flush=True)
+    if failed_sources:
+        print("Пропущенные источники и ожидаемые файлы:", flush=True)
+        for url, local_path, error in failed_sources:
+            name = os.path.basename(local_path)
+            print(
+                f"- {url}: {error}\n"
+                f"  {local_path}; raw/{name}; hiddify/{os.path.splitext(name)[0]}.json",
+                flush=True
+            )
+    if total and completed == 0:
+        raise RuntimeError("Не удалось получить данные ни из одного источника.")
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Обновление конфигов VPN и подписок Hiddify")
+    parser.add_argument(
+        "--local-only", action="store_true",
+        help="Скачать и преобразовать данные без токена и отправки через GitHub API"
+    )
+    main(local_only=parser.parse_args().local_only)
