@@ -5,6 +5,7 @@ import requests
 from github import Github, GithubException
 from datetime import datetime
 import zoneinfo
+from subscription_converter import save_raw_subscription
 
 # Определение времени по МСК
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
@@ -133,11 +134,24 @@ def main():
             data = fetch_data(url)
             print(f"[{index}/{total}] Сохранение {local_path}", flush=True)
             save_to_local_file(local_path, data)
+            raw_path = os.path.join("raw", os.path.basename(local_path))
+            print(f"[{index}/{total}] Преобразование в {raw_path}", flush=True)
+            try:
+                save_raw_subscription(data, raw_path)
+            except ValueError as error:
+                print(
+                    f"[{index}/{total}] JSON не создан для {raw_path}: {error}",
+                    flush=True
+                )
+                raw_path = None
             print(
                 f"[{index}/{total}] Отправка {remote_path} в GitHub",
                 flush=True
             )
             upload_to_github(local_path, remote_path)
+            if raw_path:
+                print(f"[{index}/{total}] Отправка {raw_path} в GitHub", flush=True)
+                upload_to_github(raw_path, raw_path)
             completed += 1
             print_progress(completed, total)
     except Exception as e:

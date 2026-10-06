@@ -64,6 +64,26 @@ python3 source/main.py
 Не добавляйте токен в исходный код. В GitHub Actions переменная `GITHUB_REPOSITORY`
 уже содержит текущий репозиторий; передайте токен через `MY_TOKEN` или `GITHUB_TOKEN`.
 
+При обновлении скрипт также преобразует подписки в JSON для sing-box с полями
+`outbounds` и `endpoints`. Результат сохраняется и отправляется в каталог `raw`
+с тем же именем: например, `githubmirror/1.txt` → `raw/1.txt`.
+Файл сохраняет расширение `.txt`, но содержит JSON в UTF-8.
+
+Поддерживаются обычные списки URI и подписки в Base64: VMess, VLESS, Trojan,
+Shadowsocks, Hysteria2 (`hy2`), TUIC и AnyTLS. TLS, Reality и поддерживаемые
+транспорты переносятся в JSON. Неподдерживаемые протоколы и транспорты (например,
+SSR, mKCP и XHTTP), а также повреждённые записи пропускаются с отчётом о причинах.
+Если пригодных подключений нет, существующий файл в `raw` не перезаписывается.
+Формат полей описан в [документации sing-box](https://sing-box.sagernet.org/configuration/outbound/).
+
+Уже скачанные файлы можно преобразовать без токена и запросов к сети:
+
+```bash
+python3 source/subscription_converter.py
+```
+
+Для другого каталога: `python3 source/subscription_converter.py githubmirror --output-dir raw`.
+
 ---
 <details>
 
