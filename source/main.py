@@ -1,6 +1,8 @@
 import os
+import sys
+from getpass import getpass
 import requests
-from github import Github
+from github import Github, GithubException
 from datetime import datetime
 import zoneinfo
 
@@ -9,8 +11,8 @@ zone = zoneinfo.ZoneInfo("Europe/Moscow")
 thistime = datetime.now(zone)
 offset = thistime.strftime("%H:%M | %d.%m.%Y")
 
-GITHUB_TOKEN = os.environ.get("MY_TOKEN")  # GitHub токен
-REPO_NAME_1 = "AvenCores/goida-vpn-configs"  # Репозиторий для основных файлов
+GITHUB_TOKEN = os.environ.get("MY_TOKEN") or os.environ.get("GITHUB_TOKEN")
+REPO_NAME_1 = os.environ.get("GITHUB_REPOSITORY", "Lynatick/Goida-vpn")
 
 # Если локальная папка не существует, создаём её
 if not os.path.exists("githubmirror"):
@@ -56,13 +58,12 @@ def fetch_data(url):
 def save_to_local_file(path, content):
     with open(path, "w", encoding="utf-8") as file:
         file.write(content)
-    print(f"Данные сохранены локально в {path}")
+    print(f"Данные сохранены локально в {path}", flush=True)
 
 
 def upload_to_github(local_path, remote_path):
     if not os.path.exists(local_path):
-        print(f"Файл {local_path} не найден.")
-        return
+        raise FileNotFoundError(f"Файл {local_path} не найден.")
 
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(REPO_NAME_1)
@@ -78,24 +79,74 @@ def upload_to_github(local_path, remote_path):
             content=content,
             sha=file_in_repo.sha
         )
-        print(f"Файл {remote_path} обновлён.")
-    except Exception:
+        print(f"Файл {remote_path} обновлён.", flush=True)
+    except GithubException as e:
+        if e.status != 404:
+            raise
         repo.create_file(
             path=remote_path,
             message=f"Первый коммит по часовому поясу Европа/Москва: {offset}",
             content=content
         )
-        print(f"Файл {remote_path} создан.")
+        print(f"Файл {remote_path} создан.", flush=True)
+
+
+def print_progress(completed, total):
+    fraction = completed / total if total else 1
+    filled = int(20 * fraction)
+    bar = "#" * filled + "-" * (20 - filled)
+    print(
+        f"Прогресс: [{bar}] {fraction:.0%} ({completed}/{total})",
+        flush=True
+    )
 
 
 def main():
+    global GITHUB_TOKEN
+
+    if not GITHUB_TOKEN:
+        if not sys.stdin.isatty():
+            raise RuntimeError(
+                "Для ввода токена запустите скрипт в терминале или задайте "
+                "MY_TOKEN / GITHUB_TOKEN в окружении."
+            )
+        try:
+            GITHUB_TOKEN = getpass(
+                f"Введите GitHub токен для {REPO_NAME_1} (ввод скрыт): "
+            ).strip()
+        except EOFError:
+            raise RuntimeError("Ввод токена прерван.") from None
+    if not GITHUB_TOKEN:
+        raise RuntimeError(
+            "Токен не введён. Нужен GitHub токен с правом записи Contents "
+            "в репозиторий " + REPO_NAME_1
+        )
+    total = len(URLS)
+    completed = 0
+    print(f"Обновление {total} конфигов в {REPO_NAME_1}", flush=True)
+    print_progress(completed, total)
     try:
-        for url, local_path, remote_path in zip(URLS, LOCAL_PATHS, REMOTE_PATHS):
+        for index, (url, local_path, remote_path) in enumerate(
+            zip(URLS, LOCAL_PATHS, REMOTE_PATHS), start=1
+        ):
+            print(f"\n[{index}/{total}] Скачивание {url}", flush=True)
             data = fetch_data(url)
+            print(f"[{index}/{total}] Сохранение {local_path}", flush=True)
             save_to_local_file(local_path, data)
+            print(
+                f"[{index}/{total}] Отправка {remote_path} в GitHub",
+                flush=True
+            )
             upload_to_github(local_path, remote_path)
+            completed += 1
+            print_progress(completed, total)
     except Exception as e:
-        print(f"Произошла ошибка: {e}")
+        print(
+            f"Произошла ошибка: {e}. Завершено {completed}/{total} конфигов.",
+            flush=True
+        )
+        raise
+    print(f"\nГотово: отправлено {completed}/{total} конфигов.", flush=True)
 
 
 if __name__ == "__main__":
