@@ -130,6 +130,38 @@ https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/1.json
 hiddify://import/https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/1.json#Goida-1
 ```
 
+#### Прямые ссылки на конфигурации Hiddify
+
+Скопируйте адрес JSON по ссылке из таблицы и добавьте его в новый профиль Hiddify.
+Используйте прямой адрес `raw.githubusercontent.com`: ссылка GitHub с `/blob/`
+открывает HTML-страницу и вызывает ошибку `Not supported config type`.
+
+| Конфигурация | Прямая ссылка на JSON |
+| --- | --- |
+| 1 | [1.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/1.json) |
+| 2 | [2.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/2.json) |
+| 3 | [3.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/3.json) |
+| 4 | [4.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/4.json) |
+| 5 | [5.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/5.json) |
+| 6 | [6.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/6.json) |
+| 7 | [7.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/7.json) |
+| 8 | [8.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/8.json) |
+| 9 | [9.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/9.json) |
+| 10 | [10.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/10.json) |
+| 11 | [11.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/11.json) |
+| 12 | [12.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/12.json) |
+| 13 | [13.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/13.json) |
+| 14 | [14.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/14.json) |
+| 15 | [15.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/15.json) |
+| 16 | [16.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/16.json) |
+| 17 | [17.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/17.json) |
+| 18 | [18.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/18.json) |
+| 19 | [19.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/19.json) |
+| 20 | [20.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/20.json) |
+| 21 | [21.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/21.json) |
+| 22 | [22.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/22.json) |
+| 23 | [23.json](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/23.json) |
+
 При наличии массива полных конфигураций создаются отдельные подписки
 `hiddify/<имя>/1.json`, `2.json` и т. д. Правила маршрутизации и параметры TLS/Reality
 остаются в своих конфигурациях. Маршрут по умолчанию (`route.final`) направляется
@@ -428,29 +460,29 @@ hiddify://import/https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddi
 
  - [ ] **Вечно актуальные**
 
-1) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/1.txt`
-2) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/2.txt`
-3) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/3.txt`
-4) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/4.txt`
-5) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/5.txt`
-6) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/6.txt`
-7) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/7.txt`
-8) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/8.txt`
-9) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/9.txt`
-10) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/10.txt`
-11) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/11.txt`
-12) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/12.txt`
-13) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/13.txt`
-14) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/14.txt`
-15) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/15.txt`
-16) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/16.txt`
-17) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/17.txt`
-18) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/18.txt`
-19) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/19.txt`
-20) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/20.txt`
-21) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/21.txt`
-22) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/22.txt`
-23) `https://github.com/Lynatick/Goida-vpn/raw/refs/heads/main/githubmirror/23.txt`
+1) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/1.json`
+2) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/2.json`
+3) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/3.json`
+4) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/4.json`
+5) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/5.json`
+6) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/6.json`
+7) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/7.json`
+8) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/8.json`
+9) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/9.json`
+10) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/10.json`
+11) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/11.json`
+12) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/12.json`
+13) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/13.json`
+14) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/14.json`
+15) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/15.json`
+16) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/16.json`
+17) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/17.json`
+18) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/18.json`
+19) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/19.json`
+20) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/20.json`
+21) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/21.json`
+22) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/22.json`
+23) `https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/23.json`
 
 **4.** Нажимаем на кнопку **Добавить из буфера обмена**.
    
