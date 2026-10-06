@@ -1,4 +1,4 @@
-"""Convert URI/Base64 subscriptions into sing-box outbound JSON."""
+"""Convert URI subscriptions and preserve native sing-box/Xray JSON datasets."""
 
 import argparse
 import base64
@@ -247,25 +247,53 @@ def uri_outbound(link):
     return outbound
 
 
+def validate_json_config(config, location="JSON"):
+    """Check the container structure without rewriting engine-specific fields."""
+    if not isinstance(config, dict):
+        raise ConversionError(f"{location}: ожидается полная конфигурация JSON")
+    outbounds = config.get("outbounds", [])
+    endpoints = config.get("endpoints", [])
+    if not isinstance(outbounds, list) or not isinstance(endpoints, list):
+        raise ConversionError(f"{location}: outbounds/endpoints должны быть списками")
+    if not outbounds and not endpoints:
+        raise ConversionError(f"{location}: JSON не содержит подключений")
+    for index, outbound in enumerate(outbounds):
+        if not isinstance(outbound, dict) or not any(
+            isinstance(outbound.get(key), str) and outbound[key]
+            for key in ("type", "protocol")
+        ):
+            raise ConversionError(
+                f"{location}.outbounds[{index}]: не указан type (sing-box) "
+                "или protocol (Xray/V2Ray)"
+            )
+    for index, endpoint in enumerate(endpoints):
+        if not isinstance(endpoint, dict) or not isinstance(endpoint.get("type"), str) or not endpoint["type"]:
+            raise ConversionError(f"{location}.endpoints[{index}]: не указан type")
+
+
+def connection_count(config):
+    configs = config if isinstance(config, list) else [config]
+    return sum(len(item.get("outbounds", [])) + len(item.get("endpoints", [])) for item in configs)
+
+
 def convert_subscription(content):
-    """Return a config and counts of rejected records; never emit empty output."""
-    text = content.strip().lstrip("\ufeff")
+    """Return a config/dataset and rejection counts; keep native JSON intact."""
+    text = content.strip().lstrip("\ufeff").strip()
     if not text:
         raise ConversionError("Источник пуст")
-    if "://" not in text and not text.startswith("{"):
+    if "://" not in text and not text.startswith(("{", "[")):
         text = decode_base64(text).strip()
     issues = Counter()
-    if text.startswith("{"):
+    if text.startswith(("{", "[")):
         config = json.loads(text)
-        outbounds = config.get("outbounds")
-        endpoints = config.get("endpoints", [])
-        if not isinstance(outbounds, list) or not isinstance(endpoints, list):
-            raise ConversionError("JSON не содержит списков outbounds/endpoints")
-        if any(not isinstance(item, dict) or "type" not in item for item in outbounds + endpoints):
-            raise ConversionError("JSON содержит записи без типа sing-box")
-        if not outbounds and not endpoints:
-            raise ConversionError("JSON не содержит подключений")
-        return {"outbounds": outbounds, "endpoints": endpoints}, issues
+        if isinstance(config, list):
+            if not config:
+                raise ConversionError("JSON-массив пуст")
+            for index, item in enumerate(config):
+                validate_json_config(item, f"JSON[{index}]")
+        else:
+            validate_json_config(config)
+        return config, issues
     outbounds = []
     for line in text.splitlines():
         link = line.strip()
@@ -290,8 +318,13 @@ def save_raw_subscription(content, path):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(config, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    count = len(config["outbounds"]) + len(config["endpoints"])
-    print(f"JSON сохранён в {path}: подключений {count}, пропущено {sum(issues.values())}", flush=True)
+    count = connection_count(config)
+    dataset_info = f", полных конфигураций {len(config)}" if isinstance(config, list) else ""
+    print(
+        f"JSON сохранён в {path}: подключений {count}{dataset_info}, "
+        f"пропущено {sum(issues.values())}",
+        flush=True
+    )
     for reason, skipped in issues.items():
         print(f"  {reason}: {skipped}", flush=True)
     return config

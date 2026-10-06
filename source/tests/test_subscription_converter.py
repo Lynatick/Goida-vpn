@@ -9,7 +9,9 @@ import tempfile
 import unittest
 from unittest.mock import Mock
 
-from subscription_converter import ConversionError, convert_subscription, save_raw_subscription
+from subscription_converter import (
+    ConversionError, connection_count, convert_subscription, save_raw_subscription
+)
 
 
 USER_ID = "cbb3f877-d1fb-344c-87a9-d153bffd5484"
@@ -26,6 +28,43 @@ def vmess(**overrides):
     }
     fields.update(overrides)
     return "vmess://" + encode(json.dumps(fields, ensure_ascii=False))
+
+
+def singbox_config():
+    return {
+        "outbounds": [{
+            "type": "vless", "tag": "proxy", "server": "host.test",
+            "server_port": 443, "uuid": USER_ID,
+            "tls": {
+                "enabled": True, "server_name": "example.com",
+                "reality": {"enabled": True, "public_key": "key", "short_id": "abcd"}
+            }
+        }],
+        "route": {"rules": [{"domain_suffix": ["example.com"], "outbound": "proxy"}]},
+        "dns": {"servers": [{"type": "udp", "tag": "dns", "server": "1.1.1.1"}]},
+        "inbounds": [{"type": "mixed", "listen": "127.0.0.1", "listen_port": 1080}]
+    }
+
+
+def xray_config():
+    return {
+        "remarks": "Xray config",
+        "outbounds": [{
+            "protocol": "vless", "tag": "proxy",
+            "settings": {"vnext": [{
+                "address": "host.test", "port": 443,
+                "users": [{"id": USER_ID, "encryption": "none"}]
+            }]},
+            "streamSettings": {
+                "network": "tcp", "security": "reality",
+                "realitySettings": {
+                    "serverName": "example.com", "publicKey": "key", "shortId": "abcd"
+                }
+            }
+        }],
+        "routing": {"rules": [{"type": "field", "domain": ["example.com"], "outboundTag": "proxy"}]},
+        "dns": {"servers": ["1.1.1.1"]}
+    }
 
 
 class SubscriptionConversionTest(unittest.TestCase):
@@ -155,6 +194,55 @@ class SubscriptionConversionTest(unittest.TestCase):
             self.assertEqual(json.loads(text), config)
             converted, _ = convert_subscription(text)
             self.assertEqual(converted, config)
+
+    def test_full_singbox_config_preserves_routing_dns_reality_and_tags(self):
+        original = singbox_config()
+        config, issues = convert_subscription(json.dumps(original))
+        self.assertEqual(config, original)
+        self.assertFalse(issues)
+        self.assertNotIn("endpoints", config)
+
+    def test_full_xray_config_preserves_protocol_and_engine_specific_fields(self):
+        original = xray_config()
+        config, issues = convert_subscription(json.dumps(original))
+        self.assertEqual(config, original)
+        self.assertFalse(issues)
+        self.assertNotIn("type", config["outbounds"][0])
+
+    def test_json_array_keeps_each_full_config_and_conflicting_tags_separate(self):
+        dataset = [singbox_config(), xray_config()]
+        dataset[1]["routing"]["rules"][0]["domain"] = ["different.test"]
+        config, issues = convert_subscription(json.dumps(dataset))
+        self.assertEqual(config, dataset)
+        self.assertFalse(issues)
+        self.assertEqual(connection_count(config), 2)
+        self.assertEqual(config[0]["outbounds"][0]["tag"], "proxy")
+        self.assertEqual(config[1]["outbounds"][0]["tag"], "proxy")
+
+    def test_base64_json_array_is_saved_under_same_filename(self):
+        dataset = [singbox_config(), xray_config()]
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "raw" / "21.txt"
+            with redirect_stdout(io.StringIO()):
+                save_raw_subscription(encode(json.dumps(dataset)), path)
+            self.assertEqual(json.loads(path.read_text()), dataset)
+
+    def test_endpoint_only_json_config_preserved(self):
+        config = {"endpoints": [{"type": "wireguard", "tag": "vpn", "private_key": "private-key"}]}
+        result, _ = convert_subscription(json.dumps([config]))
+        self.assertEqual(result, [config])
+        self.assertEqual(connection_count(result), 1)
+
+    def test_invalid_json_array_does_not_partially_overwrite_existing_output(self):
+        datasets = [[], [singbox_config(), 42], [singbox_config(), {"outbounds": "invalid"}],
+                    [{"outbounds": [{}]}], [[singbox_config()]]]
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "21.txt"
+            path.write_text("existing data")
+            for dataset in datasets:
+                with self.subTest(dataset=dataset), self.assertRaises(ConversionError):
+                    save_raw_subscription(json.dumps(dataset), path)
+                self.assertEqual(path.read_text(), "existing data")
 
     def test_main_saves_and_uploads_original_and_converted_file(self):
         module = ast.parse((Path(__file__).parents[1] / "main.py").read_text())
