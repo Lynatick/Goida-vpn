@@ -52,6 +52,33 @@ class CombinedSubscriptionTest(unittest.TestCase):
             self.assertEqual(mirror.joinpath("all.txt").read_text(), "previous")
             self.assertFalse(root.joinpath("raw/all.txt").exists())
 
+    def test_corrupt_line_does_not_abort_combination_of_valid_sources(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            mirror = root / "githubmirror"
+            mirror.mkdir()
+            first = "trojan://secret@one.example:443"
+            second = "trojan://secret@two.example:443"
+            mirror.joinpath("7.txt").write_text(first + "\ny+'ù`\\x84 corrupted data\n")
+            mirror.joinpath("8.txt").write_text(second)
+            output = io.StringIO()
+            with redirect_stdout(output):
+                build_combined_subscriptions(root)
+            self.assertEqual(mirror.joinpath("all.txt").read_text(), first + "\n" + second + "\n")
+            self.assertIn("пропущено некорректных строк без URI: 1", output.getvalue())
+            self.assertEqual(len(json.loads(root.joinpath("raw/all.txt").read_text())["outbounds"]), 2)
+
+    def test_only_corrupt_lines_keep_existing_aggregate(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            mirror = root / "githubmirror"
+            mirror.mkdir()
+            mirror.joinpath("7.txt").write_text("# metadata\ncorrupted line")
+            mirror.joinpath("all.txt").write_text("previous")
+            with redirect_stdout(io.StringIO()), self.assertRaises(ConversionError):
+                build_combined_subscriptions(root)
+            self.assertEqual(mirror.joinpath("all.txt").read_text(), "previous")
+
 
 if __name__ == "__main__":
     unittest.main()

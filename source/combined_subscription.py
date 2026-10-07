@@ -15,6 +15,7 @@ def build_combined_subscriptions(root="."):
         key=lambda path: int(path.stem)
     )
     links = {}
+    invalid_lines = 0
     for path in sources:
         text = path.read_text(encoding="utf-8-sig").strip()
         if not text:
@@ -26,12 +27,17 @@ def build_combined_subscriptions(root="."):
                 f"{path}: полные JSON-конфигурации нельзя объединить в список URI "
                 "без потери правил. Общие файлы не обновлены."
             )
+        skipped = 0
         for line in text.splitlines():
             link = line.strip()
             if link and not link.startswith(("#", "//")):
                 if "://" not in link:
-                    raise ConversionError(f"{path}: некорректная строка подписки")
+                    skipped += 1
+                    continue
                 links.setdefault(link, None)
+        if skipped:
+            invalid_lines += skipped
+            print(f"{path}: пропущено некорректных строк без URI: {skipped}", flush=True)
     if not links:
         raise ConversionError("Нет URI для общей подписки")
 
@@ -50,7 +56,8 @@ def build_combined_subscriptions(root="."):
         destination.write_text(content, encoding="utf-8")
     print(
         f"Общая подписка: источников {len(sources)}, уникальных URI {len(links)}, "
-        f"серверов Hiddify {len(config['outbounds'])}, пропущено {sum(issues.values())}",
+        f"серверов Hiddify {len(config['outbounds'])}, "
+        f"пропущено {invalid_lines + sum(issues.values())}",
         flush=True
     )
     for reason, count in issues.items():
