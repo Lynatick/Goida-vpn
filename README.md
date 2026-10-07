@@ -114,3 +114,26 @@ https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/23.json
 конкретных роликов, CDN `googlevideo.com` и запросы подтверждения аккаунта им не проверяются.
 Обычный вариант `auto` остаётся доступен.
 Описание встроенного теста: [URLTest sing-box](https://sing-box.sagernet.org/configuration/outbound/urltest/).
+
+Проверка получения видеоданных через ядро Hiddify (macOS, Python 3.10+):
+
+```bash
+python3 -m pip install -r source/requirements-youtube.txt
+python3 source/youtube_check.py --config hiddify/4.json --node 1 --count 3
+```
+
+Нужны установленный Hiddify и JavaScript runtime для yt-dlp (например, Node.js).
+Скрипт использует ядро из `/Applications/Hiddify.app`, запускает временный локальный
+прокси для каждого выбранного сервера и проверяет страницу тестового ролика,
+получение адреса видеопотока и загрузку до 16 КиБ видео с `googlevideo.com`.
+Группы `select`, `auto` и `YouTube` не учитываются в нумерации серверов.
+Приложение Hiddify запускать не требуется; системный VPN и настройки прокси не меняются.
+
+Другой ролик можно указать через `--video`, другое ядро — через `--core`.
+Отчёт сохраняется в `reports/youtube.json` (не включается в Git).
+`media_received` означает получение фрагмента MP4/WebM через выбранный прокси;
+`connection_failed` — ошибку доступа к странице; `core_error` — ошибку запуска ядра;
+`inconclusive` — сайт доступен, но видео не подтверждено (включая CAPTCHA,
+ограничения ролика или ошибку yt-dlp). Тест не гарантирует воспроизведение всех
+роликов и не измеряет скорость длительного просмотра.
+Для извлечения адреса видеопотока используется [yt-dlp](https://github.com/yt-dlp/yt-dlp).
