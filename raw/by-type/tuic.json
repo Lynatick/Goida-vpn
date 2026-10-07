@@ -1,0 +1,92 @@
+{
+ "outbounds": [
+  {
+   "type": "tuic",
+   "tag": "🇹🇼 🇨🇳 台湾 | TWN 4 § 855",
+   "server": "tw3.dexlos.com",
+   "server_port": 8080,
+   "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
+   "password": "8A9905B7-801B-41AF-BFC9-2034212770F6",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "native",
+   "tls": {
+    "enabled": true,
+    "server_name": "tw3.dexlos.com",
+    "insecure": true,
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "4FreeIran-28a973f6ed § 12246",
+   "server": "sg2-8sb.6121999.dpdns.org",
+   "server_port": 33738,
+   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "password": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "quic",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg2-8sb.6121999.dpdns.org",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "4Jadi-ea8253b1ef § 12247",
+   "server": "sg2-8sb.6121999.dpdns.org",
+   "server_port": 33738,
+   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "password": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "quic",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg2-8sb.6121999.dpdns.org",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "4Jadi-3d6d5cddf3 § 12248",
+   "server": "drhystuichdfy.samanidempire.org",
+   "server_port": 41053,
+   "uuid": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+   "password": "80747420-96c4-4a2f-83e6-eea4e46beb09",
+   "congestion_control": "cubic",
+   "udp_relay_mode": "native",
+   "tls": {
+    "enabled": true,
+    "server_name": "drhystuichdfy.samanidempire.org",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "type": "tuic",
+   "tag": "4Sarina-048f219816 § 12249",
+   "server": "tw3.dexlos.com",
+   "server_port": 8080,
+   "uuid": "8a9905b7-801b-41af-bfc9-2034212770f6",
+   "password": "8A9905B7-801B-41AF-BFC9-2034212770F6",
+   "congestion_control": "bbr",
+   "udp_relay_mode": "native",
+   "tls": {
+    "enabled": true,
+    "server_name": "tw3.dexlos.com",
+    "insecure": true,
+    "alpn": [
+     "h3"
+    ]
+   }
+  }
+ ],
+ "endpoints": []
+}

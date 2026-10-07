@@ -16,12 +16,14 @@
     h2 { font-size: 20px; margin: 0 0 10px; }
     .description { font-size: 14px; margin: 0 0 18px; }
     .table-scroll { margin-top: 28px; overflow-x: auto; border: 1px solid #2d394c; border-radius: 12px; }
-    .subscriptions-table { width: 100%; min-width: 760px; border-collapse: collapse; background: #192130; font-size: 14px; }
+    .subscriptions-table { width: 100%; min-width: 1150px; border-collapse: collapse; background: #192130; font-size: 14px; }
     .subscriptions-table th, .subscriptions-table td { padding: 12px 16px; border-bottom: 1px solid #2d394c; text-align: left; }
     .subscriptions-table tr > * + * { border-left: 1px solid #40516b; }
     .subscriptions-table tr > :nth-child(2) { background: rgba(136, 185, 255, .045); }
     .subscriptions-table tr > :nth-child(3) { background: rgba(255, 255, 255, .02); }
-    .subscriptions-table tr > :nth-child(4) { border-left: 2px solid #526987; }
+    .subscriptions-table .protocol-links { border-left: 2px solid #526987; vertical-align: top; background: #192130; font-weight: 400; }
+    .protocol-links .subscription-link { margin-bottom: 12px; }
+    .protocol-links .numeric { color: #b4bfd1; font-size: 12px; }
     .subscriptions-table tbody .numeric { background: rgba(0, 0, 0, .12); }
     .subscriptions-table thead { color: #b4bfd1; font-size: 13px; background: #151d2a; }
     .subscriptions-table .numeric { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -57,13 +59,22 @@
     <div class="table-scroll" role="region" aria-label="Таблица подписок" tabindex="0">
       <table class="subscriptions-table" aria-label="Ссылки на подписки и отчёт по конфигурациям" aria-describedby="report-note">
         <thead>
-          <tr><th scope="col">Подписка</th><th scope="col">Hiddify · JSON sing-box</th><th scope="col">Исходные URI</th><th scope="col" class="numeric">Конфиги</th><th scope="col" class="numeric">Исключено</th></tr>
+          <tr><th scope="col">Подписка</th><th scope="col">Hiddify · JSON sing-box</th><th scope="col">Исходные URI</th><th scope="col">По типу · общий файл</th><th scope="col" class="numeric">Конфиги</th><th scope="col" class="numeric">Исключено</th></tr>
         </thead>
         <tbody>
           <!-- subscription-report:start -->
           <tr><th scope="row">Все</th>
             <td><div class="subscription-link"><a id="hiddify-all-json" class="filename" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/all.json" title="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/all.json" aria-label="Ссылка hiddify: Все">all.json</a><button type="button" data-copy="hiddify-all-json" aria-label="Копировать ссылку hiddify: Все">Копировать</button></div></td>
             <td><div class="subscription-link"><a id="githubmirror-all-txt" class="filename" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/all.txt" title="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/all.txt" aria-label="Ссылка githubmirror: Все">all.txt</a><button type="button" data-copy="githubmirror-all-txt" aria-label="Копировать ссылку githubmirror: Все">Копировать</button></div></td>
+            <td rowspan="24" class="protocol-links">
+              <div class="subscription-link"><a id="protocol-anytls" class="filename" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/anytls.json" title="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/anytls.json">anytls.json</a><span class="numeric">10</span><button type="button" data-copy="protocol-anytls" aria-label="Копировать ссылку anytls.json">Копировать</button></div>
+              <div class="subscription-link"><a id="protocol-hysteria2" class="filename" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/hysteria2.json" title="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/hysteria2.json">hysteria2.json</a><span class="numeric">612</span><button type="button" data-copy="protocol-hysteria2" aria-label="Копировать ссылку hysteria2.json">Копировать</button></div>
+              <div class="subscription-link"><a id="protocol-shadowsocks" class="filename" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/shadowsocks.json" title="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/shadowsocks.json">shadowsocks.json</a><span class="numeric">10 062</span><button type="button" data-copy="protocol-shadowsocks" aria-label="Копировать ссылку shadowsocks.json">Копировать</button></div>
+              <div class="subscription-link"><a id="protocol-trojan" class="filename" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/trojan.json" title="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/trojan.json">trojan.json</a><span class="numeric">6 958</span><button type="button" data-copy="protocol-trojan" aria-label="Копировать ссылку trojan.json">Копировать</button></div>
+              <div class="subscription-link"><a id="protocol-tuic" class="filename" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/tuic.json" title="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/tuic.json">tuic.json</a><span class="numeric">5</span><button type="button" data-copy="protocol-tuic" aria-label="Копировать ссылку tuic.json">Копировать</button></div>
+              <div class="subscription-link"><a id="protocol-vless" class="filename" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/vless.json" title="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/vless.json">vless.json</a><span class="numeric">35 516</span><button type="button" data-copy="protocol-vless" aria-label="Копировать ссылку vless.json">Копировать</button></div>
+              <div class="subscription-link"><a id="protocol-vmess" class="filename" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/vmess.json" title="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/by-type/vmess.json">vmess.json</a><span class="numeric">13 659</span><button type="button" data-copy="protocol-vmess" aria-label="Копировать ссылку vmess.json">Копировать</button></div>
+            </td>
             <td class="numeric">66 822</td><td class="numeric">20 675</td></tr>
           <tr><th scope="row">01</th>
             <td><div class="subscription-link"><a id="hiddify-1-json" class="filename" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/1.json" title="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/1.json" aria-label="Ссылка hiddify: 01">1.json</a><button type="button" data-copy="hiddify-1-json" aria-label="Копировать ссылку hiddify: 01">Копировать</button></div></td>

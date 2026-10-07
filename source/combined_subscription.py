@@ -7,6 +7,7 @@ from pathlib import Path
 from hiddify_subscription import build_hiddify_config
 from subscription_converter import ConversionError, convert_subscription, decode_base64
 from subscription_report import save_subscription_report
+from protocol_subscriptions import build_protocol_subscriptions
 
 
 def build_combined_subscriptions(root="."):
@@ -63,10 +64,12 @@ def build_combined_subscriptions(root="."):
     )
     for reason, count in issues.items():
         print(f"  {reason}: {count}", flush=True)
+    protocol_paths, protocol_counts = build_protocol_subscriptions(config, root)
     report_paths = save_subscription_report(
-        root, sources, config, invalid_lines + sum(issues.values())
+        root, sources, config, invalid_lines + sum(issues.values()),
+        protocol_counts=protocol_counts
     )
-    return list(outputs) + report_paths
+    return list(outputs) + protocol_paths + report_paths
 
 
 def main():

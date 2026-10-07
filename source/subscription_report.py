@@ -47,7 +47,7 @@ def subscription_counts(content):
         return {"configs": 0, "excluded": excluded}
 
 
-def render_subscription_rows(rows):
+def render_subscription_rows(rows, protocol_counts=None):
     cells = []
     base_url = "https://raw.githubusercontent.com/Lynatick/Goida-vpn/main"
     for name, row in rows.items():
@@ -66,11 +66,25 @@ def render_subscription_rows(rows):
                 f'aria-label="Копировать ссылку {directory}: {label}">Копировать</button>'
                 f'</div></td>'
             )
+        if protocol_counts is not None and name == "all":
+            cells.append(f'            <td rowspan="{len(rows)}" class="protocol-links">')
+            for kind, total in sorted(protocol_counts.items()):
+                link_id = f"protocol-{kind}"
+                url = f"{base_url}/hiddify/by-type/{kind}.json"
+                type_count = f"{total:,}".replace(",", "\u202f")
+                cells.append(
+                    f'              <div class="subscription-link">'
+                    f'<a id="{link_id}" class="filename" href="{url}" title="{url}">{kind}.json</a>'
+                    f'<span class="numeric">{type_count}</span>'
+                    f'<button type="button" data-copy="{link_id}" '
+                    f'aria-label="Копировать ссылку {kind}.json">Копировать</button></div>'
+                )
+            cells.append('            </td>')
         cells.append(f'            <td class="numeric">{count}</td><td class="numeric">{excluded}</td></tr>')
     return "\n".join(cells)
 
 
-def save_subscription_report(root, sources, combined_config, combined_excluded):
+def save_subscription_report(root, sources, combined_config, combined_excluded, protocol_counts=None):
     root = Path(root)
     rows = {"all": {"configs": proxy_count(combined_config), "excluded": combined_excluded}}
     for path in sources:
@@ -86,6 +100,6 @@ def save_subscription_report(root, sources, combined_config, combined_excluded):
         if start in html and end in html:
             before, rest = html.split(start, 1)
             _, after = rest.split(end, 1)
-            homepage.write_text(before + start + "\n" + render_subscription_rows(rows) + "\n          " + end + after, encoding="utf-8")
+            homepage.write_text(before + start + "\n" + render_subscription_rows(rows, protocol_counts) + "\n          " + end + after, encoding="utf-8")
             outputs.append("index.html")
     return outputs
