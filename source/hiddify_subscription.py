@@ -9,6 +9,7 @@ from subscription_converter import ConversionError, convert_subscription, valida
 
 
 NON_PROXY_TYPES = {"direct", "block", "dns", "selector", "urltest"}
+YOUTUBE_TEST_URL = "https://www.youtube.com/generate_204"
 
 
 def build_hiddify_config(config):
@@ -53,10 +54,11 @@ def build_hiddify_config(config):
 
     selector_tag = new_tag("select")
     auto_tag = new_tag("auto")
+    youtube_tag = new_tag("YouTube")
     selector = {
         "type": "selector",
         "tag": selector_tag,
-        "outbounds": [auto_tag] + candidates,
+        "outbounds": [auto_tag, youtube_tag] + candidates,
         "default": auto_tag,
         "interrupt_exist_connections": True
     }
@@ -69,7 +71,16 @@ def build_hiddify_config(config):
         "tolerance": 50,
         "interrupt_exist_connections": True
     }
-    result["outbounds"] = [selector, automatic] + outbounds
+    youtube = {
+        "type": "urltest",
+        "tag": youtube_tag,
+        "outbounds": candidates,
+        "url": YOUTUBE_TEST_URL,
+        "interval": "3m",
+        "tolerance": 50,
+        "interrupt_exist_connections": True
+    }
+    result["outbounds"] = [selector, automatic, youtube] + outbounds
     route = result.setdefault("route", {})
     if not isinstance(route, dict):
         raise ConversionError("Поле route должно быть объектом")

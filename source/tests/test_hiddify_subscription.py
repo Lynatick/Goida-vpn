@@ -6,7 +6,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from hiddify_subscription import build_hiddify_config, save_hiddify_subscription
+from hiddify_subscription import YOUTUBE_TEST_URL, build_hiddify_config, save_hiddify_subscription
 from subscription_converter import ConversionError
 
 
@@ -27,12 +27,17 @@ class HiddifySubscriptionTest(unittest.TestCase):
     def test_generated_selector_and_urltest_reference_existing_nodes(self):
         config = sample_config()
         profile = build_hiddify_config(config)
-        selector, automatic, node = profile["outbounds"]
+        selector, automatic, youtube, node = profile["outbounds"]
         self.assertEqual(selector["type"], "selector")
         self.assertEqual(automatic["type"], "urltest")
         self.assertEqual(selector["default"], automatic["tag"])
-        self.assertEqual(selector["outbounds"], [automatic["tag"], node["tag"]])
+        self.assertEqual(selector["outbounds"], [automatic["tag"], youtube["tag"], node["tag"]])
         self.assertEqual(automatic["outbounds"], [node["tag"]])
+        self.assertEqual(youtube["type"], "urltest")
+        self.assertEqual(youtube["tag"], "YouTube")
+        self.assertEqual(youtube["url"], YOUTUBE_TEST_URL)
+        self.assertEqual(youtube["interval"], "3m")
+        self.assertEqual(youtube["outbounds"], [node["tag"]])
         self.assertEqual(profile["route"]["final"], selector["tag"])
         self.assertEqual(automatic["interval"], "3m")
         self.assertEqual(node, config["outbounds"][0])
@@ -51,10 +56,21 @@ class HiddifySubscriptionTest(unittest.TestCase):
         self.assertEqual(config, original)
         self.assertEqual(profile["route"]["rules"], config["route"]["rules"])
         self.assertEqual(profile["dns"], config["dns"])
-        self.assertEqual(profile["outbounds"][2:], config["outbounds"])
+        self.assertEqual(profile["outbounds"][3:], config["outbounds"])
         self.assertEqual(profile["outbounds"][0]["tag"], "select-1")
         self.assertEqual(profile["outbounds"][1]["tag"], "auto-1")
         self.assertEqual(profile["outbounds"][1]["outbounds"], ["auto"])
+
+    def test_youtube_tag_collision_keeps_existing_route_reference(self):
+        config = sample_config()
+        config["outbounds"][0]["tag"] = "YouTube"
+        config["route"] = {"rules": [{"domain": ["example.com"], "outbound": "YouTube"}]}
+        profile = build_hiddify_config(config)
+        youtube = profile["outbounds"][2]
+        self.assertEqual(youtube["tag"], "YouTube-1")
+        self.assertEqual(youtube["outbounds"], ["YouTube"])
+        self.assertEqual(profile["route"]["rules"], config["route"]["rules"])
+        self.assertIn(youtube["tag"], profile["outbounds"][0]["outbounds"])
 
     def test_wireguard_endpoint_and_missing_tags_are_selectable(self):
         config = {"endpoints": [{"type": "wireguard", "private_key": "key"}]}
