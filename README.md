@@ -92,3 +92,16 @@ https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/22.json
 ```text
 https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/23.json
 ```
+
+Общие подписки всех источников:
+
+- [Hiddify — все серверы](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/all.json)
+- [Исходные URI — все конфигурации](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/all.txt)
+- [Объединённый JSON sing-box](https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/raw/all.txt)
+
+Общие файлы создаются при запуске `source/main.py`. Пересобрать их из локальных
+источников без скачивания: `python3 source/combined_subscription.py`.
+Повторяющиеся URI исключаются. Неподдерживаемые записи остаются в общем списке URI,
+а при преобразовании в JSON пропускаются с отчётом. Полные JSON-конфигурации
+с отдельными правилами маршрутизации не объединяются: сборка завершится ошибкой
+и сохранит прежние общие файлы.

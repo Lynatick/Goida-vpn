@@ -8,6 +8,7 @@ from datetime import datetime
 import zoneinfo
 from subscription_converter import save_raw_subscription
 from hiddify_subscription import save_hiddify_subscription
+from combined_subscription import build_combined_subscriptions
 
 # Определение времени по МСК
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
@@ -201,6 +202,10 @@ def main(local_only=False):
             )
     if total and completed == 0:
         raise RuntimeError("Не удалось получить данные ни из одного источника.")
+    combined_paths = build_combined_subscriptions()
+    if not local_only:
+        for path in combined_paths:
+            upload_to_github(path, path)
 
 
 if __name__ == "__main__":

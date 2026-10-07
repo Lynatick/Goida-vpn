@@ -9,11 +9,20 @@
     :root { color-scheme: dark; font-family: system-ui, -apple-system, sans-serif; background: #10141d; color: #ecf0f7; }
     * { box-sizing: border-box; }
     body { margin: 0; padding: 48px 20px; }
-    main { max-width: 1040px; margin: auto; }
+    main { max-width: 1440px; margin: auto; }
     .brand { color: #88b9ff; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; }
     h1 { font-size: clamp(28px, 5vw, 42px); margin: 14px 0; letter-spacing: -.03em; }
     p { color: #b4bfd1; line-height: 1.6; }
-    .subscriptions { display: grid; gap: 10px; margin-top: 28px; }
+    .columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 28px; }
+    .columns section { min-width: 0; }
+    h2 { font-size: 20px; margin: 0 0 10px; }
+    .description { font-size: 14px; margin: 0 0 18px; }
+    .subscriptions { display: grid; gap: 10px; }
+    .combined { border-color: #88b9ff; margin-bottom: 18px; }
+    .subscription { flex-wrap: wrap; }
+    .subscription input { flex-basis: calc(100% - 56px); }
+    .subscription button { margin-left: auto; }
+    @media (max-width: 900px) { .columns { grid-template-columns: 1fr; } }
     .subscription { display: flex; align-items: center; gap: 12px; background: #192130; border: 1px solid #2d394c; border-radius: 12px; padding: 12px; }
     .number { color: #88b9ff; text-decoration: none; font-size: 14px; font-variant-numeric: tabular-nums; padding: 6px; }
     input { min-width: 0; flex: 1; color: #ecf0f7; background: transparent; border: 0; padding: 8px 0; font: 13px ui-monospace, SFMono-Regular, monospace; }
@@ -34,128 +43,265 @@
 </head>
 <body>
   <main>
-    <div class="brand">Goida VPN · 23 подписки</div>
-    <h1>Конфигурации Hiddify</h1>
+    <div class="brand">Goida VPN · 23 источника</div>
+    <h1>Конфигурации VPN</h1>
     <p>Скопируйте нужную ссылку, затем в Hiddify выберите <strong>Новый профиль → Добавить из буфера обмена</strong>.</p>
     <p id="status" role="status" aria-live="polite"></p>
-    <div class="subscriptions">
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/1.json" aria-label="Открыть конфигурацию 1">01</a>
-        <input id="url-1" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/1.json" aria-label="Ссылка на конфигурацию 1" spellcheck="false">
-        <button type="button" data-copy="url-1" aria-label="Копировать ссылку на конфигурацию 1">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/2.json" aria-label="Открыть конфигурацию 2">02</a>
-        <input id="url-2" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/2.json" aria-label="Ссылка на конфигурацию 2" spellcheck="false">
-        <button type="button" data-copy="url-2" aria-label="Копировать ссылку на конфигурацию 2">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/3.json" aria-label="Открыть конфигурацию 3">03</a>
-        <input id="url-3" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/3.json" aria-label="Ссылка на конфигурацию 3" spellcheck="false">
-        <button type="button" data-copy="url-3" aria-label="Копировать ссылку на конфигурацию 3">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/4.json" aria-label="Открыть конфигурацию 4">04</a>
-        <input id="url-4" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/4.json" aria-label="Ссылка на конфигурацию 4" spellcheck="false">
-        <button type="button" data-copy="url-4" aria-label="Копировать ссылку на конфигурацию 4">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/5.json" aria-label="Открыть конфигурацию 5">05</a>
-        <input id="url-5" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/5.json" aria-label="Ссылка на конфигурацию 5" spellcheck="false">
-        <button type="button" data-copy="url-5" aria-label="Копировать ссылку на конфигурацию 5">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/6.json" aria-label="Открыть конфигурацию 6">06</a>
-        <input id="url-6" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/6.json" aria-label="Ссылка на конфигурацию 6" spellcheck="false">
-        <button type="button" data-copy="url-6" aria-label="Копировать ссылку на конфигурацию 6">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/7.json" aria-label="Открыть конфигурацию 7">07</a>
-        <input id="url-7" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/7.json" aria-label="Ссылка на конфигурацию 7" spellcheck="false">
-        <button type="button" data-copy="url-7" aria-label="Копировать ссылку на конфигурацию 7">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/8.json" aria-label="Открыть конфигурацию 8">08</a>
-        <input id="url-8" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/8.json" aria-label="Ссылка на конфигурацию 8" spellcheck="false">
-        <button type="button" data-copy="url-8" aria-label="Копировать ссылку на конфигурацию 8">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/9.json" aria-label="Открыть конфигурацию 9">09</a>
-        <input id="url-9" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/9.json" aria-label="Ссылка на конфигурацию 9" spellcheck="false">
-        <button type="button" data-copy="url-9" aria-label="Копировать ссылку на конфигурацию 9">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/10.json" aria-label="Открыть конфигурацию 10">10</a>
-        <input id="url-10" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/10.json" aria-label="Ссылка на конфигурацию 10" spellcheck="false">
-        <button type="button" data-copy="url-10" aria-label="Копировать ссылку на конфигурацию 10">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/11.json" aria-label="Открыть конфигурацию 11">11</a>
-        <input id="url-11" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/11.json" aria-label="Ссылка на конфигурацию 11" spellcheck="false">
-        <button type="button" data-copy="url-11" aria-label="Копировать ссылку на конфигурацию 11">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/12.json" aria-label="Открыть конфигурацию 12">12</a>
-        <input id="url-12" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/12.json" aria-label="Ссылка на конфигурацию 12" spellcheck="false">
-        <button type="button" data-copy="url-12" aria-label="Копировать ссылку на конфигурацию 12">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/13.json" aria-label="Открыть конфигурацию 13">13</a>
-        <input id="url-13" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/13.json" aria-label="Ссылка на конфигурацию 13" spellcheck="false">
-        <button type="button" data-copy="url-13" aria-label="Копировать ссылку на конфигурацию 13">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/14.json" aria-label="Открыть конфигурацию 14">14</a>
-        <input id="url-14" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/14.json" aria-label="Ссылка на конфигурацию 14" spellcheck="false">
-        <button type="button" data-copy="url-14" aria-label="Копировать ссылку на конфигурацию 14">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/15.json" aria-label="Открыть конфигурацию 15">15</a>
-        <input id="url-15" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/15.json" aria-label="Ссылка на конфигурацию 15" spellcheck="false">
-        <button type="button" data-copy="url-15" aria-label="Копировать ссылку на конфигурацию 15">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/16.json" aria-label="Открыть конфигурацию 16">16</a>
-        <input id="url-16" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/16.json" aria-label="Ссылка на конфигурацию 16" spellcheck="false">
-        <button type="button" data-copy="url-16" aria-label="Копировать ссылку на конфигурацию 16">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/17.json" aria-label="Открыть конфигурацию 17">17</a>
-        <input id="url-17" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/17.json" aria-label="Ссылка на конфигурацию 17" spellcheck="false">
-        <button type="button" data-copy="url-17" aria-label="Копировать ссылку на конфигурацию 17">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/18.json" aria-label="Открыть конфигурацию 18">18</a>
-        <input id="url-18" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/18.json" aria-label="Ссылка на конфигурацию 18" spellcheck="false">
-        <button type="button" data-copy="url-18" aria-label="Копировать ссылку на конфигурацию 18">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/19.json" aria-label="Открыть конфигурацию 19">19</a>
-        <input id="url-19" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/19.json" aria-label="Ссылка на конфигурацию 19" spellcheck="false">
-        <button type="button" data-copy="url-19" aria-label="Копировать ссылку на конфигурацию 19">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/20.json" aria-label="Открыть конфигурацию 20">20</a>
-        <input id="url-20" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/20.json" aria-label="Ссылка на конфигурацию 20" spellcheck="false">
-        <button type="button" data-copy="url-20" aria-label="Копировать ссылку на конфигурацию 20">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/21.json" aria-label="Открыть конфигурацию 21">21</a>
-        <input id="url-21" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/21.json" aria-label="Ссылка на конфигурацию 21" spellcheck="false">
-        <button type="button" data-copy="url-21" aria-label="Копировать ссылку на конфигурацию 21">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/22.json" aria-label="Открыть конфигурацию 22">22</a>
-        <input id="url-22" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/22.json" aria-label="Ссылка на конфигурацию 22" spellcheck="false">
-        <button type="button" data-copy="url-22" aria-label="Копировать ссылку на конфигурацию 22">Копировать</button>
-      </div>
-      <div class="subscription">
-        <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/23.json" aria-label="Открыть конфигурацию 23">23</a>
-        <input id="url-23" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/23.json" aria-label="Ссылка на конфигурацию 23" spellcheck="false">
-        <button type="button" data-copy="url-23" aria-label="Копировать ссылку на конфигурацию 23">Копировать</button>
-      </div>
+    <div class="columns">
+      <section>
+        <h2>Hiddify · JSON sing-box</h2>
+        <p class="description">Выбор сервера вручную и автоматическая проверка задержки.</p>
+        <div class="subscription combined">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/all.json" aria-label="Открыть hiddify: Все">Все</a>
+          <input id="hiddify-all-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/all.json" aria-label="Ссылка hiddify: Все" spellcheck="false">
+          <button type="button" data-copy="hiddify-all-json" aria-label="Копировать ссылку hiddify: Все">Копировать</button>
+        </div>
+        <div class="subscriptions">
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/1.json" aria-label="Открыть hiddify: 01">01</a>
+          <input id="hiddify-1-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/1.json" aria-label="Ссылка hiddify: 01" spellcheck="false">
+          <button type="button" data-copy="hiddify-1-json" aria-label="Копировать ссылку hiddify: 01">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/2.json" aria-label="Открыть hiddify: 02">02</a>
+          <input id="hiddify-2-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/2.json" aria-label="Ссылка hiddify: 02" spellcheck="false">
+          <button type="button" data-copy="hiddify-2-json" aria-label="Копировать ссылку hiddify: 02">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/3.json" aria-label="Открыть hiddify: 03">03</a>
+          <input id="hiddify-3-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/3.json" aria-label="Ссылка hiddify: 03" spellcheck="false">
+          <button type="button" data-copy="hiddify-3-json" aria-label="Копировать ссылку hiddify: 03">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/4.json" aria-label="Открыть hiddify: 04">04</a>
+          <input id="hiddify-4-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/4.json" aria-label="Ссылка hiddify: 04" spellcheck="false">
+          <button type="button" data-copy="hiddify-4-json" aria-label="Копировать ссылку hiddify: 04">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/5.json" aria-label="Открыть hiddify: 05">05</a>
+          <input id="hiddify-5-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/5.json" aria-label="Ссылка hiddify: 05" spellcheck="false">
+          <button type="button" data-copy="hiddify-5-json" aria-label="Копировать ссылку hiddify: 05">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/6.json" aria-label="Открыть hiddify: 06">06</a>
+          <input id="hiddify-6-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/6.json" aria-label="Ссылка hiddify: 06" spellcheck="false">
+          <button type="button" data-copy="hiddify-6-json" aria-label="Копировать ссылку hiddify: 06">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/7.json" aria-label="Открыть hiddify: 07">07</a>
+          <input id="hiddify-7-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/7.json" aria-label="Ссылка hiddify: 07" spellcheck="false">
+          <button type="button" data-copy="hiddify-7-json" aria-label="Копировать ссылку hiddify: 07">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/8.json" aria-label="Открыть hiddify: 08">08</a>
+          <input id="hiddify-8-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/8.json" aria-label="Ссылка hiddify: 08" spellcheck="false">
+          <button type="button" data-copy="hiddify-8-json" aria-label="Копировать ссылку hiddify: 08">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/9.json" aria-label="Открыть hiddify: 09">09</a>
+          <input id="hiddify-9-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/9.json" aria-label="Ссылка hiddify: 09" spellcheck="false">
+          <button type="button" data-copy="hiddify-9-json" aria-label="Копировать ссылку hiddify: 09">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/10.json" aria-label="Открыть hiddify: 10">10</a>
+          <input id="hiddify-10-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/10.json" aria-label="Ссылка hiddify: 10" spellcheck="false">
+          <button type="button" data-copy="hiddify-10-json" aria-label="Копировать ссылку hiddify: 10">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/11.json" aria-label="Открыть hiddify: 11">11</a>
+          <input id="hiddify-11-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/11.json" aria-label="Ссылка hiddify: 11" spellcheck="false">
+          <button type="button" data-copy="hiddify-11-json" aria-label="Копировать ссылку hiddify: 11">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/12.json" aria-label="Открыть hiddify: 12">12</a>
+          <input id="hiddify-12-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/12.json" aria-label="Ссылка hiddify: 12" spellcheck="false">
+          <button type="button" data-copy="hiddify-12-json" aria-label="Копировать ссылку hiddify: 12">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/13.json" aria-label="Открыть hiddify: 13">13</a>
+          <input id="hiddify-13-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/13.json" aria-label="Ссылка hiddify: 13" spellcheck="false">
+          <button type="button" data-copy="hiddify-13-json" aria-label="Копировать ссылку hiddify: 13">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/14.json" aria-label="Открыть hiddify: 14">14</a>
+          <input id="hiddify-14-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/14.json" aria-label="Ссылка hiddify: 14" spellcheck="false">
+          <button type="button" data-copy="hiddify-14-json" aria-label="Копировать ссылку hiddify: 14">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/15.json" aria-label="Открыть hiddify: 15">15</a>
+          <input id="hiddify-15-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/15.json" aria-label="Ссылка hiddify: 15" spellcheck="false">
+          <button type="button" data-copy="hiddify-15-json" aria-label="Копировать ссылку hiddify: 15">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/16.json" aria-label="Открыть hiddify: 16">16</a>
+          <input id="hiddify-16-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/16.json" aria-label="Ссылка hiddify: 16" spellcheck="false">
+          <button type="button" data-copy="hiddify-16-json" aria-label="Копировать ссылку hiddify: 16">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/17.json" aria-label="Открыть hiddify: 17">17</a>
+          <input id="hiddify-17-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/17.json" aria-label="Ссылка hiddify: 17" spellcheck="false">
+          <button type="button" data-copy="hiddify-17-json" aria-label="Копировать ссылку hiddify: 17">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/18.json" aria-label="Открыть hiddify: 18">18</a>
+          <input id="hiddify-18-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/18.json" aria-label="Ссылка hiddify: 18" spellcheck="false">
+          <button type="button" data-copy="hiddify-18-json" aria-label="Копировать ссылку hiddify: 18">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/19.json" aria-label="Открыть hiddify: 19">19</a>
+          <input id="hiddify-19-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/19.json" aria-label="Ссылка hiddify: 19" spellcheck="false">
+          <button type="button" data-copy="hiddify-19-json" aria-label="Копировать ссылку hiddify: 19">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/20.json" aria-label="Открыть hiddify: 20">20</a>
+          <input id="hiddify-20-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/20.json" aria-label="Ссылка hiddify: 20" spellcheck="false">
+          <button type="button" data-copy="hiddify-20-json" aria-label="Копировать ссылку hiddify: 20">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/21.json" aria-label="Открыть hiddify: 21">21</a>
+          <input id="hiddify-21-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/21.json" aria-label="Ссылка hiddify: 21" spellcheck="false">
+          <button type="button" data-copy="hiddify-21-json" aria-label="Копировать ссылку hiddify: 21">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/22.json" aria-label="Открыть hiddify: 22">22</a>
+          <input id="hiddify-22-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/22.json" aria-label="Ссылка hiddify: 22" spellcheck="false">
+          <button type="button" data-copy="hiddify-22-json" aria-label="Копировать ссылку hiddify: 22">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/23.json" aria-label="Открыть hiddify: 23">23</a>
+          <input id="hiddify-23-json" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/hiddify/23.json" aria-label="Ссылка hiddify: 23" spellcheck="false">
+          <button type="button" data-copy="hiddify-23-json" aria-label="Копировать ссылку hiddify: 23">Копировать</button>
+        </div>
+        </div>
+      </section>
+      <section>
+        <h2>githubmirror · исходные URI</h2>
+        <p class="description">Исходные подписки для клиентов с поддержкой URI и Base64.</p>
+        <div class="subscription combined">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/all.txt" aria-label="Открыть githubmirror: Все">Все</a>
+          <input id="githubmirror-all-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/all.txt" aria-label="Ссылка githubmirror: Все" spellcheck="false">
+          <button type="button" data-copy="githubmirror-all-txt" aria-label="Копировать ссылку githubmirror: Все">Копировать</button>
+        </div>
+        <div class="subscriptions">
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/1.txt" aria-label="Открыть githubmirror: 01">01</a>
+          <input id="githubmirror-1-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/1.txt" aria-label="Ссылка githubmirror: 01" spellcheck="false">
+          <button type="button" data-copy="githubmirror-1-txt" aria-label="Копировать ссылку githubmirror: 01">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/2.txt" aria-label="Открыть githubmirror: 02">02</a>
+          <input id="githubmirror-2-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/2.txt" aria-label="Ссылка githubmirror: 02" spellcheck="false">
+          <button type="button" data-copy="githubmirror-2-txt" aria-label="Копировать ссылку githubmirror: 02">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/3.txt" aria-label="Открыть githubmirror: 03">03</a>
+          <input id="githubmirror-3-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/3.txt" aria-label="Ссылка githubmirror: 03" spellcheck="false">
+          <button type="button" data-copy="githubmirror-3-txt" aria-label="Копировать ссылку githubmirror: 03">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/4.txt" aria-label="Открыть githubmirror: 04">04</a>
+          <input id="githubmirror-4-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/4.txt" aria-label="Ссылка githubmirror: 04" spellcheck="false">
+          <button type="button" data-copy="githubmirror-4-txt" aria-label="Копировать ссылку githubmirror: 04">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/5.txt" aria-label="Открыть githubmirror: 05">05</a>
+          <input id="githubmirror-5-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/5.txt" aria-label="Ссылка githubmirror: 05" spellcheck="false">
+          <button type="button" data-copy="githubmirror-5-txt" aria-label="Копировать ссылку githubmirror: 05">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/6.txt" aria-label="Открыть githubmirror: 06">06</a>
+          <input id="githubmirror-6-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/6.txt" aria-label="Ссылка githubmirror: 06" spellcheck="false">
+          <button type="button" data-copy="githubmirror-6-txt" aria-label="Копировать ссылку githubmirror: 06">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/7.txt" aria-label="Открыть githubmirror: 07">07</a>
+          <input id="githubmirror-7-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/7.txt" aria-label="Ссылка githubmirror: 07" spellcheck="false">
+          <button type="button" data-copy="githubmirror-7-txt" aria-label="Копировать ссылку githubmirror: 07">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/8.txt" aria-label="Открыть githubmirror: 08">08</a>
+          <input id="githubmirror-8-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/8.txt" aria-label="Ссылка githubmirror: 08" spellcheck="false">
+          <button type="button" data-copy="githubmirror-8-txt" aria-label="Копировать ссылку githubmirror: 08">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/9.txt" aria-label="Открыть githubmirror: 09">09</a>
+          <input id="githubmirror-9-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/9.txt" aria-label="Ссылка githubmirror: 09" spellcheck="false">
+          <button type="button" data-copy="githubmirror-9-txt" aria-label="Копировать ссылку githubmirror: 09">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/10.txt" aria-label="Открыть githubmirror: 10">10</a>
+          <input id="githubmirror-10-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/10.txt" aria-label="Ссылка githubmirror: 10" spellcheck="false">
+          <button type="button" data-copy="githubmirror-10-txt" aria-label="Копировать ссылку githubmirror: 10">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/11.txt" aria-label="Открыть githubmirror: 11">11</a>
+          <input id="githubmirror-11-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/11.txt" aria-label="Ссылка githubmirror: 11" spellcheck="false">
+          <button type="button" data-copy="githubmirror-11-txt" aria-label="Копировать ссылку githubmirror: 11">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/12.txt" aria-label="Открыть githubmirror: 12">12</a>
+          <input id="githubmirror-12-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/12.txt" aria-label="Ссылка githubmirror: 12" spellcheck="false">
+          <button type="button" data-copy="githubmirror-12-txt" aria-label="Копировать ссылку githubmirror: 12">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/13.txt" aria-label="Открыть githubmirror: 13">13</a>
+          <input id="githubmirror-13-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/13.txt" aria-label="Ссылка githubmirror: 13" spellcheck="false">
+          <button type="button" data-copy="githubmirror-13-txt" aria-label="Копировать ссылку githubmirror: 13">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/14.txt" aria-label="Открыть githubmirror: 14">14</a>
+          <input id="githubmirror-14-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/14.txt" aria-label="Ссылка githubmirror: 14" spellcheck="false">
+          <button type="button" data-copy="githubmirror-14-txt" aria-label="Копировать ссылку githubmirror: 14">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/15.txt" aria-label="Открыть githubmirror: 15">15</a>
+          <input id="githubmirror-15-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/15.txt" aria-label="Ссылка githubmirror: 15" spellcheck="false">
+          <button type="button" data-copy="githubmirror-15-txt" aria-label="Копировать ссылку githubmirror: 15">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/16.txt" aria-label="Открыть githubmirror: 16">16</a>
+          <input id="githubmirror-16-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/16.txt" aria-label="Ссылка githubmirror: 16" spellcheck="false">
+          <button type="button" data-copy="githubmirror-16-txt" aria-label="Копировать ссылку githubmirror: 16">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/17.txt" aria-label="Открыть githubmirror: 17">17</a>
+          <input id="githubmirror-17-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/17.txt" aria-label="Ссылка githubmirror: 17" spellcheck="false">
+          <button type="button" data-copy="githubmirror-17-txt" aria-label="Копировать ссылку githubmirror: 17">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/18.txt" aria-label="Открыть githubmirror: 18">18</a>
+          <input id="githubmirror-18-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/18.txt" aria-label="Ссылка githubmirror: 18" spellcheck="false">
+          <button type="button" data-copy="githubmirror-18-txt" aria-label="Копировать ссылку githubmirror: 18">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/19.txt" aria-label="Открыть githubmirror: 19">19</a>
+          <input id="githubmirror-19-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/19.txt" aria-label="Ссылка githubmirror: 19" spellcheck="false">
+          <button type="button" data-copy="githubmirror-19-txt" aria-label="Копировать ссылку githubmirror: 19">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/20.txt" aria-label="Открыть githubmirror: 20">20</a>
+          <input id="githubmirror-20-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/20.txt" aria-label="Ссылка githubmirror: 20" spellcheck="false">
+          <button type="button" data-copy="githubmirror-20-txt" aria-label="Копировать ссылку githubmirror: 20">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/21.txt" aria-label="Открыть githubmirror: 21">21</a>
+          <input id="githubmirror-21-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/21.txt" aria-label="Ссылка githubmirror: 21" spellcheck="false">
+          <button type="button" data-copy="githubmirror-21-txt" aria-label="Копировать ссылку githubmirror: 21">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/22.txt" aria-label="Открыть githubmirror: 22">22</a>
+          <input id="githubmirror-22-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/22.txt" aria-label="Ссылка githubmirror: 22" spellcheck="false">
+          <button type="button" data-copy="githubmirror-22-txt" aria-label="Копировать ссылку githubmirror: 22">Копировать</button>
+        </div>
+        <div class="subscription">
+          <a class="number" href="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/23.txt" aria-label="Открыть githubmirror: 23">23</a>
+          <input id="githubmirror-23-txt" type="text" readonly value="https://raw.githubusercontent.com/Lynatick/Goida-vpn/main/githubmirror/23.txt" aria-label="Ссылка githubmirror: 23" spellcheck="false">
+          <button type="button" data-copy="githubmirror-23-txt" aria-label="Копировать ссылку githubmirror: 23">Копировать</button>
+        </div>
+        </div>
+      </section>
     </div>
-    <footer>Прямые ссылки на JSON из <a href="https://github.com/Lynatick/Goida-vpn">Lynatick/Goida-vpn</a>.</footer>
+    <footer>Прямые ссылки на подписки из <a href="https://github.com/Lynatick/Goida-vpn">Lynatick/Goida-vpn</a>.</footer>
   </main>
   <script>
     const status = document.getElementById('status');

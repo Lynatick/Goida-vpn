@@ -259,6 +259,9 @@ class SubscriptionConversionTest(unittest.TestCase):
             "fetch_data": Mock(return_value="data"), "save_to_local_file": save,
             "save_raw_subscription": convert, "upload_to_github": upload,
             "save_hiddify_subscription": hiddify,
+            "build_combined_subscriptions": Mock(return_value=[
+                "githubmirror/all.txt", "raw/all.txt", "hiddify/all.json"
+            ]),
             "print_progress": Mock(), "print": Mock(), "os": os
         }
         exec(compile(ast.Module(body=[main], type_ignores=[]), "main.py", "exec"), namespace)
@@ -267,9 +270,12 @@ class SubscriptionConversionTest(unittest.TestCase):
         convert.assert_called_once_with("data", raw)
         hiddify.assert_called_once_with(convert.return_value, "hiddify/1.json")
         self.assertEqual([call.args for call in upload.call_args_list], [
-            (original, original), (raw, raw), ("hiddify/1.json", "hiddify/1.json")
+            (original, original), (raw, raw), ("hiddify/1.json", "hiddify/1.json"),
+            ("githubmirror/all.txt", "githubmirror/all.txt"),
+            ("raw/all.txt", "raw/all.txt"), ("hiddify/all.json", "hiddify/all.json")
         ])
         upload.reset_mock()
+        namespace["build_combined_subscriptions"].return_value = []
         convert.side_effect = ConversionError("Unsupported source")
         namespace["main"]()
         upload.assert_called_once_with(original, original)
@@ -289,12 +295,14 @@ class SubscriptionConversionTest(unittest.TestCase):
             "requests": Mock(RequestException=RuntimeError),
             "save_to_local_file": save, "save_raw_subscription": convert,
             "save_hiddify_subscription": Mock(return_value=["hiddify/2.json"]),
+            "build_combined_subscriptions": Mock(return_value=[]),
             "upload_to_github": upload, "print_progress": Mock(),
             "print": Mock(), "os": os, "getpass": Mock()
         }
         exec(compile(ast.Module(body=[main], type_ignores=[]), "main.py", "exec"), namespace)
         namespace["main"](local_only=True)
         namespace["getpass"].assert_not_called()
+        namespace["build_combined_subscriptions"].assert_called_once_with()
         upload.assert_not_called()
         save.assert_called_once_with("githubmirror/2.txt", "data")
         convert.assert_called_once_with("data", "raw/2.txt")
