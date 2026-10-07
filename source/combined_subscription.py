@@ -67,7 +67,8 @@ def build_combined_subscriptions(root="."):
     protocol_paths, protocol_counts = build_protocol_subscriptions(config, root)
     report_paths = save_subscription_report(
         root, sources, config, invalid_lines + sum(issues.values()),
-        protocol_counts=protocol_counts
+        protocol_counts=protocol_counts,
+        protocol_uri_counts=json.loads((root / "protocol-stats.json").read_text())["uri_types"]
     )
     return list(outputs) + protocol_paths + report_paths
 

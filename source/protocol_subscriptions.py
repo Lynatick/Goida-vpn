@@ -8,7 +8,7 @@ from pathlib import Path
 from uuid import UUID
 
 from hiddify_subscription import NON_PROXY_TYPES, build_hiddify_config
-from subscription_converter import ConversionError, SS_METHODS, server_fields, validate_json_config
+from subscription_converter import ConversionError, SS_METHODS, decode_base64, server_fields, uri_outbound, validate_json_config
 
 
 SUPPORTED_TYPES = {"vmess", "vless", "trojan", "shadowsocks", "hysteria2", "tuic", "anytls"}
@@ -77,11 +77,37 @@ def build_protocol_subscriptions(config, root="."):
         outputs[f"raw/by-type/{kind}.json"] = dataset
         outputs[f"hiddify/by-type/{kind}.json"] = profile
         counts[kind] = len(nodes)
-    outputs["protocol-stats.json"] = {"types": counts, "excluded": sum(issues.values())}
+    uri_counts = {}
+    original = Path(root) / "githubmirror/all.txt"
+    if original.exists():
+        allowed = {
+            json.dumps({key: value for key, value in node.items() if key != "tag"}, sort_keys=True)
+            for nodes in groups.values() for node in nodes
+        }
+        uri_groups = {}
+        text = original.read_text(encoding="utf-8-sig").strip()
+        if text and "://" not in text and not text.startswith(("{", "[")):
+            text = decode_base64(text)
+        for line in text.splitlines():
+            link = line.strip()
+            if not link or link.startswith(("#", "//")):
+                continue
+            try:
+                node = uri_outbound(link)
+                validate_node(node)
+            except (ValueError, TypeError, KeyError, AttributeError):
+                continue
+            fingerprint = json.dumps({key: value for key, value in node.items() if key != "tag"}, sort_keys=True)
+            if fingerprint in allowed:
+                uri_groups.setdefault(node["type"], {}).setdefault(link, None)
+        for kind, links in sorted(uri_groups.items()):
+            outputs[f"githubmirror/by-type/{kind}.txt"] = "\n".join(links) + "\n"
+            uri_counts[kind] = len(links)
+    outputs["protocol-stats.json"] = {"types": counts, "uri_types": uri_counts, "excluded": sum(issues.values())}
     for name, value in outputs.items():
         destination = Path(root) / name
         destination.parent.mkdir(parents=True, exist_ok=True)
-        destination.write_text(json.dumps(value, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        destination.write_text(value if isinstance(value, str) else json.dumps(value, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Подписки по типам: {counts}; исключено некорректных записей {sum(issues.values())}", flush=True)
     for reason, count in issues.items():
         print(f"  {reason}: {count}", flush=True)
@@ -99,7 +125,8 @@ def main():
     sources = sorted((path for path in (root / "githubmirror").glob("*.txt") if path.stem.isdigit()), key=lambda path: int(path.stem))
     stats = root / "subscription-stats.json"
     excluded = json.loads(stats.read_text())["all"]["excluded"] if stats.exists() else 0
-    save_subscription_report(root, sources, config, excluded, protocol_counts=counts)
+    save_subscription_report(root, sources, config, excluded, protocol_counts=counts,
+                             protocol_uri_counts=json.loads((root / "protocol-stats.json").read_text())["uri_types"])
 
 
 if __name__ == "__main__":

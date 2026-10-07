@@ -7,7 +7,7 @@ import tempfile
 import unittest
 
 from protocol_subscriptions import build_protocol_subscriptions
-from subscription_converter import ConversionError
+from subscription_converter import ConversionError, convert_subscription
 from subscription_report import render_subscription_rows
 
 
@@ -53,6 +53,31 @@ class ProtocolSubscriptionTest(unittest.TestCase):
         self.assertEqual(html.count('data-copy="protocol-vless"'), 1)
         self.assertIn('/hiddify/by-type/vless.json', html)
         self.assertIn('>vless.json</a>', html)
+
+
+    def test_original_uri_files_preserve_links_and_exclude_unmatched_or_invalid(self):
+        first = "hy2://secret@hy.example:443?sni=example.com#Original"
+        second = "trojan://secret@trojan.example:443#Original"
+        config, _ = convert_subscription(first + "\n" + second)
+        with tempfile.TemporaryDirectory() as directory, redirect_stdout(io.StringIO()):
+            root = Path(directory)
+            mirror = root / "githubmirror"
+            mirror.mkdir()
+            mirror.joinpath("all.txt").write_text(
+                first + "\n" + first + "\n" + second + "\n"
+                "broken line\ntrojan://missing-auth.example:443\n"
+                "trojan://other@not-in-json.example:443\n"
+            )
+            paths, _ = build_protocol_subscriptions(config, root)
+            self.assertEqual(mirror.joinpath("by-type/hysteria2.txt").read_text(), first + "\n")
+            self.assertEqual(mirror.joinpath("by-type/trojan.txt").read_text(), second + "\n")
+            stats = json.loads(root.joinpath("protocol-stats.json").read_text())
+            self.assertEqual(stats["uri_types"], {"hysteria2": 1, "trojan": 1})
+            self.assertIn("githubmirror/by-type/hysteria2.txt", paths)
+            html = render_subscription_rows({"all": {"configs": 2, "excluded": 0}}, stats["types"], stats["uri_types"])
+            self.assertLess(html.index("hysteria2.json"), html.index("hysteria2.txt"))
+            self.assertIn('data-copy="protocol-uri-hysteria2"', html)
+            self.assertIn('/githubmirror/by-type/hysteria2.txt', html)
 
 
 if __name__ == "__main__":

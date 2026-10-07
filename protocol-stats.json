@@ -8,5 +8,14 @@
   "vless": 35516,
   "vmess": 13659
  },
+ "uri_types": {
+  "anytls": 10,
+  "hysteria2": 612,
+  "shadowsocks": 10062,
+  "trojan": 6958,
+  "tuic": 5,
+  "vless": 35516,
+  "vmess": 13659
+ },
  "excluded": 0
 }
