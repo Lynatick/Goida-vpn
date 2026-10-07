@@ -49,7 +49,7 @@ def subscription_counts(content):
 
 def render_subscription_rows(rows, protocol_counts=None):
     cells = []
-    base_url = "https://raw.githubusercontent.com/Lynatick/Goida-vpn/main"
+    base_url = "https://raw.githubusercontent.com/Lynatick/goida/main"
     for name, row in rows.items():
         label = "Все" if name == "all" else f"{int(name):02d}"
         count = "—" if row["configs"] is None else f'{row["configs"]:,}'.replace(",", "\u202f")
