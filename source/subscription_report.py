@@ -47,6 +47,29 @@ def subscription_counts(content):
         return {"configs": 0, "excluded": excluded}
 
 
+def render_subscription_rows(rows):
+    cells = []
+    base_url = "https://raw.githubusercontent.com/Lynatick/Goida-vpn/main"
+    for name, row in rows.items():
+        label = "Все" if name == "all" else f"{int(name):02d}"
+        count = "—" if row["configs"] is None else f'{row["configs"]:,}'.replace(",", "\u202f")
+        excluded = "—" if row["excluded"] is None else f'{row["excluded"]:,}'.replace(",", "\u202f")
+        cells.append(f'          <tr><th scope="row">{label}</th>')
+        for directory, suffix in (("hiddify", "json"), ("githubmirror", "txt")):
+            link_id = f"{directory}-{name}-{suffix}"
+            url = f"{base_url}/{directory}/{name}.{suffix}"
+            cells.append(
+                f'            <td><div class="subscription-link">'
+                f'<a id="{link_id}" class="filename" href="{url}" title="{url}" '
+                f'aria-label="Ссылка {directory}: {label}">{name}.{suffix}</a>'
+                f'<button type="button" data-copy="{link_id}" '
+                f'aria-label="Копировать ссылку {directory}: {label}">Копировать</button>'
+                f'</div></td>'
+            )
+        cells.append(f'            <td class="numeric">{count}</td><td class="numeric">{excluded}</td></tr>')
+    return "\n".join(cells)
+
+
 def save_subscription_report(root, sources, combined_config, combined_excluded):
     root = Path(root)
     rows = {"all": {"configs": proxy_count(combined_config), "excluded": combined_excluded}}
@@ -61,14 +84,8 @@ def save_subscription_report(root, sources, combined_config, combined_excluded):
         start = "<!-- subscription-report:start -->"
         end = "<!-- subscription-report:end -->"
         if start in html and end in html:
-            cells = []
-            for name, row in rows.items():
-                label = "Все" if name == "all" else f"{int(name):02d}"
-                count = "—" if row["configs"] is None else f'{row["configs"]:,}'.replace(",", "\u202f")
-                excluded = "—" if row["excluded"] is None else f'{row["excluded"]:,}'.replace(",", "\u202f")
-                cells.append(f"          <tr><th scope=\"row\">{label}</th><td>{count}</td><td>{excluded}</td></tr>")
             before, rest = html.split(start, 1)
             _, after = rest.split(end, 1)
-            homepage.write_text(before + start + "\n" + "\n".join(cells) + "\n          " + end + after, encoding="utf-8")
+            homepage.write_text(before + start + "\n" + render_subscription_rows(rows) + "\n          " + end + after, encoding="utf-8")
             outputs.append("index.html")
     return outputs

@@ -49,7 +49,10 @@ class SubscriptionReportTest(unittest.TestCase):
             html = homepage.read_text()
             self.assertTrue(html.startswith("before"))
             self.assertTrue(html.endswith("after"))
-            self.assertIn('<th scope="row">Все</th><td>1</td><td>2</td>', html)
+            self.assertIn('<th scope="row">Все</th>', html)
+            self.assertIn('<td class="numeric">1</td><td class="numeric">2</td>', html)
+            self.assertIn('data-copy="hiddify-all-json"', html)
+            self.assertIn('data-copy="githubmirror-2-txt"', html)
             self.assertNotIn("secret", root.joinpath("subscription-stats.json").read_text())
 
 
