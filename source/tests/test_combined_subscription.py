@@ -52,6 +52,18 @@ class CombinedSubscriptionTest(unittest.TestCase):
             self.assertEqual(mirror.joinpath("all.txt").read_text(), "previous")
             self.assertFalse(root.joinpath("raw/all.txt").exists())
 
+    def test_aggregate_only_uses_current_verified_paths(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            mirror = root / "githubmirror"
+            mirror.mkdir()
+            verified = mirror / "1.txt"
+            verified.write_text("trojan://secret@passed.example:443")
+            mirror.joinpath("2.txt").write_text("trojan://secret@unchecked.example:443")
+            with redirect_stdout(io.StringIO()):
+                build_combined_subscriptions(root, source_paths=[verified])
+            self.assertNotIn("unchecked", mirror.joinpath("all.txt").read_text())
+
 
 if __name__ == "__main__":
     unittest.main()

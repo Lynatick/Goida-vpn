@@ -8,12 +8,12 @@ from hiddify_subscription import build_hiddify_config
 from subscription_converter import ConversionError, convert_subscription, decode_base64
 
 
-def build_combined_subscriptions(root="."):
+def build_combined_subscriptions(root=".", source_paths=None):
     root = Path(root)
     sources = sorted(
         (path for path in (root / "githubmirror").glob("*.txt") if path.stem.isdigit()),
         key=lambda path: int(path.stem)
-    )
+    ) if source_paths is None else [Path(path) for path in source_paths]
     links = {}
     for path in sources:
         text = path.read_text(encoding="utf-8-sig").strip()
