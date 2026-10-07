@@ -1,6 +1,8 @@
 import os
 import sys
 import argparse
+import json
+from pathlib import Path
 from getpass import getpass
 import requests
 from github import Github, GithubException
@@ -15,8 +17,22 @@ zone = zoneinfo.ZoneInfo("Europe/Moscow")
 thistime = datetime.now(zone)
 offset = thistime.strftime("%H:%M | %d.%m.%Y")
 
-GITHUB_TOKEN = os.environ.get("MY_TOKEN") or os.environ.get("GITHUB_TOKEN")
-REPO_NAME_1 = os.environ.get("GITHUB_REPOSITORY", "Lynatick/Goida-vpn")
+CONFIG_PATH = Path(__file__).resolve().parents[1] / "local_config.json"
+LOCAL_CONFIG = {}
+if CONFIG_PATH.exists():
+    with CONFIG_PATH.open(encoding="utf-8") as file:
+        LOCAL_CONFIG = json.load(file)
+
+GITHUB_TOKEN = (
+    os.environ.get("MY_TOKEN")
+    or os.environ.get("GITHUB_TOKEN")
+    or LOCAL_CONFIG.get("GITHUB_TOKEN", "")
+)
+REPO_NAME_1 = (
+    os.environ.get("GITHUB_REPOSITORY")
+    or os.environ.get("REPO_NAME_1")
+    or LOCAL_CONFIG.get("REPO_NAME_1", "")
+)
 
 # Если локальная папка не существует, создаём её
 if not os.path.exists("githubmirror"):
@@ -108,11 +124,17 @@ def print_progress(completed, total):
 def main(local_only=False):
     global GITHUB_TOKEN
 
+    if not local_only and not REPO_NAME_1:
+        raise RuntimeError(
+            "Укажите REPO_NAME_1 в local_config.json или задайте "
+            "GITHUB_REPOSITORY / REPO_NAME_1 в окружении."
+        )
+
     if not local_only and not GITHUB_TOKEN:
         if not sys.stdin.isatty():
             raise RuntimeError(
                 "Для ввода токена запустите скрипт в терминале или задайте "
-                "MY_TOKEN / GITHUB_TOKEN в окружении."
+                "GITHUB_TOKEN в local_config.json либо MY_TOKEN / GITHUB_TOKEN в окружении."
             )
         try:
             GITHUB_TOKEN = getpass(

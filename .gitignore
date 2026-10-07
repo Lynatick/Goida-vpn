@@ -1,3 +1,6 @@
 __pycache__/
 *.py[cod]
 reports/
+
+# Локальные настройки GitHub с токеном
+/local_config.json
