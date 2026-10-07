@@ -254,8 +254,6 @@ class SubscriptionConversionTest(unittest.TestCase):
         convert = Mock()
         hiddify = Mock(return_value=["hiddify/1.json"])
         namespace = {
-            "DEFAULT_CORE": "core", "DEFAULT_VIDEO": "video",
-            "SubscriptionVerifier": Mock(return_value=Mock(filter_subscription=Mock(return_value="data"))),
             "GITHUB_TOKEN": "dummy-token", "REPO_NAME_1": "owner/repo",
             "URLS": ["source"], "LOCAL_PATHS": [original], "REMOTE_PATHS": [original],
             "fetch_data": Mock(return_value="data"), "save_to_local_file": save,
@@ -289,8 +287,6 @@ class SubscriptionConversionTest(unittest.TestCase):
         upload = Mock()
         convert = Mock()
         namespace = {
-            "DEFAULT_CORE": "core", "DEFAULT_VIDEO": "video",
-            "SubscriptionVerifier": Mock(return_value=Mock(filter_subscription=Mock(return_value="data"))),
             "GITHUB_TOKEN": None, "REPO_NAME_1": "owner/repo",
             "URLS": ["missing", "working"],
             "LOCAL_PATHS": ["githubmirror/1.txt", "githubmirror/2.txt"],
@@ -306,7 +302,7 @@ class SubscriptionConversionTest(unittest.TestCase):
         exec(compile(ast.Module(body=[main], type_ignores=[]), "main.py", "exec"), namespace)
         namespace["main"](local_only=True)
         namespace["getpass"].assert_not_called()
-        namespace["build_combined_subscriptions"].assert_called_once_with(source_paths=["githubmirror/2.txt"])
+        namespace["build_combined_subscriptions"].assert_called_once_with()
         upload.assert_not_called()
         save.assert_called_once_with("githubmirror/2.txt", "data")
         convert.assert_called_once_with("data", "raw/2.txt")
@@ -314,30 +310,6 @@ class SubscriptionConversionTest(unittest.TestCase):
             "raw/1.txt; hiddify/1.json" in call.args[0]
             for call in namespace["print"].call_args_list
         ))
-
-    def test_failed_preflight_prevents_saving_and_uploading_source(self):
-        module = ast.parse((Path(__file__).parents[1] / "main.py").read_text())
-        main = next(node for node in module.body if isinstance(node, ast.FunctionDef) and node.name == "main")
-        save, upload, aggregate = Mock(), Mock(), Mock()
-        verifier = Mock(filter_subscription=Mock(side_effect=ConversionError("YouTube not confirmed")))
-        namespace = {
-            "DEFAULT_CORE": "core", "DEFAULT_VIDEO": "video",
-            "SubscriptionVerifier": Mock(return_value=verifier),
-            "GITHUB_TOKEN": "dummy", "REPO_NAME_1": "owner/repo",
-            "URLS": ["source"], "LOCAL_PATHS": ["githubmirror/1.txt"], "REMOTE_PATHS": ["githubmirror/1.txt"],
-            "fetch_data": Mock(return_value="unchecked"),
-            "requests": Mock(RequestException=RuntimeError),
-            "save_to_local_file": save, "upload_to_github": upload,
-            "build_combined_subscriptions": aggregate, "print_progress": Mock(),
-            "print": Mock(), "os": os
-        }
-        exec(compile(ast.Module(body=[main], type_ignores=[]), "main.py", "exec"), namespace)
-        with self.assertRaises(RuntimeError):
-            namespace["main"]()
-        verifier.filter_subscription.assert_called_once_with("unchecked", "githubmirror/1.txt")
-        save.assert_not_called()
-        upload.assert_not_called()
-        aggregate.assert_not_called()
 
 
 if __name__ == "__main__":

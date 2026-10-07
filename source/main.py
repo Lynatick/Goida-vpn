@@ -9,8 +9,6 @@ import zoneinfo
 from subscription_converter import save_raw_subscription
 from hiddify_subscription import save_hiddify_subscription
 from combined_subscription import build_combined_subscriptions
-from subscription_verifier import SubscriptionVerifier
-from youtube_check import DEFAULT_CORE, DEFAULT_VIDEO
 
 # Определение времени по МСК
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
@@ -107,7 +105,7 @@ def print_progress(completed, total):
     )
 
 
-def main(local_only=False, core=DEFAULT_CORE, video=DEFAULT_VIDEO, timeout=15):
+def main(local_only=False):
     global GITHUB_TOKEN
 
     if not local_only and not GITHUB_TOKEN:
@@ -128,10 +126,8 @@ def main(local_only=False, core=DEFAULT_CORE, video=DEFAULT_VIDEO, timeout=15):
             "в репозиторий " + REPO_NAME_1
         )
     total = len(URLS)
-    verifier = SubscriptionVerifier(core=core, video=video, timeout=timeout)
     completed = 0
     failed_sources = []
-    verified_paths = []
     print(f"Обновление {total} конфигов в {REPO_NAME_1}", flush=True)
     print_progress(completed, total)
     try:
@@ -143,7 +139,6 @@ def main(local_only=False, core=DEFAULT_CORE, video=DEFAULT_VIDEO, timeout=15):
                 data = fetch_data(url)
                 if not data.strip():
                     raise ValueError("Источник вернул пустые данные")
-                data = verifier.filter_subscription(data, local_path)
             except (requests.RequestException, ValueError) as error:
                 failed_sources.append((url, local_path, str(error)))
                 print(f"[{index}/{total}] Источник пропущен: {error}", flush=True)
@@ -187,7 +182,6 @@ def main(local_only=False, core=DEFAULT_CORE, video=DEFAULT_VIDEO, timeout=15):
                     print(f"[{index}/{total}] Отправка {hiddify_path} в GitHub", flush=True)
                     upload_to_github(hiddify_path, hiddify_path)
             completed += 1
-            verified_paths.append(local_path)
             print_progress(index, total)
     except Exception as e:
         print(
@@ -208,7 +202,7 @@ def main(local_only=False, core=DEFAULT_CORE, video=DEFAULT_VIDEO, timeout=15):
             )
     if total and completed == 0:
         raise RuntimeError("Не удалось получить данные ни из одного источника.")
-    combined_paths = build_combined_subscriptions(source_paths=verified_paths)
+    combined_paths = build_combined_subscriptions()
     if not local_only:
         for path in combined_paths:
             upload_to_github(path, path)
@@ -220,10 +214,4 @@ if __name__ == "__main__":
         "--local-only", action="store_true",
         help="Скачать и преобразовать данные без токена и отправки через GitHub API"
     )
-    parser.add_argument("--core", default=DEFAULT_CORE, help="Ядро Hiddify для проверки перед публикацией")
-    parser.add_argument("--video", default=DEFAULT_VIDEO, help="Тестовый ролик YouTube")
-    parser.add_argument("--timeout", type=int, default=15, help="Тайм-аут сетевого запроса")
-    args = parser.parse_args()
-    if args.timeout < 1:
-        parser.error("Тайм-аут должен быть положительным")
-    main(local_only=args.local_only, core=args.core, video=args.video, timeout=args.timeout)
+    main(local_only=parser.parse_args().local_only)
