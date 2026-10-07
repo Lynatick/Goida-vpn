@@ -66,6 +66,7 @@ def render_subscription_rows(rows, protocol_counts=None):
                 f'aria-label="Копировать ссылку {directory}: {label}">Копировать</button>'
                 f'</div></td>'
             )
+        cells.append(f'            <td class="numeric">{count}</td><td class="numeric">{excluded}</td>')
         if protocol_counts is not None and name == "all":
             cells.append(f'            <td rowspan="{len(rows)}" class="protocol-links">')
             for kind, total in sorted(protocol_counts.items()):
@@ -80,7 +81,7 @@ def render_subscription_rows(rows, protocol_counts=None):
                     f'aria-label="Копировать ссылку {kind}.json">Копировать</button></div>'
                 )
             cells.append('            </td>')
-        cells.append(f'            <td class="numeric">{count}</td><td class="numeric">{excluded}</td></tr>')
+        cells.append('          </tr>')
     return "\n".join(cells)
 
 
