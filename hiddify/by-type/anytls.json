@@ -2,10 +2,9 @@
  "outbounds": [
   {
    "type": "selector",
-   "tag": "select",
+   "tag": "Выбор сервера",
    "outbounds": [
-    "auto",
-    "YouTube",
+    "Автовыбор · YouTube",
     "4Nika-751f7ce940 § 6400",
     "4Mohsen-fa6a9fc360 § 6401",
     "4Nika-59f613c70f § 6402",
@@ -17,32 +16,12 @@
     "4Jadi-39cec30d9a § 6408",
     "4FreeIran-74c396044a § 6409"
    ],
-   "default": "auto",
+   "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
   },
   {
    "type": "urltest",
-   "tag": "auto",
-   "outbounds": [
-    "4Nika-751f7ce940 § 6400",
-    "4Mohsen-fa6a9fc360 § 6401",
-    "4Nika-59f613c70f § 6402",
-    "4Nika-44418f9d8a § 6403",
-    "4FreeIran-aa59220add § 6404",
-    "4Jadi-e73dd5f598 § 6405",
-    "4Sarina-62364bc0b8 § 6406",
-    "4Sarina-6aaf4278b5 § 6407",
-    "4Jadi-39cec30d9a § 6408",
-    "4FreeIran-74c396044a § 6409"
-   ],
-   "url": "https://www.gstatic.com/generate_204",
-   "interval": "3m",
-   "tolerance": 50,
-   "interrupt_exist_connections": true
-  },
-  {
-   "type": "urltest",
-   "tag": "YouTube",
+   "tag": "Автовыбор · YouTube",
    "outbounds": [
     "4Nika-751f7ce940 § 6400",
     "4Mohsen-fa6a9fc360 § 6401",
@@ -191,6 +170,6 @@
  ],
  "endpoints": [],
  "route": {
-  "final": "select"
+  "final": "Выбор сервера"
  }
 }

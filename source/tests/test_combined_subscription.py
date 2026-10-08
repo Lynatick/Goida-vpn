@@ -34,7 +34,7 @@ class CombinedSubscriptionTest(unittest.TestCase):
             raw = json.loads(root.joinpath("raw/all.txt").read_text())
             self.assertEqual([item["server"] for item in raw["outbounds"]], ["one.example", "two.example"])
             profile = json.loads(root.joinpath("hiddify/all.json").read_text())
-            self.assertEqual(profile["route"]["final"], "select")
+            self.assertEqual(profile["route"]["final"], "Выбор сервера")
             self.assertEqual(profile["outbounds"][1]["outbounds"], [item["tag"] for item in raw["outbounds"]])
             stats = json.loads(root.joinpath("subscription-stats.json").read_text())
             self.assertEqual(stats["all"], {"configs": 2, "excluded": 0})

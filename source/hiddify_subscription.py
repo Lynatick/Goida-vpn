@@ -52,13 +52,12 @@ def build_hiddify_config(config):
     if not candidates:
         raise ConversionError("Нет серверов для подписки Hiddify")
 
-    selector_tag = new_tag("select")
-    auto_tag = new_tag("auto")
-    youtube_tag = new_tag("YouTube")
+    selector_tag = new_tag("Выбор сервера")
+    auto_tag = new_tag("Автовыбор · YouTube")
     selector = {
         "type": "selector",
         "tag": selector_tag,
-        "outbounds": [auto_tag, youtube_tag] + candidates,
+        "outbounds": [auto_tag] + candidates,
         "default": auto_tag,
         "interrupt_exist_connections": True
     }
@@ -66,21 +65,12 @@ def build_hiddify_config(config):
         "type": "urltest",
         "tag": auto_tag,
         "outbounds": candidates,
-        "url": "https://www.gstatic.com/generate_204",
-        "interval": "3m",
-        "tolerance": 50,
-        "interrupt_exist_connections": True
-    }
-    youtube = {
-        "type": "urltest",
-        "tag": youtube_tag,
-        "outbounds": candidates,
         "url": YOUTUBE_TEST_URL,
         "interval": "3m",
         "tolerance": 50,
         "interrupt_exist_connections": True
     }
-    result["outbounds"] = [selector, automatic, youtube] + outbounds
+    result["outbounds"] = [selector, automatic] + outbounds
     route = result.setdefault("route", {})
     if not isinstance(route, dict):
         raise ConversionError("Поле route должно быть объектом")

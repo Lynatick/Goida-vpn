@@ -2,33 +2,19 @@
  "outbounds": [
   {
    "type": "selector",
-   "tag": "select",
+   "tag": "Выбор сервера",
    "outbounds": [
-    "auto",
-    "YouTube",
+    "Автовыбор · YouTube",
     "4FreeIran-28a973f6ed § 12602",
     "4Jadi-ea8253b1ef § 12603",
     "4Jadi-3d6d5cddf3 § 12604"
    ],
-   "default": "auto",
+   "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
   },
   {
    "type": "urltest",
-   "tag": "auto",
-   "outbounds": [
-    "4FreeIran-28a973f6ed § 12602",
-    "4Jadi-ea8253b1ef § 12603",
-    "4Jadi-3d6d5cddf3 § 12604"
-   ],
-   "url": "https://www.gstatic.com/generate_204",
-   "interval": "3m",
-   "tolerance": 50,
-   "interrupt_exist_connections": true
-  },
-  {
-   "type": "urltest",
-   "tag": "YouTube",
+   "tag": "Автовыбор · YouTube",
    "outbounds": [
     "4FreeIran-28a973f6ed § 12602",
     "4Jadi-ea8253b1ef § 12603",
@@ -93,6 +79,6 @@
  ],
  "endpoints": [],
  "route": {
-  "final": "select"
+  "final": "Выбор сервера"
  }
 }

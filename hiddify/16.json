@@ -2,10 +2,9 @@
  "outbounds": [
   {
    "type": "selector",
-   "tag": "select",
+   "tag": "Выбор сервера",
    "outbounds": [
-    "auto",
-    "YouTube",
+    "Автовыбор · YouTube",
     "github.com/freefq - 俄罗斯  1 § 0",
     "github.com/freefq - 印度  2 § 1",
     "github.com/freefq - 印度  3 § 2",
@@ -21,36 +20,12 @@
     "github.com/freefq - 美国Fastly全球Anycast节点 13 § 12",
     "github.com/freefq - 美国CloudFlare节点 14 § 13"
    ],
-   "default": "auto",
+   "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
   },
   {
    "type": "urltest",
-   "tag": "auto",
-   "outbounds": [
-    "github.com/freefq - 俄罗斯  1 § 0",
-    "github.com/freefq - 印度  2 § 1",
-    "github.com/freefq - 印度  3 § 2",
-    "github.com/freefq - 美国CloudFlare公司CDN节点 4 § 3",
-    "github.com/freefq - 波兰  5 § 4",
-    "github.com/freefq - 美国CloudFlare公司CDN节点 6 § 5",
-    "github.com/freefq - 广东省移动 7 § 6",
-    "github.com/freefq - 广东省江门市移动 8 § 7",
-    "github.com/freefq - 美国CloudFlare公司CDN节点 9 § 8",
-    "github.com/freefq - 印度  10 § 9",
-    "github.com/freefq - 广东省江门市移动 11 § 10",
-    "github.com/freefq - 广东省江门市移动 12 § 11",
-    "github.com/freefq - 美国Fastly全球Anycast节点 13 § 12",
-    "github.com/freefq - 美国CloudFlare节点 14 § 13"
-   ],
-   "url": "https://www.gstatic.com/generate_204",
-   "interval": "3m",
-   "tolerance": 50,
-   "interrupt_exist_connections": true
-  },
-  {
-   "type": "urltest",
-   "tag": "YouTube",
+   "tag": "Автовыбор · YouTube",
    "outbounds": [
     "github.com/freefq - 俄罗斯  1 § 0",
     "github.com/freefq - 印度  2 § 1",
@@ -289,6 +264,6 @@
  ],
  "endpoints": [],
  "route": {
-  "final": "select"
+  "final": "Выбор сервера"
  }
 }

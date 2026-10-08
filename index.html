@@ -57,7 +57,7 @@
     <h1>Конфигурации VPN</h1>
     <p>Скопируйте нужную ссылку, затем в Hiddify выберите <strong>Новый профиль → Добавить из буфера обмена</strong>.</p>
     <p id="status" role="status" aria-live="polite"></p>
-    <p class="description">В Hiddify выберите YouTube в группе select для автоматического теста соединения каждые 3 минуты. Исходные URI подходят для клиентов с поддержкой URI и Base64.</p>
+    <p class="description">В Hiddify в группе «Выбор сервера» используйте «Автовыбор · YouTube»: проверка соединения каждые 3 минуты. Исходные URI подходят для клиентов с поддержкой URI и Base64.</p>
     <div class="table-scroll" role="region" aria-label="Таблица подписок" tabindex="0">
       <table class="subscriptions-table" aria-label="Ссылки на подписки и отчёт по конфигурациям" aria-describedby="report-note">
         <thead>
@@ -208,7 +208,6 @@
       </table>
     </div>
     <p id="report-note" class="report-note">Конфиги — поддерживаемые подключения после преобразования. Исключено — повреждённые или неподдерживаемые записи. «Все» — общая подписка без повторов; дубликаты не считаются исключёнными. Проверка доступности серверов и воспроизведения видео в отчёт не входит. «—» означает, что данные не удалось разобрать.</p>
-    <footer>Прямые ссылки на подписки из <a href="https://github.com/Lynatick/goida">Lynatick/goida</a>.</footer>
   </main>
   <script>
     const status = document.getElementById('status');

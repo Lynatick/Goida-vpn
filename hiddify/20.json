@@ -2,10 +2,9 @@
  "outbounds": [
   {
    "type": "selector",
-   "tag": "select",
+   "tag": "Выбор сервера",
    "outbounds": [
-    "auto",
-    "YouTube",
+    "Автовыбор · YouTube",
     "M.HH V2RAY § 0",
     "M.HH V2RAY § 1",
     "M.HH V2RAY § 2",
@@ -21,36 +20,12 @@
     "M.HH V2RAY § 12",
     "M.HH V2RAY § 13"
    ],
-   "default": "auto",
+   "default": "Автовыбор · YouTube",
    "interrupt_exist_connections": true
   },
   {
    "type": "urltest",
-   "tag": "auto",
-   "outbounds": [
-    "M.HH V2RAY § 0",
-    "M.HH V2RAY § 1",
-    "M.HH V2RAY § 2",
-    "M.HH V2RAY § 3",
-    "M.HH V2RAY § 4",
-    "M.HH V2RAY § 5",
-    "M.HH V2RAY § 6",
-    "M.HH V2RAY § 7",
-    "M.HH V2RAY § 8",
-    "M.HH V2RAY § 9",
-    "M.HH V2RAY § 10",
-    "@vmess_ir § 11",
-    "M.HH V2RAY § 12",
-    "M.HH V2RAY § 13"
-   ],
-   "url": "https://www.gstatic.com/generate_204",
-   "interval": "3m",
-   "tolerance": 50,
-   "interrupt_exist_connections": true
-  },
-  {
-   "type": "urltest",
-   "tag": "YouTube",
+   "tag": "Автовыбор · YouTube",
    "outbounds": [
     "M.HH V2RAY § 0",
     "M.HH V2RAY § 1",
@@ -324,6 +299,6 @@
  ],
  "endpoints": [],
  "route": {
-  "final": "select"
+  "final": "Выбор сервера"
  }
 }

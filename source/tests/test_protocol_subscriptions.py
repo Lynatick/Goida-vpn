@@ -29,8 +29,8 @@ class ProtocolSubscriptionTest(unittest.TestCase):
                 raw = json.loads(Path(directory, f"raw/by-type/{kind}.json").read_text())
                 self.assertEqual({node["type"] for node in raw["outbounds"]}, {kind})
                 profile = json.loads(Path(directory, f"hiddify/by-type/{kind}.json").read_text())
-                self.assertEqual(profile["outbounds"][3:], raw["outbounds"])
-                self.assertEqual(profile["outbounds"][2]["outbounds"], [raw["outbounds"][0]["tag"]])
+                self.assertEqual(profile["outbounds"][2:], raw["outbounds"])
+                self.assertEqual(profile["outbounds"][1]["outbounds"], [raw["outbounds"][0]["tag"]])
             self.assertEqual(json.loads(Path(directory, "protocol-stats.json").read_text())["excluded"], 2)
             self.assertIn("hiddify/by-type/vless.json", paths)
 
