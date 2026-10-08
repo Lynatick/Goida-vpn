@@ -62,8 +62,6 @@ def build_combined_subscriptions(root="."):
         f"пропущено {invalid_lines + sum(issues.values())}",
         flush=True
     )
-    for reason, count in issues.items():
-        print(f"  {reason}: {count}", flush=True)
     protocol_paths, protocol_counts = build_protocol_subscriptions(config, root)
     report_paths = save_subscription_report(
         root, sources, config, invalid_lines + sum(issues.values()),

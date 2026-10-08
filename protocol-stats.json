@@ -1,21 +1,21 @@
 {
  "types": {
   "anytls": 10,
-  "hysteria2": 612,
-  "shadowsocks": 10062,
-  "trojan": 6958,
-  "tuic": 5,
-  "vless": 35516,
-  "vmess": 13659
+  "hysteria2": 676,
+  "shadowsocks": 10202,
+  "trojan": 6881,
+  "tuic": 3,
+  "vless": 36186,
+  "vmess": 13731
  },
  "uri_types": {
   "anytls": 10,
-  "hysteria2": 612,
-  "shadowsocks": 10062,
-  "trojan": 6958,
-  "tuic": 5,
-  "vless": 35516,
-  "vmess": 13659
+  "hysteria2": 676,
+  "shadowsocks": 10202,
+  "trojan": 6881,
+  "tuic": 3,
+  "vless": 36186,
+  "vmess": 13731
  },
  "excluded": 0
 }

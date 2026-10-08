@@ -1,7 +1,7 @@
 {
   "all": {
-    "configs": 66822,
-    "excluded": 20675
+    "configs": 67689,
+    "excluded": 20694
   },
   "1": {
     "configs": 470,
@@ -12,11 +12,11 @@
     "excluded": 43
   },
   "3": {
-    "configs": 496,
-    "excluded": 233
+    "configs": 494,
+    "excluded": 225
   },
   "4": {
-    "configs": 500,
+    "configs": 516,
     "excluded": 25
   },
   "5": {
@@ -24,15 +24,15 @@
     "excluded": 0
   },
   "6": {
-    "configs": 146,
-    "excluded": 4
+    "configs": 148,
+    "excluded": 2
   },
   "7": {
-    "configs": 6437,
-    "excluded": 1067
+    "configs": 6621,
+    "excluded": 1086
   },
   "8": {
-    "configs": 205,
+    "configs": 193,
     "excluded": 0
   },
   "9": {
@@ -48,8 +48,8 @@
     "excluded": 0
   },
   "12": {
-    "configs": 21571,
-    "excluded": 1447
+    "configs": 21944,
+    "excluded": 1501
   },
   "13": {
     "configs": 84,
@@ -60,24 +60,24 @@
     "excluded": 42
   },
   "15": {
-    "configs": 261,
-    "excluded": 3
+    "configs": 193,
+    "excluded": 2
   },
   "16": {
     "configs": 14,
     "excluded": 1
   },
   "17": {
-    "configs": 396,
-    "excluded": 42
+    "configs": 382,
+    "excluded": 36
   },
   "18": {
-    "configs": 6437,
-    "excluded": 1067
+    "configs": 6621,
+    "excluded": 1086
   },
   "19": {
-    "configs": 657,
-    "excluded": 911
+    "configs": 652,
+    "excluded": 841
   },
   "20": {
     "configs": 14,
@@ -88,8 +88,8 @@
     "excluded": 17290
   },
   "22": {
-    "configs": 315,
-    "excluded": 6
+    "configs": 638,
+    "excluded": 19
   },
   "23": {
     "configs": 88,

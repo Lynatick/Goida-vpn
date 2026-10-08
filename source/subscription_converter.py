@@ -325,8 +325,6 @@ def save_raw_subscription(content, path):
         f"пропущено {sum(issues.values())}",
         flush=True
     )
-    for reason, skipped in issues.items():
-        print(f"  {reason}: {skipped}", flush=True)
     return config
 
 

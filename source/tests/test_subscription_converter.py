@@ -246,7 +246,13 @@ class SubscriptionConversionTest(unittest.TestCase):
 
     def test_main_saves_and_uploads_original_and_converted_file(self):
         module = ast.parse((Path(__file__).parents[1] / "main.py").read_text())
-        main = next(node for node in module.body if isinstance(node, ast.FunctionDef) and node.name == "main")
+        functions = [
+            node for node in module.body
+            if isinstance(node, ast.FunctionDef) and node.name in {
+                "main", "ensure_github_credentials", "fetch_source",
+                "convert_source", "upload_files", "report_failed_sources"
+            }
+        ]
         original = "githubmirror/1.txt"
         raw = "raw/1.txt"
         save = Mock()
@@ -256,6 +262,7 @@ class SubscriptionConversionTest(unittest.TestCase):
         namespace = {
             "GITHUB_TOKEN": "dummy-token", "REPO_NAME_1": "owner/repo",
             "URLS": ["source"], "LOCAL_PATHS": [original], "REMOTE_PATHS": [original],
+            "requests": Mock(RequestException=RuntimeError),
             "fetch_data": Mock(return_value="data"), "save_to_local_file": save,
             "save_raw_subscription": convert, "upload_to_github": upload,
             "save_hiddify_subscription": hiddify,
@@ -264,7 +271,7 @@ class SubscriptionConversionTest(unittest.TestCase):
             ]),
             "print_progress": Mock(), "print": Mock(), "os": os
         }
-        exec(compile(ast.Module(body=[main], type_ignores=[]), "main.py", "exec"), namespace)
+        exec(compile(ast.Module(body=functions, type_ignores=[]), "main.py", "exec"), namespace)
         namespace["main"]()
         save.assert_called_once_with(original, "data")
         convert.assert_called_once_with("data", raw)
@@ -282,7 +289,13 @@ class SubscriptionConversionTest(unittest.TestCase):
 
     def test_local_only_skips_token_upload_and_unavailable_sources(self):
         module = ast.parse((Path(__file__).parents[1] / "main.py").read_text())
-        main = next(node for node in module.body if isinstance(node, ast.FunctionDef) and node.name == "main")
+        functions = [
+            node for node in module.body
+            if isinstance(node, ast.FunctionDef) and node.name in {
+                "main", "ensure_github_credentials", "fetch_source",
+                "convert_source", "upload_files", "report_failed_sources"
+            }
+        ]
         save = Mock()
         upload = Mock()
         convert = Mock()
@@ -299,7 +312,7 @@ class SubscriptionConversionTest(unittest.TestCase):
             "upload_to_github": upload, "print_progress": Mock(),
             "print": Mock(), "os": os, "getpass": Mock()
         }
-        exec(compile(ast.Module(body=[main], type_ignores=[]), "main.py", "exec"), namespace)
+        exec(compile(ast.Module(body=functions, type_ignores=[]), "main.py", "exec"), namespace)
         namespace["main"](local_only=True)
         namespace["getpass"].assert_not_called()
         namespace["build_combined_subscriptions"].assert_called_once_with()
