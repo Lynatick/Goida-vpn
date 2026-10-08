@@ -6,267 +6,199 @@
    "outbounds": [
     "auto",
     "YouTube",
-    "🇺🇸 11 - US - VLESS/REALITY/PBK/VISION - 443 § 0",
-    "🇫🇮 28 - FI - VLESS/REALITY/PBK/SID/UTLS - 2053 § 1",
-    "🇩🇪 36 - DE - VLESS/REALITY/PBK/SID/UTLS - 1081 § 2",
-    "🇩🇪 47 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 3",
-    "🇸🇬 54 - SG - VLESS/REALITY/PBK/SID/VISION - 19825 § 4",
-    "🇬🇧 68 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 51847 § 5",
-    "🇺🇸 88 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 6",
-    "🇺🇸 89 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 7",
-    "🇺🇸 90 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 8",
-    "🇺🇸 91 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 9",
-    "🇺🇸 92 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 10",
-    "🇺🇸 93 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 11",
-    "🇺🇸 94 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 12",
-    "🇳🇱 95 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 13",
-    "🇳🇱 96 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 14",
-    "🇳🇱 97 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 15",
-    "🇳🇱 98 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 16",
-    "🇳🇱 99 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 17",
-    "🇳🇱 100 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 18",
-    "🇳🇱 101 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 19",
-    "🇳🇱 102 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 20",
-    "🇳🇱 103 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 21",
-    "🇳🇱 104 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 22",
-    "🇳🇱 105 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 23",
-    "🇳🇱 106 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 24",
-    "🇳🇱 107 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 25",
-    "🇳🇱 108 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 26",
-    "🇳🇱 109 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 27",
-    "🇳🇱 110 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 28",
-    "🇫🇷 111 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 29",
-    "🇫🇷 112 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 30",
-    "🇺🇸 113 - US - VLESS/REALITY/PBK/SID/VISION - 23576 § 31",
-    "🇷🇺 133 - RU - VLESS/RAW/REALITY/PBK/SID/UTLS - 26424 § 32",
-    "🇪🇪 140 - EE - VLESS/WS/TLS - 8443 § 33",
-    "🇬🇧 208 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 34",
-    "🇫🇷 254 - FR - VLESS/WS/TLS - 443 § 35",
-    "🇩🇪 255 - DE - VLESS/WS/TLS/UTLS - 443 § 36",
-    "🇺🇸 284 - US - VLESS/REALITY/PBK/VISION - 36925 § 37",
-    "🇸🇪 291 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 38",
-    "🇸🇪 292 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 39",
-    "🇸🇪 293 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 40",
-    "🇸🇪 294 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 41",
-    "🇸🇪 295 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 42",
-    "🇸🇪 296 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 43",
-    "🇺🇸 297 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 44",
-    "🇸🇪 298 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 45",
-    "🇬🇧 311 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 46",
-    "🇬🇧 312 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 47",
-    "🇱🇹 342 - LT - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 48",
-    "🇩🇪 1 - DE - Trojan/TLS/UTLS - 443 § 49",
-    "🇩🇪 2 - DE - Trojan/TLS/UTLS - 443 § 50",
-    "🇺🇸 4 - US - Trojan/WS/TLS/UTLS - 443 § 51",
-    "🇰🇷 6 - KR - Trojan/TLS - 443 § 52",
-    "🇸🇬 7 - SG - Trojan/TLS - 443 § 53",
-    "🇯🇵 8 - JP - Trojan/TLS - 443 § 54",
-    "🇯🇵 9 - JP - Trojan/TLS/UTLS - 443 § 55",
-    "🇯🇵 10 - JP - Trojan/TLS/UTLS - 443 § 56",
-    "🇯🇵 11 - JP - Trojan/TLS - 443 § 57",
-    "🇯🇵 12 - JP - Trojan/TLS/UTLS - 443 § 58",
-    "🇭🇰 13 - HK - Trojan/TLS - 443 § 59",
-    "🇵🇱 14 - PL - Trojan/TLS - 443 § 60",
-    "🇯🇵 15 - JP - Trojan/TLS/UTLS - 443 § 61",
-    "🇮🇪 16 - IE - Trojan/TLS - 443 § 62",
-    "🇰🇷 17 - KR - Trojan/TLS - 443 § 63",
-    "🇰🇷 18 - KR - Trojan/TLS - 443 § 64",
-    "🇰🇷 19 - KR - Trojan/TLS - 443 § 65",
-    "🇰🇷 20 - KR - Trojan/TLS/UTLS - 443 § 66",
-    "🇰🇷 21 - KR - Trojan/TLS/UTLS - 443 § 67",
-    "🇺🇸 22 - US - Trojan/TLS/UTLS - 443 § 68",
-    "🇰🇷 23 - KR - Trojan/TLS/UTLS - 443 § 69",
-    "🇰🇷 24 - KR - Trojan/TLS - 443 § 70",
-    "🇰🇷 25 - KR - Trojan/TLS - 443 § 71",
-    "🇯🇵 26 - JP - Trojan/TLS - 443 § 72",
-    "🇯🇵 27 - JP - Trojan/TLS - 443 § 73",
-    "🇺🇸 28 - US - Trojan/TLS - 443 § 74",
-    "🇯🇵 29 - JP - Trojan/TLS - 443 § 75",
-    "🇯🇵 30 - JP - Trojan/TLS - 443 § 76",
-    "🇸🇬 31 - SG - Trojan/TLS - 443 § 77",
-    "🇸🇬 32 - SG - Trojan/TLS/UTLS - 443 § 78",
-    "🇰🇷 33 - KR - Trojan/TLS - 443 § 79",
-    "🇯🇵 34 - JP - Trojan/TLS/UTLS - 443 § 80",
-    "🇯🇵 35 - JP - Trojan/TLS - 443 § 81",
-    "🇯🇵 36 - JP - Trojan/TLS/UTLS - 443 § 82",
-    "🇯🇵 37 - JP - Trojan/TLS - 443 § 83",
-    "🇯🇵 38 - JP - Trojan/TLS/UTLS - 443 § 84",
-    "🇸🇬 39 - SG - Trojan/TLS - 443 § 85",
-    "🇯🇵 40 - JP - Trojan/TLS/UTLS - 443 § 86",
-    "🇯🇵 41 - JP - Trojan/TLS/UTLS - 443 § 87",
-    "🇩🇪 42 - DE - Trojan/TLS - 443 § 88",
-    "🇰🇷 43 - KR - Trojan/TLS/UTLS - 443 § 89",
-    "🇯🇵 44 - JP - Trojan/TLS/UTLS - 443 § 90",
-    "🇰🇷 45 - KR - Trojan/TLS/UTLS - 443 § 91",
-    "🇯🇵 46 - JP - Trojan/TLS/UTLS - 443 § 92",
-    "🇵🇱 47 - PL - Trojan/TLS - 443 § 93",
-    "🇯🇵 48 - JP - Trojan/TLS/UTLS - 443 § 94",
-    "🇯🇵 49 - JP - Trojan/TLS/UTLS - 443 § 95",
-    "🇰🇷 50 - KR - Trojan/TLS/UTLS - 443 § 96",
-    "🇸🇬 51 - SG - Trojan/TLS/UTLS - 443 § 97",
-    "🇯🇵 52 - JP - Trojan/TLS/UTLS - 443 § 98",
-    "🇰🇷 53 - KR - Trojan/TLS/UTLS - 443 § 99",
-    "🇯🇵 54 - JP - Trojan/TLS/UTLS - 443 § 100",
-    "🇯🇵 55 - JP - Trojan/TLS/UTLS - 443 § 101",
-    "🇸🇬 56 - SG - Trojan/TLS/UTLS - 443 § 102",
-    "🇺🇸 57 - US - Trojan/TLS/UTLS - 443 § 103",
-    "🇺🇸 58 - US - Trojan/TLS/UTLS - 443 § 104",
-    "🇸🇬 59 - SG - Trojan/TLS/UTLS - 443 § 105",
-    "🇯🇵 60 - JP - Trojan/TLS/UTLS - 443 § 106",
-    "🇯🇵 61 - JP - Trojan/TLS/UTLS - 443 § 107",
-    "🇸🇬 62 - SG - Trojan/TLS/UTLS - 443 § 108",
-    "🇰🇷 63 - KR - Trojan/TLS/UTLS - 443 § 109",
-    "🇮🇪 64 - IE - Trojan/TLS/UTLS - 443 § 110",
-    "🇰🇷 65 - KR - Trojan/TLS/UTLS - 443 § 111",
-    "🇩🇪 66 - DE - Trojan/TLS/UTLS - 443 § 112",
-    "🇯🇵 67 - JP - Trojan/TLS/UTLS - 443 § 113",
-    "🇰🇷 68 - KR - Trojan/TLS/UTLS - 443 § 114",
-    "🇰🇷 69 - KR - Trojan/TLS/UTLS - 443 § 115",
-    "🇯🇵 70 - JP - Trojan/TLS/UTLS - 443 § 116",
-    "🇰🇷 71 - KR - Trojan/TLS/UTLS - 443 § 117",
-    "🇯🇵 72 - JP - Trojan/TLS/UTLS - 443 § 118",
-    "🇸🇬 73 - SG - Trojan/TLS/UTLS - 443 § 119",
-    "🇩🇪 74 - DE - Trojan/TLS - 443 § 120",
-    "🇰🇷 75 - KR - Trojan/TLS/UTLS - 443 § 121",
-    "🇯🇵 76 - JP - Trojan/TLS/UTLS - 443 § 122",
-    "🇯🇵 77 - JP - Trojan/TLS/UTLS - 443 § 123",
-    "🇸🇬 78 - SG - Trojan/TLS/UTLS - 443 § 124",
-    "🇮🇪 79 - IE - Trojan/TLS/UTLS - 443 § 125",
-    "🇭🇰 80 - HK - Trojan/TLS - 443 § 126",
-    "🇺🇸 81 - US - Trojan/TLS/UTLS - 443 § 127",
-    "🇯🇵 82 - JP - Trojan/TLS/UTLS - 443 § 128",
-    "🇫🇮 83 - FI - Trojan/TLS/UTLS - 443 § 129",
-    "🇦🇪 84 - AE - Trojan/TLS/UTLS - 443 § 130",
-    "🇭🇰 85 - HK - Trojan/TLS/UTLS - 45464 § 131",
-    "🇺🇸 86 - US - Trojan/WS/TLS/UTLS - 2087 § 132",
-    "🇮🇩 3 - ID - SS/AEAD - 31348 § 133",
-    "🇩🇪 6 - DE - SS/AEAD - 8388 § 134",
-    "🇬🇧 15 - GB - SS/AEAD - 8388 § 135",
-    "🇫🇷 16 - FR - SS/AEAD - 8388 § 136",
-    "🇳🇱 17 - NL - SS/AEAD - 8388 § 137",
-    "🇳🇱 18 - NL - SS/AEAD - 8388 § 138",
-    "🇮🇪 19 - IE - SS/AEAD - 443 § 139",
-    "🇳🇱 23 - NL - SS/AEAD - 8080 § 140",
-    "🇳🇱 24 - NL - SS/AEAD - 8080 § 141",
-    "🇺🇸 27 - US - SS/AEAD - 443 § 142",
-    "🇳🇱 30 - NL - SS/AEAD - 8080 § 143",
-    "🇳🇱 31 - NL - SS/AEAD - 8080 § 144",
-    "🇳🇱 32 - NL - SS/AEAD - 8080 § 145",
-    "🇳🇱 33 - NL - SS/AEAD - 8080 § 146",
-    "🇳🇱 34 - NL - SS/AEAD - 8080 § 147",
-    "🇳🇱 35 - NL - SS/AEAD - 8080 § 148",
-    "🇳🇱 36 - NL - SS/AEAD - 8080 § 149",
-    "🇳🇱 39 - NL - SS/AEAD - 8080 § 150",
-    "🇳🇱 41 - NL - SS/AEAD - 8080 § 151",
-    "🇳🇱 45 - NL - SS/AEAD - 8080 § 152",
-    "🇳🇱 46 - NL - SS/AEAD - 8080 § 153",
-    "🇳🇱 47 - NL - SS/AEAD - 443 § 154",
-    "🇳🇱 48 - NL - SS/AEAD - 8080 § 155",
-    "🇳🇱 50 - NL - SS/AEAD - 8080 § 156",
-    "🇳🇱 52 - NL - SS/AEAD - 443 § 157",
-    "🇺🇸 55 - US - SS/AEAD - 7307 § 158",
-    "🇩🇪 57 - DE - SS/AEAD - 8008 § 159",
-    "🇺🇸 59 - US - SS/AEAD - 8888 § 160",
-    "🇨🇦 60 - CA - SS/AEAD - 8118 § 161",
-    "🇭🇰 61 - HK - SS/AEAD - 443 § 162",
-    "🇺🇸 63 - US - SS/AEAD - 2375 § 163",
-    "🇨🇦 65 - CA - SS/AEAD - 8882 § 164",
-    "🇩🇪 66 - DE - SS/AEAD - 80 § 165",
-    "🇰🇷 69 - KR - SS/AEAD - 5498 § 166",
-    "🇹🇭 1 - TH - Hysteria2/QUIC - 55443 § 167",
-    "🇩🇪 2 - DE - Hysteria2/QUIC - 443 § 168",
-    "🇩🇪 3 - DE - Hysteria2/QUIC - 443 § 169",
-    "🇩🇪 4 - DE - Hysteria2/QUIC - 443 § 170",
-    "🇩🇪 5 - DE - Hysteria2/QUIC - 443 § 171",
-    "🇺🇸 6 - US - Hysteria2/QUIC - 443 § 172",
-    "🇹🇭 7 - TH - Hysteria2/QUIC - 55443 § 173",
-    "🇵🇱 8 - PL - Hysteria2/QUIC - 443 § 174",
-    "🇩🇪 9 - DE - Hysteria2/QUIC - 443 § 175",
-    "🇳🇱 10 - NL - Hysteria2/QUIC - 443 § 176",
-    "🇳🇱 11 - NL - Hysteria2/QUIC - 443 § 177",
-    "🇫🇮 12 - FI - Hysteria2/QUIC - 443 § 178",
-    "🇫🇮 13 - FI - Hysteria2/QUIC - 443 § 179",
-    "🇳🇱 14 - NL - Hysteria2/QUIC - 443 § 180",
-    "🇳🇱 15 - NL - Hysteria2/QUIC - 443 § 181",
-    "🇳🇱 16 - NL - Hysteria2/QUIC - 443 § 182",
-    "🇳🇱 17 - NL - Hysteria2/QUIC - 443 § 183",
-    "🇱🇻 18 - LV - Hysteria2/QUIC - 443 § 184",
-    "🇹🇼 19 - TW - Hysteria2/QUIC - 443 § 185",
-    "🇨🇦 20 - CA - Hysteria2/QUIC - 443 § 186",
-    "🇭🇰 21 - HK - Hysteria2/QUIC - 443 § 187",
-    "🇫🇷 22 - FR - Hysteria2/QUIC - 443 § 188",
-    "🇨🇦 23 - CA - Hysteria2/QUIC - 443 § 189",
-    "🇰🇷 24 - KR - Hysteria2/QUIC - 443 § 190",
-    "🇹🇼 25 - TW - Hysteria2/QUIC - 443 § 191",
-    "🇩🇿 26 - DZ - Hysteria2/QUIC - 8080 § 192",
-    "🇩🇿 27 - DZ - Hysteria2/QUIC - 8080 § 193",
-    "🇳🇱 28 - NL - Hysteria2/QUIC - 443 § 194",
-    "🇳🇱 29 - NL - Hysteria2/QUIC - 443 § 195",
-    "🇮🇹 30 - IT - Hysteria2/QUIC - 8443 § 196",
-    "🇮🇹 31 - IT - Hysteria2/QUIC - 8443 § 197",
-    "🇩🇪 32 - DE - Hysteria2/QUIC - 443 § 198",
-    "🇩🇪 33 - DE - Hysteria2/QUIC - 443 § 199",
-    "🇺🇸 34 - US - Hysteria2/QUIC - 8443 § 200",
-    "🇷🇺 35 - RU - Hysteria2/QUIC - 443 § 201",
-    "🇵🇱 36 - PL - Hysteria2/QUIC - 443 § 202",
-    "🇵🇱 37 - PL - Hysteria2/QUIC - 443 § 203",
-    "🇷🇺 38 - RU - Hysteria2/QUIC - 443 § 204",
-    "🇷🇺 39 - RU - Hysteria2/QUIC - 443 § 205",
-    "🇺🇸 40 - US - Hysteria2/QUIC - 33333 § 206",
-    "🇺🇸 41 - US - Hysteria2/QUIC - 33333 § 207",
-    "🇺🇸 42 - US - Hysteria2/QUIC - 44356 § 208",
-    "🇫🇷 43 - FR - Hysteria2/QUIC - 22000 § 209",
-    "🇺🇸 44 - US - Hysteria2/QUIC - 44356 § 210",
-    "🇰🇿 45 - KZ - Hysteria2/QUIC - 443 § 211",
-    "🏳️ 46 - XX - Hysteria2/QUIC - 443 § 212",
-    "🇫🇮 47 - FI - Hysteria2/QUIC - 8080 § 213",
-    "🇫🇮 48 - FI - Hysteria2/QUIC - 8443 § 214",
-    "🇫🇮 49 - FI - Hysteria2/QUIC - 8443 § 215",
-    "🇩🇪 50 - DE - Hysteria2/QUIC - 443 § 216",
-    "🇩🇪 51 - DE - Hysteria2/QUIC - 443 § 217",
-    "🇩🇪 52 - DE - Hysteria2/QUIC - 443 § 218",
-    "🇳🇱 53 - NL - Hysteria2/QUIC - 443 § 219",
-    "🇳🇱 54 - NL - Hysteria2/QUIC - 443 § 220",
-    "🇳🇱 55 - NL - Hysteria2/QUIC - 8443 § 221",
-    "🇳🇱 56 - NL - Hysteria2/QUIC - 8443 § 222",
-    "🇳🇱 57 - NL - Hysteria2/QUIC - 8443 § 223",
-    "🇳🇱 58 - NL - Hysteria2/QUIC - 8443 § 224",
-    "🇳🇱 59 - NL - Hysteria2/QUIC - 8443 § 225",
-    "🇳🇱 60 - NL - Hysteria2/QUIC - 8443 § 226",
-    "🇳🇱 61 - NL - Hysteria2/QUIC - 8443 § 227",
-    "🇳🇱 62 - NL - Hysteria2/QUIC - 8443 § 228",
-    "🇳🇱 63 - NL - Hysteria2/QUIC - 8443 § 229",
-    "🇺🇸 64 - US - Hysteria2/QUIC - 443 § 230",
-    "🇺🇸 65 - US - Hysteria2/QUIC - 443 § 231",
-    "🇺🇸 66 - US - Hysteria2/QUIC - 443 § 232",
-    "🇺🇸 67 - US - Hysteria2/QUIC - 8443 § 233",
-    "🇩🇪 68 - DE - Hysteria2/QUIC - 443 § 234",
-    "🇩🇪 69 - DE - Hysteria2/QUIC - 443 § 235",
-    "🇷🇺 70 - RU - Hysteria2/QUIC - 443 § 236",
-    "🇳🇱 71 - NL - Hysteria2/QUIC - 443 § 237",
-    "🇳🇱 72 - NL - Hysteria2/QUIC - 443 § 238",
-    "🇩🇪 73 - DE - Hysteria2/QUIC - 6443 § 239",
-    "🇯🇵 7 - JP - VMess/WS - 80 § 240",
-    "🇯🇵 8 - JP - VMess/WS - 80 § 241",
-    "🇯🇵 9 - JP - VMess/WS - 80 § 242",
-    "🇮🇳 25 - IN - VMess/WS/TLS - 443 § 243",
-    "🇮🇳 26 - IN - VMess/WS - 80 § 244",
-    "🇺🇸 27 - US - VMess/WS/TLS - 443 § 245",
-    "🇰🇷 30 - KR - VMess/WS - 80 § 246",
-    "🇰🇷 31 - KR - VMess - 443 § 247",
-    "🇳🇱 32 - NL - VMess/WS - 33736 § 248",
-    "🇸🇬 33 - SG - VMess - 18000 § 249",
-    "🇺🇸 34 - US - VMess/WS - 39495 § 250",
-    "🇺🇸 35 - US - VMess/WS/TLS - 443 § 251",
-    "🇺🇸 36 - US - VMess - 48111 § 252",
-    "🇺🇸 37 - US - VMess/WS - 39495 § 253",
-    "🇺🇸 38 - US - VMess/WS/TLS - 443 § 254",
-    "🇬🇧 41 - GB - VMess/WS - 80 § 255",
-    "🇸🇬 52 - SG - VMess - 18000 § 256",
-    "🇭🇰 53 - HK - VMess/WS - 35043 § 257",
-    "🇺🇸 62 - US - VMess - 22324 § 258",
-    "🇺🇸 64 - US - VMess - 22324 § 259",
-    "🇸🇬 66 - SG - VMess - 18000 § 260"
+    "Telegram---bored_vpn&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=b33ec4a1s226.fuhuovps.xyz&fp=chrome&ech=cloudflare-ech.com+udp://1.1.1.1&type=xhttp&allowInsecure=0&sni=b33ec4a1s226.fuhuovps.xyz#🇺🇸 57 - US - VLESS/XHTTP/TLS/UTLS - 443 § 0",
+    "🇺🇸 93 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 1",
+    "🇺🇸 94 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 2",
+    "🇺🇸 95 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 3",
+    "🇺🇸 96 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 4",
+    "🇺🇸 97 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 5",
+    "🇺🇸 98 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 6",
+    "🇺🇸 99 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 7",
+    "🇳🇱 100 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 8",
+    "🇳🇱 101 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 9",
+    "🇳🇱 102 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 10",
+    "🇳🇱 103 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 11",
+    "🇳🇱 104 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 12",
+    "🇳🇱 105 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 13",
+    "🇳🇱 106 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 14",
+    "🇳🇱 107 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 15",
+    "🇳🇱 108 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 16",
+    "🇳🇱 109 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 17",
+    "🇳🇱 110 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 18",
+    "🇳🇱 111 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 19",
+    "🇳🇱 112 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 20",
+    "🇳🇱 113 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 21",
+    "🇳🇱 114 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 22",
+    "🇳🇱 115 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 23",
+    "🇫🇷 116 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 24",
+    "🇫🇷 117 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 25",
+    "🇺🇸 118 - US - VLESS/REALITY/PBK/SID/VISION - 23576 § 26",
+    "🇷🇺 150 - RU - VLESS/RAW/REALITY/PBK/SID/UTLS - 26424 § 27",
+    "🇪🇪 154 - EE - VLESS/WS/TLS - 8443 § 28",
+    "🇸🇪 306 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 29",
+    "🇸🇪 307 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 30",
+    "🇸🇪 309 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 31",
+    "🇸🇪 310 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 32",
+    "🇸🇪 311 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 33",
+    "🇩🇪 313 - DE - VLESS/REALITY/PBK/SID/VISION - 443 § 34",
+    "🇬🇧 327 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 35",
+    "🇳🇱 1 - NL - SS/AEAD - 8080 § 36",
+    "🇮🇩 4 - ID - SS/AEAD - 31348 § 37",
+    "🇩🇪 8 - DE - SS/AEAD - 8388 § 38",
+    "🇩🇪 9 - DE - SS/AEAD - 8388 § 39",
+    "🇿🇦 10 - ZA - SS/AEAD - 8388 § 40",
+    "🇳🇱 13 - NL - SS/AEAD - 443 § 41",
+    "🇳🇱 28 - NL - SS/AEAD - 8080 § 42",
+    "🇳🇱 29 - NL - SS/AEAD - 8080 § 43",
+    "🇿🇦 32 - ZA - SS/AEAD - 16233 § 44",
+    "🇺🇸 34 - US - SS/AEAD - 443 § 45",
+    "🇳🇱 37 - NL - SS/AEAD - 8080 § 46",
+    "🇳🇱 38 - NL - SS/AEAD - 8080 § 47",
+    "🇳🇱 39 - NL - SS/AEAD - 8080 § 48",
+    "🇳🇱 40 - NL - SS/AEAD - 8080 § 49",
+    "🇳🇱 41 - NL - SS/AEAD - 8080 § 50",
+    "🇳🇱 42 - NL - SS/AEAD - 8080 § 51",
+    "🇳🇱 43 - NL - SS/AEAD - 8080 § 52",
+    "🇳🇱 44 - NL - SS/AEAD - 8080 § 53",
+    "🇳🇱 45 - NL - SS/AEAD - 8080 § 54",
+    "🇳🇱 46 - NL - SS/AEAD - 8080 § 55",
+    "🇳🇱 47 - NL - SS/AEAD - 8080 § 56",
+    "🇳🇱 51 - NL - SS/AEAD - 8080 § 57",
+    "🇳🇱 52 - NL - SS/AEAD - 8080 § 58",
+    "🇳🇱 54 - NL - SS/AEAD - 8080 § 59",
+    "🇳🇱 55 - NL - SS/AEAD - 8080 § 60",
+    "🇳🇱 56 - NL - SS/AEAD - 8080 § 61",
+    "🇳🇱 57 - NL - SS/AEAD - 8080 § 62",
+    "🇳🇱 58 - NL - SS/AEAD - 8080 § 63",
+    "🇳🇱 61 - NL - SS/AEAD - 443 § 64",
+    "🇳🇱 63 - NL - SS/AEAD - 8080 § 65",
+    "🇳🇱 65 - NL - SS/AEAD - 8080 § 66",
+    "🇳🇱 66 - NL - SS/AEAD - 8080 § 67",
+    "🇳🇱 67 - NL - SS/AEAD - 443 § 68",
+    "🇳🇱 68 - NL - SS/AEAD - 8080 § 69",
+    "🇳🇱 69 - NL - SS/AEAD - 443 § 70",
+    "🇳🇱 70 - NL - SS/AEAD - 443 § 71",
+    "🇳🇱 71 - NL - SS/AEAD - 8080 § 72",
+    "🇳🇱 72 - NL - SS/AEAD - 443 § 73",
+    "🇳🇱 73 - NL - SS/AEAD - 443 § 74",
+    "🇳🇱 74 - NL - SS/AEAD - 8080 § 75",
+    "🇳🇱 75 - NL - SS/AEAD - 8080 § 76",
+    "🇳🇱 76 - NL - SS/AEAD - 8080 § 77",
+    "🇳🇱 77 - NL - SS/AEAD - 8080 § 78",
+    "🇳🇱 78 - NL - SS/AEAD - 8080 § 79",
+    "🇳🇱 79 - NL - SS/AEAD - 8080 § 80",
+    "🇳🇱 80 - NL - SS/AEAD - 8080 § 81",
+    "🇳🇱 81 - NL - SS/AEAD - 8080 § 82",
+    "🇳🇱 82 - NL - SS/AEAD - 8080 § 83",
+    "🇳🇱 83 - NL - SS/AEAD - 8080 § 84",
+    "🇳🇱 85 - NL - SS/AEAD - 8080 § 85",
+    "🇳🇱 86 - NL - SS/AEAD - 8080 § 86",
+    "🇳🇱 87 - NL - SS/AEAD - 8080 § 87",
+    "🇳🇱 88 - NL - SS/AEAD - 8080 § 88",
+    "🇳🇱 89 - NL - SS/AEAD - 8080 § 89",
+    "🇳🇱 90 - NL - SS/AEAD - 8080 § 90",
+    "🇳🇱 91 - NL - SS/AEAD - 8080 § 91",
+    "🇳🇱 92 - NL - SS/AEAD - 8080 § 92",
+    "🇳🇱 93 - NL - SS/AEAD - 8080 § 93",
+    "🇳🇱 94 - NL - SS/AEAD - 8080 § 94",
+    "🇳🇱 95 - NL - SS/AEAD - 8080 § 95",
+    "🇳🇱 96 - NL - SS/AEAD - 8080 § 96",
+    "🇬🇧 100 - GB - SS/AEAD - 443 § 97",
+    "🇺🇸 101 - US - SS/AEAD - 443 § 98",
+    "🇳🇱 103 - NL - SS/AEAD - 443 § 99",
+    "🇯🇵 129 - JP - SS/AEAD - 443 § 100",
+    "🇺🇸 131 - US - SS/AEAD - 7307 § 101",
+    "🇬🇧 132 - GB - SS/AEAD - 443 § 102",
+    "🇬🇧 133 - GB - SS/AEAD - 80 § 103",
+    "🇮🇳 134 - IN - SS/AEAD - 7002 § 104",
+    "🇩🇪 135 - DE - SS/AEAD - 7001 § 105",
+    "🇬🇧 136 - GB - SS/AEAD - 7001 § 106",
+    "🇩🇪 138 - DE - SS/AEAD - 8008 § 107",
+    "🇺🇸 140 - US - SS/AEAD - 8888 § 108",
+    "🇨🇦 141 - CA - SS/AEAD - 8118 § 109",
+    "🇬🇧 146 - GB - SS/AEAD - 443 § 110",
+    "🇬🇧 147 - GB - SS/AEAD - 80 § 111",
+    "🇺🇸 148 - US - SS/AEAD - 8882 § 112",
+    "🇩🇪 151 - DE - SS/AEAD - 443 § 113",
+    "🇩🇪 152 - DE - SS/AEAD - 80 § 114",
+    "🇺🇸 157 - US - SS/AEAD - 4444 § 115",
+    "🇹🇭 1 - TH - Hysteria2/QUIC - 55443 § 116",
+    "🇩🇪 2 - DE - Hysteria2/QUIC - 443 § 117",
+    "🇩🇪 3 - DE - Hysteria2/QUIC - 443 § 118",
+    "🇩🇪 4 - DE - Hysteria2/QUIC - 443 § 119",
+    "🇩🇪 5 - DE - Hysteria2/QUIC - 443 § 120",
+    "🇹🇭 6 - TH - Hysteria2/QUIC - 55443 § 121",
+    "🇵🇱 7 - PL - Hysteria2/QUIC - 443 § 122",
+    "🇩🇪 8 - DE - Hysteria2/QUIC - 443 § 123",
+    "🇳🇱 9 - NL - Hysteria2/QUIC - 443 § 124",
+    "🇳🇱 10 - NL - Hysteria2/QUIC - 443 § 125",
+    "🇫🇮 11 - FI - Hysteria2/QUIC - 443 § 126",
+    "🇫🇮 12 - FI - Hysteria2/QUIC - 443 § 127",
+    "🇳🇱 13 - NL - Hysteria2/QUIC - 443 § 128",
+    "🇳🇱 14 - NL - Hysteria2/QUIC - 443 § 129",
+    "🇳🇱 15 - NL - Hysteria2/QUIC - 443 § 130",
+    "🇳🇱 16 - NL - Hysteria2/QUIC - 443 § 131",
+    "🇱🇻 17 - LV - Hysteria2/QUIC - 443 § 132",
+    "🇹🇼 18 - TW - Hysteria2/QUIC - 443 § 133",
+    "🇫🇷 19 - FR - Hysteria2/QUIC - 443 § 134",
+    "🇫🇷 20 - FR - Hysteria2/QUIC - 443 § 135",
+    "🇨🇦 21 - CA - Hysteria2/QUIC - 443 § 136",
+    "🇭🇰 22 - HK - Hysteria2/QUIC - 443 § 137",
+    "🇫🇷 23 - FR - Hysteria2/QUIC - 443 § 138",
+    "🇨🇦 24 - CA - Hysteria2/QUIC - 443 § 139",
+    "🇰🇷 25 - KR - Hysteria2/QUIC - 443 § 140",
+    "🇹🇼 26 - TW - Hysteria2/QUIC - 443 § 141",
+    "🇰🇷 27 - KR - Hysteria2/QUIC - 443 § 142",
+    "🇩🇿 28 - DZ - Hysteria2/QUIC - 8080 § 143",
+    "🇩🇿 29 - DZ - Hysteria2/QUIC - 8080 § 144",
+    "🇳🇱 30 - NL - Hysteria2/QUIC - 443 § 145",
+    "🇳🇱 31 - NL - Hysteria2/QUIC - 443 § 146",
+    "🇮🇹 32 - IT - Hysteria2/QUIC - 8443 § 147",
+    "🇮🇹 33 - IT - Hysteria2/QUIC - 8443 § 148",
+    "🇩🇪 34 - DE - Hysteria2/QUIC - 443 § 149",
+    "🇩🇪 35 - DE - Hysteria2/QUIC - 443 § 150",
+    "🇺🇸 36 - US - Hysteria2/QUIC - 8443 § 151",
+    "🇷🇺 37 - RU - Hysteria2/QUIC - 443 § 152",
+    "🇵🇱 38 - PL - Hysteria2/QUIC - 443 § 153",
+    "🇵🇱 39 - PL - Hysteria2/QUIC - 443 § 154",
+    "🇷🇺 40 - RU - Hysteria2/QUIC - 443 § 155",
+    "🇷🇺 41 - RU - Hysteria2/QUIC - 443 § 156",
+    "🇺🇸 42 - US - Hysteria2/QUIC - 33333 § 157",
+    "🇺🇸 43 - US - Hysteria2/QUIC - 33333 § 158",
+    "🇺🇸 44 - US - Hysteria2/QUIC - 44356 § 159",
+    "🇫🇷 45 - FR - Hysteria2/QUIC - 22000 § 160",
+    "🇺🇸 46 - US - Hysteria2/QUIC - 44356 § 161",
+    "🇰🇿 47 - KZ - Hysteria2/QUIC - 443 § 162",
+    "🏳️ 48 - XX - Hysteria2/QUIC - 443 § 163",
+    "🇫🇮 49 - FI - Hysteria2/QUIC - 8080 § 164",
+    "🇫🇮 50 - FI - Hysteria2/QUIC - 8443 § 165",
+    "🇫🇮 51 - FI - Hysteria2/QUIC - 8443 § 166",
+    "🇩🇪 52 - DE - Hysteria2/QUIC - 443 § 167",
+    "🇩🇪 53 - DE - Hysteria2/QUIC - 443 § 168",
+    "🇩🇪 54 - DE - Hysteria2/QUIC - 443 § 169",
+    "🇳🇱 55 - NL - Hysteria2/QUIC - 443 § 170",
+    "🇳🇱 56 - NL - Hysteria2/QUIC - 443 § 171",
+    "🇳🇱 57 - NL - Hysteria2/QUIC - 8443 § 172",
+    "🇳🇱 58 - NL - Hysteria2/QUIC - 8443 § 173",
+    "🇳🇱 59 - NL - Hysteria2/QUIC - 8443 § 174",
+    "🇳🇱 60 - NL - Hysteria2/QUIC - 8443 § 175",
+    "🇳🇱 61 - NL - Hysteria2/QUIC - 8443 § 176",
+    "🇳🇱 62 - NL - Hysteria2/QUIC - 8443 § 177",
+    "🇳🇱 63 - NL - Hysteria2/QUIC - 8443 § 178",
+    "🇳🇱 64 - NL - Hysteria2/QUIC - 8443 § 179",
+    "🇳🇱 65 - NL - Hysteria2/QUIC - 8443 § 180",
+    "🇺🇸 66 - US - Hysteria2/QUIC - 443 § 181",
+    "🇺🇸 67 - US - Hysteria2/QUIC - 443 § 182",
+    "🇺🇸 68 - US - Hysteria2/QUIC - 443 § 183",
+    "🇺🇸 69 - US - Hysteria2/QUIC - 8443 § 184",
+    "🇩🇪 70 - DE - Hysteria2/QUIC - 443 § 185",
+    "🇩🇪 71 - DE - Hysteria2/QUIC - 443 § 186",
+    "🇷🇺 72 - RU - Hysteria2/QUIC - 443 § 187",
+    "🇳🇱 73 - NL - Hysteria2/QUIC - 443 § 188",
+    "🇳🇱 74 - NL - Hysteria2/QUIC - 443 § 189",
+    "🇩🇪 75 - DE - Hysteria2/QUIC - 6443 § 190",
+    "🇸🇬 19 - SG - VMess - 18000 § 191",
+    "🇸🇬 31 - SG - VMess - 18000 § 192"
    ],
    "default": "auto",
    "interrupt_exist_connections": true
@@ -275,267 +207,199 @@
    "type": "urltest",
    "tag": "auto",
    "outbounds": [
-    "🇺🇸 11 - US - VLESS/REALITY/PBK/VISION - 443 § 0",
-    "🇫🇮 28 - FI - VLESS/REALITY/PBK/SID/UTLS - 2053 § 1",
-    "🇩🇪 36 - DE - VLESS/REALITY/PBK/SID/UTLS - 1081 § 2",
-    "🇩🇪 47 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 3",
-    "🇸🇬 54 - SG - VLESS/REALITY/PBK/SID/VISION - 19825 § 4",
-    "🇬🇧 68 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 51847 § 5",
-    "🇺🇸 88 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 6",
-    "🇺🇸 89 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 7",
-    "🇺🇸 90 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 8",
-    "🇺🇸 91 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 9",
-    "🇺🇸 92 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 10",
-    "🇺🇸 93 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 11",
-    "🇺🇸 94 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 12",
-    "🇳🇱 95 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 13",
-    "🇳🇱 96 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 14",
-    "🇳🇱 97 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 15",
-    "🇳🇱 98 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 16",
-    "🇳🇱 99 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 17",
-    "🇳🇱 100 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 18",
-    "🇳🇱 101 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 19",
-    "🇳🇱 102 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 20",
-    "🇳🇱 103 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 21",
-    "🇳🇱 104 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 22",
-    "🇳🇱 105 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 23",
-    "🇳🇱 106 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 24",
-    "🇳🇱 107 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 25",
-    "🇳🇱 108 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 26",
-    "🇳🇱 109 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 27",
-    "🇳🇱 110 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 28",
-    "🇫🇷 111 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 29",
-    "🇫🇷 112 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 30",
-    "🇺🇸 113 - US - VLESS/REALITY/PBK/SID/VISION - 23576 § 31",
-    "🇷🇺 133 - RU - VLESS/RAW/REALITY/PBK/SID/UTLS - 26424 § 32",
-    "🇪🇪 140 - EE - VLESS/WS/TLS - 8443 § 33",
-    "🇬🇧 208 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 34",
-    "🇫🇷 254 - FR - VLESS/WS/TLS - 443 § 35",
-    "🇩🇪 255 - DE - VLESS/WS/TLS/UTLS - 443 § 36",
-    "🇺🇸 284 - US - VLESS/REALITY/PBK/VISION - 36925 § 37",
-    "🇸🇪 291 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 38",
-    "🇸🇪 292 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 39",
-    "🇸🇪 293 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 40",
-    "🇸🇪 294 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 41",
-    "🇸🇪 295 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 42",
-    "🇸🇪 296 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 43",
-    "🇺🇸 297 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 44",
-    "🇸🇪 298 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 45",
-    "🇬🇧 311 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 46",
-    "🇬🇧 312 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 47",
-    "🇱🇹 342 - LT - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 48",
-    "🇩🇪 1 - DE - Trojan/TLS/UTLS - 443 § 49",
-    "🇩🇪 2 - DE - Trojan/TLS/UTLS - 443 § 50",
-    "🇺🇸 4 - US - Trojan/WS/TLS/UTLS - 443 § 51",
-    "🇰🇷 6 - KR - Trojan/TLS - 443 § 52",
-    "🇸🇬 7 - SG - Trojan/TLS - 443 § 53",
-    "🇯🇵 8 - JP - Trojan/TLS - 443 § 54",
-    "🇯🇵 9 - JP - Trojan/TLS/UTLS - 443 § 55",
-    "🇯🇵 10 - JP - Trojan/TLS/UTLS - 443 § 56",
-    "🇯🇵 11 - JP - Trojan/TLS - 443 § 57",
-    "🇯🇵 12 - JP - Trojan/TLS/UTLS - 443 § 58",
-    "🇭🇰 13 - HK - Trojan/TLS - 443 § 59",
-    "🇵🇱 14 - PL - Trojan/TLS - 443 § 60",
-    "🇯🇵 15 - JP - Trojan/TLS/UTLS - 443 § 61",
-    "🇮🇪 16 - IE - Trojan/TLS - 443 § 62",
-    "🇰🇷 17 - KR - Trojan/TLS - 443 § 63",
-    "🇰🇷 18 - KR - Trojan/TLS - 443 § 64",
-    "🇰🇷 19 - KR - Trojan/TLS - 443 § 65",
-    "🇰🇷 20 - KR - Trojan/TLS/UTLS - 443 § 66",
-    "🇰🇷 21 - KR - Trojan/TLS/UTLS - 443 § 67",
-    "🇺🇸 22 - US - Trojan/TLS/UTLS - 443 § 68",
-    "🇰🇷 23 - KR - Trojan/TLS/UTLS - 443 § 69",
-    "🇰🇷 24 - KR - Trojan/TLS - 443 § 70",
-    "🇰🇷 25 - KR - Trojan/TLS - 443 § 71",
-    "🇯🇵 26 - JP - Trojan/TLS - 443 § 72",
-    "🇯🇵 27 - JP - Trojan/TLS - 443 § 73",
-    "🇺🇸 28 - US - Trojan/TLS - 443 § 74",
-    "🇯🇵 29 - JP - Trojan/TLS - 443 § 75",
-    "🇯🇵 30 - JP - Trojan/TLS - 443 § 76",
-    "🇸🇬 31 - SG - Trojan/TLS - 443 § 77",
-    "🇸🇬 32 - SG - Trojan/TLS/UTLS - 443 § 78",
-    "🇰🇷 33 - KR - Trojan/TLS - 443 § 79",
-    "🇯🇵 34 - JP - Trojan/TLS/UTLS - 443 § 80",
-    "🇯🇵 35 - JP - Trojan/TLS - 443 § 81",
-    "🇯🇵 36 - JP - Trojan/TLS/UTLS - 443 § 82",
-    "🇯🇵 37 - JP - Trojan/TLS - 443 § 83",
-    "🇯🇵 38 - JP - Trojan/TLS/UTLS - 443 § 84",
-    "🇸🇬 39 - SG - Trojan/TLS - 443 § 85",
-    "🇯🇵 40 - JP - Trojan/TLS/UTLS - 443 § 86",
-    "🇯🇵 41 - JP - Trojan/TLS/UTLS - 443 § 87",
-    "🇩🇪 42 - DE - Trojan/TLS - 443 § 88",
-    "🇰🇷 43 - KR - Trojan/TLS/UTLS - 443 § 89",
-    "🇯🇵 44 - JP - Trojan/TLS/UTLS - 443 § 90",
-    "🇰🇷 45 - KR - Trojan/TLS/UTLS - 443 § 91",
-    "🇯🇵 46 - JP - Trojan/TLS/UTLS - 443 § 92",
-    "🇵🇱 47 - PL - Trojan/TLS - 443 § 93",
-    "🇯🇵 48 - JP - Trojan/TLS/UTLS - 443 § 94",
-    "🇯🇵 49 - JP - Trojan/TLS/UTLS - 443 § 95",
-    "🇰🇷 50 - KR - Trojan/TLS/UTLS - 443 § 96",
-    "🇸🇬 51 - SG - Trojan/TLS/UTLS - 443 § 97",
-    "🇯🇵 52 - JP - Trojan/TLS/UTLS - 443 § 98",
-    "🇰🇷 53 - KR - Trojan/TLS/UTLS - 443 § 99",
-    "🇯🇵 54 - JP - Trojan/TLS/UTLS - 443 § 100",
-    "🇯🇵 55 - JP - Trojan/TLS/UTLS - 443 § 101",
-    "🇸🇬 56 - SG - Trojan/TLS/UTLS - 443 § 102",
-    "🇺🇸 57 - US - Trojan/TLS/UTLS - 443 § 103",
-    "🇺🇸 58 - US - Trojan/TLS/UTLS - 443 § 104",
-    "🇸🇬 59 - SG - Trojan/TLS/UTLS - 443 § 105",
-    "🇯🇵 60 - JP - Trojan/TLS/UTLS - 443 § 106",
-    "🇯🇵 61 - JP - Trojan/TLS/UTLS - 443 § 107",
-    "🇸🇬 62 - SG - Trojan/TLS/UTLS - 443 § 108",
-    "🇰🇷 63 - KR - Trojan/TLS/UTLS - 443 § 109",
-    "🇮🇪 64 - IE - Trojan/TLS/UTLS - 443 § 110",
-    "🇰🇷 65 - KR - Trojan/TLS/UTLS - 443 § 111",
-    "🇩🇪 66 - DE - Trojan/TLS/UTLS - 443 § 112",
-    "🇯🇵 67 - JP - Trojan/TLS/UTLS - 443 § 113",
-    "🇰🇷 68 - KR - Trojan/TLS/UTLS - 443 § 114",
-    "🇰🇷 69 - KR - Trojan/TLS/UTLS - 443 § 115",
-    "🇯🇵 70 - JP - Trojan/TLS/UTLS - 443 § 116",
-    "🇰🇷 71 - KR - Trojan/TLS/UTLS - 443 § 117",
-    "🇯🇵 72 - JP - Trojan/TLS/UTLS - 443 § 118",
-    "🇸🇬 73 - SG - Trojan/TLS/UTLS - 443 § 119",
-    "🇩🇪 74 - DE - Trojan/TLS - 443 § 120",
-    "🇰🇷 75 - KR - Trojan/TLS/UTLS - 443 § 121",
-    "🇯🇵 76 - JP - Trojan/TLS/UTLS - 443 § 122",
-    "🇯🇵 77 - JP - Trojan/TLS/UTLS - 443 § 123",
-    "🇸🇬 78 - SG - Trojan/TLS/UTLS - 443 § 124",
-    "🇮🇪 79 - IE - Trojan/TLS/UTLS - 443 § 125",
-    "🇭🇰 80 - HK - Trojan/TLS - 443 § 126",
-    "🇺🇸 81 - US - Trojan/TLS/UTLS - 443 § 127",
-    "🇯🇵 82 - JP - Trojan/TLS/UTLS - 443 § 128",
-    "🇫🇮 83 - FI - Trojan/TLS/UTLS - 443 § 129",
-    "🇦🇪 84 - AE - Trojan/TLS/UTLS - 443 § 130",
-    "🇭🇰 85 - HK - Trojan/TLS/UTLS - 45464 § 131",
-    "🇺🇸 86 - US - Trojan/WS/TLS/UTLS - 2087 § 132",
-    "🇮🇩 3 - ID - SS/AEAD - 31348 § 133",
-    "🇩🇪 6 - DE - SS/AEAD - 8388 § 134",
-    "🇬🇧 15 - GB - SS/AEAD - 8388 § 135",
-    "🇫🇷 16 - FR - SS/AEAD - 8388 § 136",
-    "🇳🇱 17 - NL - SS/AEAD - 8388 § 137",
-    "🇳🇱 18 - NL - SS/AEAD - 8388 § 138",
-    "🇮🇪 19 - IE - SS/AEAD - 443 § 139",
-    "🇳🇱 23 - NL - SS/AEAD - 8080 § 140",
-    "🇳🇱 24 - NL - SS/AEAD - 8080 § 141",
-    "🇺🇸 27 - US - SS/AEAD - 443 § 142",
-    "🇳🇱 30 - NL - SS/AEAD - 8080 § 143",
-    "🇳🇱 31 - NL - SS/AEAD - 8080 § 144",
-    "🇳🇱 32 - NL - SS/AEAD - 8080 § 145",
-    "🇳🇱 33 - NL - SS/AEAD - 8080 § 146",
-    "🇳🇱 34 - NL - SS/AEAD - 8080 § 147",
-    "🇳🇱 35 - NL - SS/AEAD - 8080 § 148",
-    "🇳🇱 36 - NL - SS/AEAD - 8080 § 149",
-    "🇳🇱 39 - NL - SS/AEAD - 8080 § 150",
-    "🇳🇱 41 - NL - SS/AEAD - 8080 § 151",
-    "🇳🇱 45 - NL - SS/AEAD - 8080 § 152",
-    "🇳🇱 46 - NL - SS/AEAD - 8080 § 153",
-    "🇳🇱 47 - NL - SS/AEAD - 443 § 154",
-    "🇳🇱 48 - NL - SS/AEAD - 8080 § 155",
-    "🇳🇱 50 - NL - SS/AEAD - 8080 § 156",
-    "🇳🇱 52 - NL - SS/AEAD - 443 § 157",
-    "🇺🇸 55 - US - SS/AEAD - 7307 § 158",
-    "🇩🇪 57 - DE - SS/AEAD - 8008 § 159",
-    "🇺🇸 59 - US - SS/AEAD - 8888 § 160",
-    "🇨🇦 60 - CA - SS/AEAD - 8118 § 161",
-    "🇭🇰 61 - HK - SS/AEAD - 443 § 162",
-    "🇺🇸 63 - US - SS/AEAD - 2375 § 163",
-    "🇨🇦 65 - CA - SS/AEAD - 8882 § 164",
-    "🇩🇪 66 - DE - SS/AEAD - 80 § 165",
-    "🇰🇷 69 - KR - SS/AEAD - 5498 § 166",
-    "🇹🇭 1 - TH - Hysteria2/QUIC - 55443 § 167",
-    "🇩🇪 2 - DE - Hysteria2/QUIC - 443 § 168",
-    "🇩🇪 3 - DE - Hysteria2/QUIC - 443 § 169",
-    "🇩🇪 4 - DE - Hysteria2/QUIC - 443 § 170",
-    "🇩🇪 5 - DE - Hysteria2/QUIC - 443 § 171",
-    "🇺🇸 6 - US - Hysteria2/QUIC - 443 § 172",
-    "🇹🇭 7 - TH - Hysteria2/QUIC - 55443 § 173",
-    "🇵🇱 8 - PL - Hysteria2/QUIC - 443 § 174",
-    "🇩🇪 9 - DE - Hysteria2/QUIC - 443 § 175",
-    "🇳🇱 10 - NL - Hysteria2/QUIC - 443 § 176",
-    "🇳🇱 11 - NL - Hysteria2/QUIC - 443 § 177",
-    "🇫🇮 12 - FI - Hysteria2/QUIC - 443 § 178",
-    "🇫🇮 13 - FI - Hysteria2/QUIC - 443 § 179",
-    "🇳🇱 14 - NL - Hysteria2/QUIC - 443 § 180",
-    "🇳🇱 15 - NL - Hysteria2/QUIC - 443 § 181",
-    "🇳🇱 16 - NL - Hysteria2/QUIC - 443 § 182",
-    "🇳🇱 17 - NL - Hysteria2/QUIC - 443 § 183",
-    "🇱🇻 18 - LV - Hysteria2/QUIC - 443 § 184",
-    "🇹🇼 19 - TW - Hysteria2/QUIC - 443 § 185",
-    "🇨🇦 20 - CA - Hysteria2/QUIC - 443 § 186",
-    "🇭🇰 21 - HK - Hysteria2/QUIC - 443 § 187",
-    "🇫🇷 22 - FR - Hysteria2/QUIC - 443 § 188",
-    "🇨🇦 23 - CA - Hysteria2/QUIC - 443 § 189",
-    "🇰🇷 24 - KR - Hysteria2/QUIC - 443 § 190",
-    "🇹🇼 25 - TW - Hysteria2/QUIC - 443 § 191",
-    "🇩🇿 26 - DZ - Hysteria2/QUIC - 8080 § 192",
-    "🇩🇿 27 - DZ - Hysteria2/QUIC - 8080 § 193",
-    "🇳🇱 28 - NL - Hysteria2/QUIC - 443 § 194",
-    "🇳🇱 29 - NL - Hysteria2/QUIC - 443 § 195",
-    "🇮🇹 30 - IT - Hysteria2/QUIC - 8443 § 196",
-    "🇮🇹 31 - IT - Hysteria2/QUIC - 8443 § 197",
-    "🇩🇪 32 - DE - Hysteria2/QUIC - 443 § 198",
-    "🇩🇪 33 - DE - Hysteria2/QUIC - 443 § 199",
-    "🇺🇸 34 - US - Hysteria2/QUIC - 8443 § 200",
-    "🇷🇺 35 - RU - Hysteria2/QUIC - 443 § 201",
-    "🇵🇱 36 - PL - Hysteria2/QUIC - 443 § 202",
-    "🇵🇱 37 - PL - Hysteria2/QUIC - 443 § 203",
-    "🇷🇺 38 - RU - Hysteria2/QUIC - 443 § 204",
-    "🇷🇺 39 - RU - Hysteria2/QUIC - 443 § 205",
-    "🇺🇸 40 - US - Hysteria2/QUIC - 33333 § 206",
-    "🇺🇸 41 - US - Hysteria2/QUIC - 33333 § 207",
-    "🇺🇸 42 - US - Hysteria2/QUIC - 44356 § 208",
-    "🇫🇷 43 - FR - Hysteria2/QUIC - 22000 § 209",
-    "🇺🇸 44 - US - Hysteria2/QUIC - 44356 § 210",
-    "🇰🇿 45 - KZ - Hysteria2/QUIC - 443 § 211",
-    "🏳️ 46 - XX - Hysteria2/QUIC - 443 § 212",
-    "🇫🇮 47 - FI - Hysteria2/QUIC - 8080 § 213",
-    "🇫🇮 48 - FI - Hysteria2/QUIC - 8443 § 214",
-    "🇫🇮 49 - FI - Hysteria2/QUIC - 8443 § 215",
-    "🇩🇪 50 - DE - Hysteria2/QUIC - 443 § 216",
-    "🇩🇪 51 - DE - Hysteria2/QUIC - 443 § 217",
-    "🇩🇪 52 - DE - Hysteria2/QUIC - 443 § 218",
-    "🇳🇱 53 - NL - Hysteria2/QUIC - 443 § 219",
-    "🇳🇱 54 - NL - Hysteria2/QUIC - 443 § 220",
-    "🇳🇱 55 - NL - Hysteria2/QUIC - 8443 § 221",
-    "🇳🇱 56 - NL - Hysteria2/QUIC - 8443 § 222",
-    "🇳🇱 57 - NL - Hysteria2/QUIC - 8443 § 223",
-    "🇳🇱 58 - NL - Hysteria2/QUIC - 8443 § 224",
-    "🇳🇱 59 - NL - Hysteria2/QUIC - 8443 § 225",
-    "🇳🇱 60 - NL - Hysteria2/QUIC - 8443 § 226",
-    "🇳🇱 61 - NL - Hysteria2/QUIC - 8443 § 227",
-    "🇳🇱 62 - NL - Hysteria2/QUIC - 8443 § 228",
-    "🇳🇱 63 - NL - Hysteria2/QUIC - 8443 § 229",
-    "🇺🇸 64 - US - Hysteria2/QUIC - 443 § 230",
-    "🇺🇸 65 - US - Hysteria2/QUIC - 443 § 231",
-    "🇺🇸 66 - US - Hysteria2/QUIC - 443 § 232",
-    "🇺🇸 67 - US - Hysteria2/QUIC - 8443 § 233",
-    "🇩🇪 68 - DE - Hysteria2/QUIC - 443 § 234",
-    "🇩🇪 69 - DE - Hysteria2/QUIC - 443 § 235",
-    "🇷🇺 70 - RU - Hysteria2/QUIC - 443 § 236",
-    "🇳🇱 71 - NL - Hysteria2/QUIC - 443 § 237",
-    "🇳🇱 72 - NL - Hysteria2/QUIC - 443 § 238",
-    "🇩🇪 73 - DE - Hysteria2/QUIC - 6443 § 239",
-    "🇯🇵 7 - JP - VMess/WS - 80 § 240",
-    "🇯🇵 8 - JP - VMess/WS - 80 § 241",
-    "🇯🇵 9 - JP - VMess/WS - 80 § 242",
-    "🇮🇳 25 - IN - VMess/WS/TLS - 443 § 243",
-    "🇮🇳 26 - IN - VMess/WS - 80 § 244",
-    "🇺🇸 27 - US - VMess/WS/TLS - 443 § 245",
-    "🇰🇷 30 - KR - VMess/WS - 80 § 246",
-    "🇰🇷 31 - KR - VMess - 443 § 247",
-    "🇳🇱 32 - NL - VMess/WS - 33736 § 248",
-    "🇸🇬 33 - SG - VMess - 18000 § 249",
-    "🇺🇸 34 - US - VMess/WS - 39495 § 250",
-    "🇺🇸 35 - US - VMess/WS/TLS - 443 § 251",
-    "🇺🇸 36 - US - VMess - 48111 § 252",
-    "🇺🇸 37 - US - VMess/WS - 39495 § 253",
-    "🇺🇸 38 - US - VMess/WS/TLS - 443 § 254",
-    "🇬🇧 41 - GB - VMess/WS - 80 § 255",
-    "🇸🇬 52 - SG - VMess - 18000 § 256",
-    "🇭🇰 53 - HK - VMess/WS - 35043 § 257",
-    "🇺🇸 62 - US - VMess - 22324 § 258",
-    "🇺🇸 64 - US - VMess - 22324 § 259",
-    "🇸🇬 66 - SG - VMess - 18000 § 260"
+    "Telegram---bored_vpn&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=b33ec4a1s226.fuhuovps.xyz&fp=chrome&ech=cloudflare-ech.com+udp://1.1.1.1&type=xhttp&allowInsecure=0&sni=b33ec4a1s226.fuhuovps.xyz#🇺🇸 57 - US - VLESS/XHTTP/TLS/UTLS - 443 § 0",
+    "🇺🇸 93 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 1",
+    "🇺🇸 94 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 2",
+    "🇺🇸 95 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 3",
+    "🇺🇸 96 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 4",
+    "🇺🇸 97 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 5",
+    "🇺🇸 98 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 6",
+    "🇺🇸 99 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 7",
+    "🇳🇱 100 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 8",
+    "🇳🇱 101 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 9",
+    "🇳🇱 102 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 10",
+    "🇳🇱 103 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 11",
+    "🇳🇱 104 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 12",
+    "🇳🇱 105 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 13",
+    "🇳🇱 106 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 14",
+    "🇳🇱 107 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 15",
+    "🇳🇱 108 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 16",
+    "🇳🇱 109 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 17",
+    "🇳🇱 110 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 18",
+    "🇳🇱 111 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 19",
+    "🇳🇱 112 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 20",
+    "🇳🇱 113 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 21",
+    "🇳🇱 114 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 22",
+    "🇳🇱 115 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 23",
+    "🇫🇷 116 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 24",
+    "🇫🇷 117 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 25",
+    "🇺🇸 118 - US - VLESS/REALITY/PBK/SID/VISION - 23576 § 26",
+    "🇷🇺 150 - RU - VLESS/RAW/REALITY/PBK/SID/UTLS - 26424 § 27",
+    "🇪🇪 154 - EE - VLESS/WS/TLS - 8443 § 28",
+    "🇸🇪 306 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 29",
+    "🇸🇪 307 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 30",
+    "🇸🇪 309 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 31",
+    "🇸🇪 310 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 32",
+    "🇸🇪 311 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 33",
+    "🇩🇪 313 - DE - VLESS/REALITY/PBK/SID/VISION - 443 § 34",
+    "🇬🇧 327 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 35",
+    "🇳🇱 1 - NL - SS/AEAD - 8080 § 36",
+    "🇮🇩 4 - ID - SS/AEAD - 31348 § 37",
+    "🇩🇪 8 - DE - SS/AEAD - 8388 § 38",
+    "🇩🇪 9 - DE - SS/AEAD - 8388 § 39",
+    "🇿🇦 10 - ZA - SS/AEAD - 8388 § 40",
+    "🇳🇱 13 - NL - SS/AEAD - 443 § 41",
+    "🇳🇱 28 - NL - SS/AEAD - 8080 § 42",
+    "🇳🇱 29 - NL - SS/AEAD - 8080 § 43",
+    "🇿🇦 32 - ZA - SS/AEAD - 16233 § 44",
+    "🇺🇸 34 - US - SS/AEAD - 443 § 45",
+    "🇳🇱 37 - NL - SS/AEAD - 8080 § 46",
+    "🇳🇱 38 - NL - SS/AEAD - 8080 § 47",
+    "🇳🇱 39 - NL - SS/AEAD - 8080 § 48",
+    "🇳🇱 40 - NL - SS/AEAD - 8080 § 49",
+    "🇳🇱 41 - NL - SS/AEAD - 8080 § 50",
+    "🇳🇱 42 - NL - SS/AEAD - 8080 § 51",
+    "🇳🇱 43 - NL - SS/AEAD - 8080 § 52",
+    "🇳🇱 44 - NL - SS/AEAD - 8080 § 53",
+    "🇳🇱 45 - NL - SS/AEAD - 8080 § 54",
+    "🇳🇱 46 - NL - SS/AEAD - 8080 § 55",
+    "🇳🇱 47 - NL - SS/AEAD - 8080 § 56",
+    "🇳🇱 51 - NL - SS/AEAD - 8080 § 57",
+    "🇳🇱 52 - NL - SS/AEAD - 8080 § 58",
+    "🇳🇱 54 - NL - SS/AEAD - 8080 § 59",
+    "🇳🇱 55 - NL - SS/AEAD - 8080 § 60",
+    "🇳🇱 56 - NL - SS/AEAD - 8080 § 61",
+    "🇳🇱 57 - NL - SS/AEAD - 8080 § 62",
+    "🇳🇱 58 - NL - SS/AEAD - 8080 § 63",
+    "🇳🇱 61 - NL - SS/AEAD - 443 § 64",
+    "🇳🇱 63 - NL - SS/AEAD - 8080 § 65",
+    "🇳🇱 65 - NL - SS/AEAD - 8080 § 66",
+    "🇳🇱 66 - NL - SS/AEAD - 8080 § 67",
+    "🇳🇱 67 - NL - SS/AEAD - 443 § 68",
+    "🇳🇱 68 - NL - SS/AEAD - 8080 § 69",
+    "🇳🇱 69 - NL - SS/AEAD - 443 § 70",
+    "🇳🇱 70 - NL - SS/AEAD - 443 § 71",
+    "🇳🇱 71 - NL - SS/AEAD - 8080 § 72",
+    "🇳🇱 72 - NL - SS/AEAD - 443 § 73",
+    "🇳🇱 73 - NL - SS/AEAD - 443 § 74",
+    "🇳🇱 74 - NL - SS/AEAD - 8080 § 75",
+    "🇳🇱 75 - NL - SS/AEAD - 8080 § 76",
+    "🇳🇱 76 - NL - SS/AEAD - 8080 § 77",
+    "🇳🇱 77 - NL - SS/AEAD - 8080 § 78",
+    "🇳🇱 78 - NL - SS/AEAD - 8080 § 79",
+    "🇳🇱 79 - NL - SS/AEAD - 8080 § 80",
+    "🇳🇱 80 - NL - SS/AEAD - 8080 § 81",
+    "🇳🇱 81 - NL - SS/AEAD - 8080 § 82",
+    "🇳🇱 82 - NL - SS/AEAD - 8080 § 83",
+    "🇳🇱 83 - NL - SS/AEAD - 8080 § 84",
+    "🇳🇱 85 - NL - SS/AEAD - 8080 § 85",
+    "🇳🇱 86 - NL - SS/AEAD - 8080 § 86",
+    "🇳🇱 87 - NL - SS/AEAD - 8080 § 87",
+    "🇳🇱 88 - NL - SS/AEAD - 8080 § 88",
+    "🇳🇱 89 - NL - SS/AEAD - 8080 § 89",
+    "🇳🇱 90 - NL - SS/AEAD - 8080 § 90",
+    "🇳🇱 91 - NL - SS/AEAD - 8080 § 91",
+    "🇳🇱 92 - NL - SS/AEAD - 8080 § 92",
+    "🇳🇱 93 - NL - SS/AEAD - 8080 § 93",
+    "🇳🇱 94 - NL - SS/AEAD - 8080 § 94",
+    "🇳🇱 95 - NL - SS/AEAD - 8080 § 95",
+    "🇳🇱 96 - NL - SS/AEAD - 8080 § 96",
+    "🇬🇧 100 - GB - SS/AEAD - 443 § 97",
+    "🇺🇸 101 - US - SS/AEAD - 443 § 98",
+    "🇳🇱 103 - NL - SS/AEAD - 443 § 99",
+    "🇯🇵 129 - JP - SS/AEAD - 443 § 100",
+    "🇺🇸 131 - US - SS/AEAD - 7307 § 101",
+    "🇬🇧 132 - GB - SS/AEAD - 443 § 102",
+    "🇬🇧 133 - GB - SS/AEAD - 80 § 103",
+    "🇮🇳 134 - IN - SS/AEAD - 7002 § 104",
+    "🇩🇪 135 - DE - SS/AEAD - 7001 § 105",
+    "🇬🇧 136 - GB - SS/AEAD - 7001 § 106",
+    "🇩🇪 138 - DE - SS/AEAD - 8008 § 107",
+    "🇺🇸 140 - US - SS/AEAD - 8888 § 108",
+    "🇨🇦 141 - CA - SS/AEAD - 8118 § 109",
+    "🇬🇧 146 - GB - SS/AEAD - 443 § 110",
+    "🇬🇧 147 - GB - SS/AEAD - 80 § 111",
+    "🇺🇸 148 - US - SS/AEAD - 8882 § 112",
+    "🇩🇪 151 - DE - SS/AEAD - 443 § 113",
+    "🇩🇪 152 - DE - SS/AEAD - 80 § 114",
+    "🇺🇸 157 - US - SS/AEAD - 4444 § 115",
+    "🇹🇭 1 - TH - Hysteria2/QUIC - 55443 § 116",
+    "🇩🇪 2 - DE - Hysteria2/QUIC - 443 § 117",
+    "🇩🇪 3 - DE - Hysteria2/QUIC - 443 § 118",
+    "🇩🇪 4 - DE - Hysteria2/QUIC - 443 § 119",
+    "🇩🇪 5 - DE - Hysteria2/QUIC - 443 § 120",
+    "🇹🇭 6 - TH - Hysteria2/QUIC - 55443 § 121",
+    "🇵🇱 7 - PL - Hysteria2/QUIC - 443 § 122",
+    "🇩🇪 8 - DE - Hysteria2/QUIC - 443 § 123",
+    "🇳🇱 9 - NL - Hysteria2/QUIC - 443 § 124",
+    "🇳🇱 10 - NL - Hysteria2/QUIC - 443 § 125",
+    "🇫🇮 11 - FI - Hysteria2/QUIC - 443 § 126",
+    "🇫🇮 12 - FI - Hysteria2/QUIC - 443 § 127",
+    "🇳🇱 13 - NL - Hysteria2/QUIC - 443 § 128",
+    "🇳🇱 14 - NL - Hysteria2/QUIC - 443 § 129",
+    "🇳🇱 15 - NL - Hysteria2/QUIC - 443 § 130",
+    "🇳🇱 16 - NL - Hysteria2/QUIC - 443 § 131",
+    "🇱🇻 17 - LV - Hysteria2/QUIC - 443 § 132",
+    "🇹🇼 18 - TW - Hysteria2/QUIC - 443 § 133",
+    "🇫🇷 19 - FR - Hysteria2/QUIC - 443 § 134",
+    "🇫🇷 20 - FR - Hysteria2/QUIC - 443 § 135",
+    "🇨🇦 21 - CA - Hysteria2/QUIC - 443 § 136",
+    "🇭🇰 22 - HK - Hysteria2/QUIC - 443 § 137",
+    "🇫🇷 23 - FR - Hysteria2/QUIC - 443 § 138",
+    "🇨🇦 24 - CA - Hysteria2/QUIC - 443 § 139",
+    "🇰🇷 25 - KR - Hysteria2/QUIC - 443 § 140",
+    "🇹🇼 26 - TW - Hysteria2/QUIC - 443 § 141",
+    "🇰🇷 27 - KR - Hysteria2/QUIC - 443 § 142",
+    "🇩🇿 28 - DZ - Hysteria2/QUIC - 8080 § 143",
+    "🇩🇿 29 - DZ - Hysteria2/QUIC - 8080 § 144",
+    "🇳🇱 30 - NL - Hysteria2/QUIC - 443 § 145",
+    "🇳🇱 31 - NL - Hysteria2/QUIC - 443 § 146",
+    "🇮🇹 32 - IT - Hysteria2/QUIC - 8443 § 147",
+    "🇮🇹 33 - IT - Hysteria2/QUIC - 8443 § 148",
+    "🇩🇪 34 - DE - Hysteria2/QUIC - 443 § 149",
+    "🇩🇪 35 - DE - Hysteria2/QUIC - 443 § 150",
+    "🇺🇸 36 - US - Hysteria2/QUIC - 8443 § 151",
+    "🇷🇺 37 - RU - Hysteria2/QUIC - 443 § 152",
+    "🇵🇱 38 - PL - Hysteria2/QUIC - 443 § 153",
+    "🇵🇱 39 - PL - Hysteria2/QUIC - 443 § 154",
+    "🇷🇺 40 - RU - Hysteria2/QUIC - 443 § 155",
+    "🇷🇺 41 - RU - Hysteria2/QUIC - 443 § 156",
+    "🇺🇸 42 - US - Hysteria2/QUIC - 33333 § 157",
+    "🇺🇸 43 - US - Hysteria2/QUIC - 33333 § 158",
+    "🇺🇸 44 - US - Hysteria2/QUIC - 44356 § 159",
+    "🇫🇷 45 - FR - Hysteria2/QUIC - 22000 § 160",
+    "🇺🇸 46 - US - Hysteria2/QUIC - 44356 § 161",
+    "🇰🇿 47 - KZ - Hysteria2/QUIC - 443 § 162",
+    "🏳️ 48 - XX - Hysteria2/QUIC - 443 § 163",
+    "🇫🇮 49 - FI - Hysteria2/QUIC - 8080 § 164",
+    "🇫🇮 50 - FI - Hysteria2/QUIC - 8443 § 165",
+    "🇫🇮 51 - FI - Hysteria2/QUIC - 8443 § 166",
+    "🇩🇪 52 - DE - Hysteria2/QUIC - 443 § 167",
+    "🇩🇪 53 - DE - Hysteria2/QUIC - 443 § 168",
+    "🇩🇪 54 - DE - Hysteria2/QUIC - 443 § 169",
+    "🇳🇱 55 - NL - Hysteria2/QUIC - 443 § 170",
+    "🇳🇱 56 - NL - Hysteria2/QUIC - 443 § 171",
+    "🇳🇱 57 - NL - Hysteria2/QUIC - 8443 § 172",
+    "🇳🇱 58 - NL - Hysteria2/QUIC - 8443 § 173",
+    "🇳🇱 59 - NL - Hysteria2/QUIC - 8443 § 174",
+    "🇳🇱 60 - NL - Hysteria2/QUIC - 8443 § 175",
+    "🇳🇱 61 - NL - Hysteria2/QUIC - 8443 § 176",
+    "🇳🇱 62 - NL - Hysteria2/QUIC - 8443 § 177",
+    "🇳🇱 63 - NL - Hysteria2/QUIC - 8443 § 178",
+    "🇳🇱 64 - NL - Hysteria2/QUIC - 8443 § 179",
+    "🇳🇱 65 - NL - Hysteria2/QUIC - 8443 § 180",
+    "🇺🇸 66 - US - Hysteria2/QUIC - 443 § 181",
+    "🇺🇸 67 - US - Hysteria2/QUIC - 443 § 182",
+    "🇺🇸 68 - US - Hysteria2/QUIC - 443 § 183",
+    "🇺🇸 69 - US - Hysteria2/QUIC - 8443 § 184",
+    "🇩🇪 70 - DE - Hysteria2/QUIC - 443 § 185",
+    "🇩🇪 71 - DE - Hysteria2/QUIC - 443 § 186",
+    "🇷🇺 72 - RU - Hysteria2/QUIC - 443 § 187",
+    "🇳🇱 73 - NL - Hysteria2/QUIC - 443 § 188",
+    "🇳🇱 74 - NL - Hysteria2/QUIC - 443 § 189",
+    "🇩🇪 75 - DE - Hysteria2/QUIC - 6443 § 190",
+    "🇸🇬 19 - SG - VMess - 18000 § 191",
+    "🇸🇬 31 - SG - VMess - 18000 § 192"
    ],
    "url": "https://www.gstatic.com/generate_204",
    "interval": "3m",
@@ -546,267 +410,199 @@
    "type": "urltest",
    "tag": "YouTube",
    "outbounds": [
-    "🇺🇸 11 - US - VLESS/REALITY/PBK/VISION - 443 § 0",
-    "🇫🇮 28 - FI - VLESS/REALITY/PBK/SID/UTLS - 2053 § 1",
-    "🇩🇪 36 - DE - VLESS/REALITY/PBK/SID/UTLS - 1081 § 2",
-    "🇩🇪 47 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 3",
-    "🇸🇬 54 - SG - VLESS/REALITY/PBK/SID/VISION - 19825 § 4",
-    "🇬🇧 68 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 51847 § 5",
-    "🇺🇸 88 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 6",
-    "🇺🇸 89 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 7",
-    "🇺🇸 90 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 8",
-    "🇺🇸 91 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 9",
-    "🇺🇸 92 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 10",
-    "🇺🇸 93 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 11",
-    "🇺🇸 94 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 12",
-    "🇳🇱 95 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 13",
-    "🇳🇱 96 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 14",
-    "🇳🇱 97 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 15",
-    "🇳🇱 98 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 16",
-    "🇳🇱 99 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 17",
-    "🇳🇱 100 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 18",
-    "🇳🇱 101 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 19",
-    "🇳🇱 102 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 20",
-    "🇳🇱 103 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 21",
-    "🇳🇱 104 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 22",
-    "🇳🇱 105 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 23",
-    "🇳🇱 106 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 24",
-    "🇳🇱 107 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 25",
-    "🇳🇱 108 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 26",
-    "🇳🇱 109 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 27",
-    "🇳🇱 110 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 28",
-    "🇫🇷 111 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 29",
-    "🇫🇷 112 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 30",
-    "🇺🇸 113 - US - VLESS/REALITY/PBK/SID/VISION - 23576 § 31",
-    "🇷🇺 133 - RU - VLESS/RAW/REALITY/PBK/SID/UTLS - 26424 § 32",
-    "🇪🇪 140 - EE - VLESS/WS/TLS - 8443 § 33",
-    "🇬🇧 208 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 34",
-    "🇫🇷 254 - FR - VLESS/WS/TLS - 443 § 35",
-    "🇩🇪 255 - DE - VLESS/WS/TLS/UTLS - 443 § 36",
-    "🇺🇸 284 - US - VLESS/REALITY/PBK/VISION - 36925 § 37",
-    "🇸🇪 291 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 38",
-    "🇸🇪 292 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 39",
-    "🇸🇪 293 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 40",
-    "🇸🇪 294 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 41",
-    "🇸🇪 295 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 42",
-    "🇸🇪 296 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 43",
-    "🇺🇸 297 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 44",
-    "🇸🇪 298 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 45",
-    "🇬🇧 311 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 46",
-    "🇬🇧 312 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 47",
-    "🇱🇹 342 - LT - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 48",
-    "🇩🇪 1 - DE - Trojan/TLS/UTLS - 443 § 49",
-    "🇩🇪 2 - DE - Trojan/TLS/UTLS - 443 § 50",
-    "🇺🇸 4 - US - Trojan/WS/TLS/UTLS - 443 § 51",
-    "🇰🇷 6 - KR - Trojan/TLS - 443 § 52",
-    "🇸🇬 7 - SG - Trojan/TLS - 443 § 53",
-    "🇯🇵 8 - JP - Trojan/TLS - 443 § 54",
-    "🇯🇵 9 - JP - Trojan/TLS/UTLS - 443 § 55",
-    "🇯🇵 10 - JP - Trojan/TLS/UTLS - 443 § 56",
-    "🇯🇵 11 - JP - Trojan/TLS - 443 § 57",
-    "🇯🇵 12 - JP - Trojan/TLS/UTLS - 443 § 58",
-    "🇭🇰 13 - HK - Trojan/TLS - 443 § 59",
-    "🇵🇱 14 - PL - Trojan/TLS - 443 § 60",
-    "🇯🇵 15 - JP - Trojan/TLS/UTLS - 443 § 61",
-    "🇮🇪 16 - IE - Trojan/TLS - 443 § 62",
-    "🇰🇷 17 - KR - Trojan/TLS - 443 § 63",
-    "🇰🇷 18 - KR - Trojan/TLS - 443 § 64",
-    "🇰🇷 19 - KR - Trojan/TLS - 443 § 65",
-    "🇰🇷 20 - KR - Trojan/TLS/UTLS - 443 § 66",
-    "🇰🇷 21 - KR - Trojan/TLS/UTLS - 443 § 67",
-    "🇺🇸 22 - US - Trojan/TLS/UTLS - 443 § 68",
-    "🇰🇷 23 - KR - Trojan/TLS/UTLS - 443 § 69",
-    "🇰🇷 24 - KR - Trojan/TLS - 443 § 70",
-    "🇰🇷 25 - KR - Trojan/TLS - 443 § 71",
-    "🇯🇵 26 - JP - Trojan/TLS - 443 § 72",
-    "🇯🇵 27 - JP - Trojan/TLS - 443 § 73",
-    "🇺🇸 28 - US - Trojan/TLS - 443 § 74",
-    "🇯🇵 29 - JP - Trojan/TLS - 443 § 75",
-    "🇯🇵 30 - JP - Trojan/TLS - 443 § 76",
-    "🇸🇬 31 - SG - Trojan/TLS - 443 § 77",
-    "🇸🇬 32 - SG - Trojan/TLS/UTLS - 443 § 78",
-    "🇰🇷 33 - KR - Trojan/TLS - 443 § 79",
-    "🇯🇵 34 - JP - Trojan/TLS/UTLS - 443 § 80",
-    "🇯🇵 35 - JP - Trojan/TLS - 443 § 81",
-    "🇯🇵 36 - JP - Trojan/TLS/UTLS - 443 § 82",
-    "🇯🇵 37 - JP - Trojan/TLS - 443 § 83",
-    "🇯🇵 38 - JP - Trojan/TLS/UTLS - 443 § 84",
-    "🇸🇬 39 - SG - Trojan/TLS - 443 § 85",
-    "🇯🇵 40 - JP - Trojan/TLS/UTLS - 443 § 86",
-    "🇯🇵 41 - JP - Trojan/TLS/UTLS - 443 § 87",
-    "🇩🇪 42 - DE - Trojan/TLS - 443 § 88",
-    "🇰🇷 43 - KR - Trojan/TLS/UTLS - 443 § 89",
-    "🇯🇵 44 - JP - Trojan/TLS/UTLS - 443 § 90",
-    "🇰🇷 45 - KR - Trojan/TLS/UTLS - 443 § 91",
-    "🇯🇵 46 - JP - Trojan/TLS/UTLS - 443 § 92",
-    "🇵🇱 47 - PL - Trojan/TLS - 443 § 93",
-    "🇯🇵 48 - JP - Trojan/TLS/UTLS - 443 § 94",
-    "🇯🇵 49 - JP - Trojan/TLS/UTLS - 443 § 95",
-    "🇰🇷 50 - KR - Trojan/TLS/UTLS - 443 § 96",
-    "🇸🇬 51 - SG - Trojan/TLS/UTLS - 443 § 97",
-    "🇯🇵 52 - JP - Trojan/TLS/UTLS - 443 § 98",
-    "🇰🇷 53 - KR - Trojan/TLS/UTLS - 443 § 99",
-    "🇯🇵 54 - JP - Trojan/TLS/UTLS - 443 § 100",
-    "🇯🇵 55 - JP - Trojan/TLS/UTLS - 443 § 101",
-    "🇸🇬 56 - SG - Trojan/TLS/UTLS - 443 § 102",
-    "🇺🇸 57 - US - Trojan/TLS/UTLS - 443 § 103",
-    "🇺🇸 58 - US - Trojan/TLS/UTLS - 443 § 104",
-    "🇸🇬 59 - SG - Trojan/TLS/UTLS - 443 § 105",
-    "🇯🇵 60 - JP - Trojan/TLS/UTLS - 443 § 106",
-    "🇯🇵 61 - JP - Trojan/TLS/UTLS - 443 § 107",
-    "🇸🇬 62 - SG - Trojan/TLS/UTLS - 443 § 108",
-    "🇰🇷 63 - KR - Trojan/TLS/UTLS - 443 § 109",
-    "🇮🇪 64 - IE - Trojan/TLS/UTLS - 443 § 110",
-    "🇰🇷 65 - KR - Trojan/TLS/UTLS - 443 § 111",
-    "🇩🇪 66 - DE - Trojan/TLS/UTLS - 443 § 112",
-    "🇯🇵 67 - JP - Trojan/TLS/UTLS - 443 § 113",
-    "🇰🇷 68 - KR - Trojan/TLS/UTLS - 443 § 114",
-    "🇰🇷 69 - KR - Trojan/TLS/UTLS - 443 § 115",
-    "🇯🇵 70 - JP - Trojan/TLS/UTLS - 443 § 116",
-    "🇰🇷 71 - KR - Trojan/TLS/UTLS - 443 § 117",
-    "🇯🇵 72 - JP - Trojan/TLS/UTLS - 443 § 118",
-    "🇸🇬 73 - SG - Trojan/TLS/UTLS - 443 § 119",
-    "🇩🇪 74 - DE - Trojan/TLS - 443 § 120",
-    "🇰🇷 75 - KR - Trojan/TLS/UTLS - 443 § 121",
-    "🇯🇵 76 - JP - Trojan/TLS/UTLS - 443 § 122",
-    "🇯🇵 77 - JP - Trojan/TLS/UTLS - 443 § 123",
-    "🇸🇬 78 - SG - Trojan/TLS/UTLS - 443 § 124",
-    "🇮🇪 79 - IE - Trojan/TLS/UTLS - 443 § 125",
-    "🇭🇰 80 - HK - Trojan/TLS - 443 § 126",
-    "🇺🇸 81 - US - Trojan/TLS/UTLS - 443 § 127",
-    "🇯🇵 82 - JP - Trojan/TLS/UTLS - 443 § 128",
-    "🇫🇮 83 - FI - Trojan/TLS/UTLS - 443 § 129",
-    "🇦🇪 84 - AE - Trojan/TLS/UTLS - 443 § 130",
-    "🇭🇰 85 - HK - Trojan/TLS/UTLS - 45464 § 131",
-    "🇺🇸 86 - US - Trojan/WS/TLS/UTLS - 2087 § 132",
-    "🇮🇩 3 - ID - SS/AEAD - 31348 § 133",
-    "🇩🇪 6 - DE - SS/AEAD - 8388 § 134",
-    "🇬🇧 15 - GB - SS/AEAD - 8388 § 135",
-    "🇫🇷 16 - FR - SS/AEAD - 8388 § 136",
-    "🇳🇱 17 - NL - SS/AEAD - 8388 § 137",
-    "🇳🇱 18 - NL - SS/AEAD - 8388 § 138",
-    "🇮🇪 19 - IE - SS/AEAD - 443 § 139",
-    "🇳🇱 23 - NL - SS/AEAD - 8080 § 140",
-    "🇳🇱 24 - NL - SS/AEAD - 8080 § 141",
-    "🇺🇸 27 - US - SS/AEAD - 443 § 142",
-    "🇳🇱 30 - NL - SS/AEAD - 8080 § 143",
-    "🇳🇱 31 - NL - SS/AEAD - 8080 § 144",
-    "🇳🇱 32 - NL - SS/AEAD - 8080 § 145",
-    "🇳🇱 33 - NL - SS/AEAD - 8080 § 146",
-    "🇳🇱 34 - NL - SS/AEAD - 8080 § 147",
-    "🇳🇱 35 - NL - SS/AEAD - 8080 § 148",
-    "🇳🇱 36 - NL - SS/AEAD - 8080 § 149",
-    "🇳🇱 39 - NL - SS/AEAD - 8080 § 150",
-    "🇳🇱 41 - NL - SS/AEAD - 8080 § 151",
-    "🇳🇱 45 - NL - SS/AEAD - 8080 § 152",
-    "🇳🇱 46 - NL - SS/AEAD - 8080 § 153",
-    "🇳🇱 47 - NL - SS/AEAD - 443 § 154",
-    "🇳🇱 48 - NL - SS/AEAD - 8080 § 155",
-    "🇳🇱 50 - NL - SS/AEAD - 8080 § 156",
-    "🇳🇱 52 - NL - SS/AEAD - 443 § 157",
-    "🇺🇸 55 - US - SS/AEAD - 7307 § 158",
-    "🇩🇪 57 - DE - SS/AEAD - 8008 § 159",
-    "🇺🇸 59 - US - SS/AEAD - 8888 § 160",
-    "🇨🇦 60 - CA - SS/AEAD - 8118 § 161",
-    "🇭🇰 61 - HK - SS/AEAD - 443 § 162",
-    "🇺🇸 63 - US - SS/AEAD - 2375 § 163",
-    "🇨🇦 65 - CA - SS/AEAD - 8882 § 164",
-    "🇩🇪 66 - DE - SS/AEAD - 80 § 165",
-    "🇰🇷 69 - KR - SS/AEAD - 5498 § 166",
-    "🇹🇭 1 - TH - Hysteria2/QUIC - 55443 § 167",
-    "🇩🇪 2 - DE - Hysteria2/QUIC - 443 § 168",
-    "🇩🇪 3 - DE - Hysteria2/QUIC - 443 § 169",
-    "🇩🇪 4 - DE - Hysteria2/QUIC - 443 § 170",
-    "🇩🇪 5 - DE - Hysteria2/QUIC - 443 § 171",
-    "🇺🇸 6 - US - Hysteria2/QUIC - 443 § 172",
-    "🇹🇭 7 - TH - Hysteria2/QUIC - 55443 § 173",
-    "🇵🇱 8 - PL - Hysteria2/QUIC - 443 § 174",
-    "🇩🇪 9 - DE - Hysteria2/QUIC - 443 § 175",
-    "🇳🇱 10 - NL - Hysteria2/QUIC - 443 § 176",
-    "🇳🇱 11 - NL - Hysteria2/QUIC - 443 § 177",
-    "🇫🇮 12 - FI - Hysteria2/QUIC - 443 § 178",
-    "🇫🇮 13 - FI - Hysteria2/QUIC - 443 § 179",
-    "🇳🇱 14 - NL - Hysteria2/QUIC - 443 § 180",
-    "🇳🇱 15 - NL - Hysteria2/QUIC - 443 § 181",
-    "🇳🇱 16 - NL - Hysteria2/QUIC - 443 § 182",
-    "🇳🇱 17 - NL - Hysteria2/QUIC - 443 § 183",
-    "🇱🇻 18 - LV - Hysteria2/QUIC - 443 § 184",
-    "🇹🇼 19 - TW - Hysteria2/QUIC - 443 § 185",
-    "🇨🇦 20 - CA - Hysteria2/QUIC - 443 § 186",
-    "🇭🇰 21 - HK - Hysteria2/QUIC - 443 § 187",
-    "🇫🇷 22 - FR - Hysteria2/QUIC - 443 § 188",
-    "🇨🇦 23 - CA - Hysteria2/QUIC - 443 § 189",
-    "🇰🇷 24 - KR - Hysteria2/QUIC - 443 § 190",
-    "🇹🇼 25 - TW - Hysteria2/QUIC - 443 § 191",
-    "🇩🇿 26 - DZ - Hysteria2/QUIC - 8080 § 192",
-    "🇩🇿 27 - DZ - Hysteria2/QUIC - 8080 § 193",
-    "🇳🇱 28 - NL - Hysteria2/QUIC - 443 § 194",
-    "🇳🇱 29 - NL - Hysteria2/QUIC - 443 § 195",
-    "🇮🇹 30 - IT - Hysteria2/QUIC - 8443 § 196",
-    "🇮🇹 31 - IT - Hysteria2/QUIC - 8443 § 197",
-    "🇩🇪 32 - DE - Hysteria2/QUIC - 443 § 198",
-    "🇩🇪 33 - DE - Hysteria2/QUIC - 443 § 199",
-    "🇺🇸 34 - US - Hysteria2/QUIC - 8443 § 200",
-    "🇷🇺 35 - RU - Hysteria2/QUIC - 443 § 201",
-    "🇵🇱 36 - PL - Hysteria2/QUIC - 443 § 202",
-    "🇵🇱 37 - PL - Hysteria2/QUIC - 443 § 203",
-    "🇷🇺 38 - RU - Hysteria2/QUIC - 443 § 204",
-    "🇷🇺 39 - RU - Hysteria2/QUIC - 443 § 205",
-    "🇺🇸 40 - US - Hysteria2/QUIC - 33333 § 206",
-    "🇺🇸 41 - US - Hysteria2/QUIC - 33333 § 207",
-    "🇺🇸 42 - US - Hysteria2/QUIC - 44356 § 208",
-    "🇫🇷 43 - FR - Hysteria2/QUIC - 22000 § 209",
-    "🇺🇸 44 - US - Hysteria2/QUIC - 44356 § 210",
-    "🇰🇿 45 - KZ - Hysteria2/QUIC - 443 § 211",
-    "🏳️ 46 - XX - Hysteria2/QUIC - 443 § 212",
-    "🇫🇮 47 - FI - Hysteria2/QUIC - 8080 § 213",
-    "🇫🇮 48 - FI - Hysteria2/QUIC - 8443 § 214",
-    "🇫🇮 49 - FI - Hysteria2/QUIC - 8443 § 215",
-    "🇩🇪 50 - DE - Hysteria2/QUIC - 443 § 216",
-    "🇩🇪 51 - DE - Hysteria2/QUIC - 443 § 217",
-    "🇩🇪 52 - DE - Hysteria2/QUIC - 443 § 218",
-    "🇳🇱 53 - NL - Hysteria2/QUIC - 443 § 219",
-    "🇳🇱 54 - NL - Hysteria2/QUIC - 443 § 220",
-    "🇳🇱 55 - NL - Hysteria2/QUIC - 8443 § 221",
-    "🇳🇱 56 - NL - Hysteria2/QUIC - 8443 § 222",
-    "🇳🇱 57 - NL - Hysteria2/QUIC - 8443 § 223",
-    "🇳🇱 58 - NL - Hysteria2/QUIC - 8443 § 224",
-    "🇳🇱 59 - NL - Hysteria2/QUIC - 8443 § 225",
-    "🇳🇱 60 - NL - Hysteria2/QUIC - 8443 § 226",
-    "🇳🇱 61 - NL - Hysteria2/QUIC - 8443 § 227",
-    "🇳🇱 62 - NL - Hysteria2/QUIC - 8443 § 228",
-    "🇳🇱 63 - NL - Hysteria2/QUIC - 8443 § 229",
-    "🇺🇸 64 - US - Hysteria2/QUIC - 443 § 230",
-    "🇺🇸 65 - US - Hysteria2/QUIC - 443 § 231",
-    "🇺🇸 66 - US - Hysteria2/QUIC - 443 § 232",
-    "🇺🇸 67 - US - Hysteria2/QUIC - 8443 § 233",
-    "🇩🇪 68 - DE - Hysteria2/QUIC - 443 § 234",
-    "🇩🇪 69 - DE - Hysteria2/QUIC - 443 § 235",
-    "🇷🇺 70 - RU - Hysteria2/QUIC - 443 § 236",
-    "🇳🇱 71 - NL - Hysteria2/QUIC - 443 § 237",
-    "🇳🇱 72 - NL - Hysteria2/QUIC - 443 § 238",
-    "🇩🇪 73 - DE - Hysteria2/QUIC - 6443 § 239",
-    "🇯🇵 7 - JP - VMess/WS - 80 § 240",
-    "🇯🇵 8 - JP - VMess/WS - 80 § 241",
-    "🇯🇵 9 - JP - VMess/WS - 80 § 242",
-    "🇮🇳 25 - IN - VMess/WS/TLS - 443 § 243",
-    "🇮🇳 26 - IN - VMess/WS - 80 § 244",
-    "🇺🇸 27 - US - VMess/WS/TLS - 443 § 245",
-    "🇰🇷 30 - KR - VMess/WS - 80 § 246",
-    "🇰🇷 31 - KR - VMess - 443 § 247",
-    "🇳🇱 32 - NL - VMess/WS - 33736 § 248",
-    "🇸🇬 33 - SG - VMess - 18000 § 249",
-    "🇺🇸 34 - US - VMess/WS - 39495 § 250",
-    "🇺🇸 35 - US - VMess/WS/TLS - 443 § 251",
-    "🇺🇸 36 - US - VMess - 48111 § 252",
-    "🇺🇸 37 - US - VMess/WS - 39495 § 253",
-    "🇺🇸 38 - US - VMess/WS/TLS - 443 § 254",
-    "🇬🇧 41 - GB - VMess/WS - 80 § 255",
-    "🇸🇬 52 - SG - VMess - 18000 § 256",
-    "🇭🇰 53 - HK - VMess/WS - 35043 § 257",
-    "🇺🇸 62 - US - VMess - 22324 § 258",
-    "🇺🇸 64 - US - VMess - 22324 § 259",
-    "🇸🇬 66 - SG - VMess - 18000 § 260"
+    "Telegram---bored_vpn&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=b33ec4a1s226.fuhuovps.xyz&fp=chrome&ech=cloudflare-ech.com+udp://1.1.1.1&type=xhttp&allowInsecure=0&sni=b33ec4a1s226.fuhuovps.xyz#🇺🇸 57 - US - VLESS/XHTTP/TLS/UTLS - 443 § 0",
+    "🇺🇸 93 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 1",
+    "🇺🇸 94 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 2",
+    "🇺🇸 95 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 3",
+    "🇺🇸 96 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 4",
+    "🇺🇸 97 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 5",
+    "🇺🇸 98 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 6",
+    "🇺🇸 99 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 7",
+    "🇳🇱 100 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 8",
+    "🇳🇱 101 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 9",
+    "🇳🇱 102 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 10",
+    "🇳🇱 103 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 11",
+    "🇳🇱 104 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 12",
+    "🇳🇱 105 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 13",
+    "🇳🇱 106 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 14",
+    "🇳🇱 107 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 15",
+    "🇳🇱 108 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 16",
+    "🇳🇱 109 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 17",
+    "🇳🇱 110 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 18",
+    "🇳🇱 111 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 19",
+    "🇳🇱 112 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 20",
+    "🇳🇱 113 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 21",
+    "🇳🇱 114 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 22",
+    "🇳🇱 115 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 23",
+    "🇫🇷 116 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 24",
+    "🇫🇷 117 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 25",
+    "🇺🇸 118 - US - VLESS/REALITY/PBK/SID/VISION - 23576 § 26",
+    "🇷🇺 150 - RU - VLESS/RAW/REALITY/PBK/SID/UTLS - 26424 § 27",
+    "🇪🇪 154 - EE - VLESS/WS/TLS - 8443 § 28",
+    "🇸🇪 306 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 29",
+    "🇸🇪 307 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 30",
+    "🇸🇪 309 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 31",
+    "🇸🇪 310 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 32",
+    "🇸🇪 311 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 33",
+    "🇩🇪 313 - DE - VLESS/REALITY/PBK/SID/VISION - 443 § 34",
+    "🇬🇧 327 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 35",
+    "🇳🇱 1 - NL - SS/AEAD - 8080 § 36",
+    "🇮🇩 4 - ID - SS/AEAD - 31348 § 37",
+    "🇩🇪 8 - DE - SS/AEAD - 8388 § 38",
+    "🇩🇪 9 - DE - SS/AEAD - 8388 § 39",
+    "🇿🇦 10 - ZA - SS/AEAD - 8388 § 40",
+    "🇳🇱 13 - NL - SS/AEAD - 443 § 41",
+    "🇳🇱 28 - NL - SS/AEAD - 8080 § 42",
+    "🇳🇱 29 - NL - SS/AEAD - 8080 § 43",
+    "🇿🇦 32 - ZA - SS/AEAD - 16233 § 44",
+    "🇺🇸 34 - US - SS/AEAD - 443 § 45",
+    "🇳🇱 37 - NL - SS/AEAD - 8080 § 46",
+    "🇳🇱 38 - NL - SS/AEAD - 8080 § 47",
+    "🇳🇱 39 - NL - SS/AEAD - 8080 § 48",
+    "🇳🇱 40 - NL - SS/AEAD - 8080 § 49",
+    "🇳🇱 41 - NL - SS/AEAD - 8080 § 50",
+    "🇳🇱 42 - NL - SS/AEAD - 8080 § 51",
+    "🇳🇱 43 - NL - SS/AEAD - 8080 § 52",
+    "🇳🇱 44 - NL - SS/AEAD - 8080 § 53",
+    "🇳🇱 45 - NL - SS/AEAD - 8080 § 54",
+    "🇳🇱 46 - NL - SS/AEAD - 8080 § 55",
+    "🇳🇱 47 - NL - SS/AEAD - 8080 § 56",
+    "🇳🇱 51 - NL - SS/AEAD - 8080 § 57",
+    "🇳🇱 52 - NL - SS/AEAD - 8080 § 58",
+    "🇳🇱 54 - NL - SS/AEAD - 8080 § 59",
+    "🇳🇱 55 - NL - SS/AEAD - 8080 § 60",
+    "🇳🇱 56 - NL - SS/AEAD - 8080 § 61",
+    "🇳🇱 57 - NL - SS/AEAD - 8080 § 62",
+    "🇳🇱 58 - NL - SS/AEAD - 8080 § 63",
+    "🇳🇱 61 - NL - SS/AEAD - 443 § 64",
+    "🇳🇱 63 - NL - SS/AEAD - 8080 § 65",
+    "🇳🇱 65 - NL - SS/AEAD - 8080 § 66",
+    "🇳🇱 66 - NL - SS/AEAD - 8080 § 67",
+    "🇳🇱 67 - NL - SS/AEAD - 443 § 68",
+    "🇳🇱 68 - NL - SS/AEAD - 8080 § 69",
+    "🇳🇱 69 - NL - SS/AEAD - 443 § 70",
+    "🇳🇱 70 - NL - SS/AEAD - 443 § 71",
+    "🇳🇱 71 - NL - SS/AEAD - 8080 § 72",
+    "🇳🇱 72 - NL - SS/AEAD - 443 § 73",
+    "🇳🇱 73 - NL - SS/AEAD - 443 § 74",
+    "🇳🇱 74 - NL - SS/AEAD - 8080 § 75",
+    "🇳🇱 75 - NL - SS/AEAD - 8080 § 76",
+    "🇳🇱 76 - NL - SS/AEAD - 8080 § 77",
+    "🇳🇱 77 - NL - SS/AEAD - 8080 § 78",
+    "🇳🇱 78 - NL - SS/AEAD - 8080 § 79",
+    "🇳🇱 79 - NL - SS/AEAD - 8080 § 80",
+    "🇳🇱 80 - NL - SS/AEAD - 8080 § 81",
+    "🇳🇱 81 - NL - SS/AEAD - 8080 § 82",
+    "🇳🇱 82 - NL - SS/AEAD - 8080 § 83",
+    "🇳🇱 83 - NL - SS/AEAD - 8080 § 84",
+    "🇳🇱 85 - NL - SS/AEAD - 8080 § 85",
+    "🇳🇱 86 - NL - SS/AEAD - 8080 § 86",
+    "🇳🇱 87 - NL - SS/AEAD - 8080 § 87",
+    "🇳🇱 88 - NL - SS/AEAD - 8080 § 88",
+    "🇳🇱 89 - NL - SS/AEAD - 8080 § 89",
+    "🇳🇱 90 - NL - SS/AEAD - 8080 § 90",
+    "🇳🇱 91 - NL - SS/AEAD - 8080 § 91",
+    "🇳🇱 92 - NL - SS/AEAD - 8080 § 92",
+    "🇳🇱 93 - NL - SS/AEAD - 8080 § 93",
+    "🇳🇱 94 - NL - SS/AEAD - 8080 § 94",
+    "🇳🇱 95 - NL - SS/AEAD - 8080 § 95",
+    "🇳🇱 96 - NL - SS/AEAD - 8080 § 96",
+    "🇬🇧 100 - GB - SS/AEAD - 443 § 97",
+    "🇺🇸 101 - US - SS/AEAD - 443 § 98",
+    "🇳🇱 103 - NL - SS/AEAD - 443 § 99",
+    "🇯🇵 129 - JP - SS/AEAD - 443 § 100",
+    "🇺🇸 131 - US - SS/AEAD - 7307 § 101",
+    "🇬🇧 132 - GB - SS/AEAD - 443 § 102",
+    "🇬🇧 133 - GB - SS/AEAD - 80 § 103",
+    "🇮🇳 134 - IN - SS/AEAD - 7002 § 104",
+    "🇩🇪 135 - DE - SS/AEAD - 7001 § 105",
+    "🇬🇧 136 - GB - SS/AEAD - 7001 § 106",
+    "🇩🇪 138 - DE - SS/AEAD - 8008 § 107",
+    "🇺🇸 140 - US - SS/AEAD - 8888 § 108",
+    "🇨🇦 141 - CA - SS/AEAD - 8118 § 109",
+    "🇬🇧 146 - GB - SS/AEAD - 443 § 110",
+    "🇬🇧 147 - GB - SS/AEAD - 80 § 111",
+    "🇺🇸 148 - US - SS/AEAD - 8882 § 112",
+    "🇩🇪 151 - DE - SS/AEAD - 443 § 113",
+    "🇩🇪 152 - DE - SS/AEAD - 80 § 114",
+    "🇺🇸 157 - US - SS/AEAD - 4444 § 115",
+    "🇹🇭 1 - TH - Hysteria2/QUIC - 55443 § 116",
+    "🇩🇪 2 - DE - Hysteria2/QUIC - 443 § 117",
+    "🇩🇪 3 - DE - Hysteria2/QUIC - 443 § 118",
+    "🇩🇪 4 - DE - Hysteria2/QUIC - 443 § 119",
+    "🇩🇪 5 - DE - Hysteria2/QUIC - 443 § 120",
+    "🇹🇭 6 - TH - Hysteria2/QUIC - 55443 § 121",
+    "🇵🇱 7 - PL - Hysteria2/QUIC - 443 § 122",
+    "🇩🇪 8 - DE - Hysteria2/QUIC - 443 § 123",
+    "🇳🇱 9 - NL - Hysteria2/QUIC - 443 § 124",
+    "🇳🇱 10 - NL - Hysteria2/QUIC - 443 § 125",
+    "🇫🇮 11 - FI - Hysteria2/QUIC - 443 § 126",
+    "🇫🇮 12 - FI - Hysteria2/QUIC - 443 § 127",
+    "🇳🇱 13 - NL - Hysteria2/QUIC - 443 § 128",
+    "🇳🇱 14 - NL - Hysteria2/QUIC - 443 § 129",
+    "🇳🇱 15 - NL - Hysteria2/QUIC - 443 § 130",
+    "🇳🇱 16 - NL - Hysteria2/QUIC - 443 § 131",
+    "🇱🇻 17 - LV - Hysteria2/QUIC - 443 § 132",
+    "🇹🇼 18 - TW - Hysteria2/QUIC - 443 § 133",
+    "🇫🇷 19 - FR - Hysteria2/QUIC - 443 § 134",
+    "🇫🇷 20 - FR - Hysteria2/QUIC - 443 § 135",
+    "🇨🇦 21 - CA - Hysteria2/QUIC - 443 § 136",
+    "🇭🇰 22 - HK - Hysteria2/QUIC - 443 § 137",
+    "🇫🇷 23 - FR - Hysteria2/QUIC - 443 § 138",
+    "🇨🇦 24 - CA - Hysteria2/QUIC - 443 § 139",
+    "🇰🇷 25 - KR - Hysteria2/QUIC - 443 § 140",
+    "🇹🇼 26 - TW - Hysteria2/QUIC - 443 § 141",
+    "🇰🇷 27 - KR - Hysteria2/QUIC - 443 § 142",
+    "🇩🇿 28 - DZ - Hysteria2/QUIC - 8080 § 143",
+    "🇩🇿 29 - DZ - Hysteria2/QUIC - 8080 § 144",
+    "🇳🇱 30 - NL - Hysteria2/QUIC - 443 § 145",
+    "🇳🇱 31 - NL - Hysteria2/QUIC - 443 § 146",
+    "🇮🇹 32 - IT - Hysteria2/QUIC - 8443 § 147",
+    "🇮🇹 33 - IT - Hysteria2/QUIC - 8443 § 148",
+    "🇩🇪 34 - DE - Hysteria2/QUIC - 443 § 149",
+    "🇩🇪 35 - DE - Hysteria2/QUIC - 443 § 150",
+    "🇺🇸 36 - US - Hysteria2/QUIC - 8443 § 151",
+    "🇷🇺 37 - RU - Hysteria2/QUIC - 443 § 152",
+    "🇵🇱 38 - PL - Hysteria2/QUIC - 443 § 153",
+    "🇵🇱 39 - PL - Hysteria2/QUIC - 443 § 154",
+    "🇷🇺 40 - RU - Hysteria2/QUIC - 443 § 155",
+    "🇷🇺 41 - RU - Hysteria2/QUIC - 443 § 156",
+    "🇺🇸 42 - US - Hysteria2/QUIC - 33333 § 157",
+    "🇺🇸 43 - US - Hysteria2/QUIC - 33333 § 158",
+    "🇺🇸 44 - US - Hysteria2/QUIC - 44356 § 159",
+    "🇫🇷 45 - FR - Hysteria2/QUIC - 22000 § 160",
+    "🇺🇸 46 - US - Hysteria2/QUIC - 44356 § 161",
+    "🇰🇿 47 - KZ - Hysteria2/QUIC - 443 § 162",
+    "🏳️ 48 - XX - Hysteria2/QUIC - 443 § 163",
+    "🇫🇮 49 - FI - Hysteria2/QUIC - 8080 § 164",
+    "🇫🇮 50 - FI - Hysteria2/QUIC - 8443 § 165",
+    "🇫🇮 51 - FI - Hysteria2/QUIC - 8443 § 166",
+    "🇩🇪 52 - DE - Hysteria2/QUIC - 443 § 167",
+    "🇩🇪 53 - DE - Hysteria2/QUIC - 443 § 168",
+    "🇩🇪 54 - DE - Hysteria2/QUIC - 443 § 169",
+    "🇳🇱 55 - NL - Hysteria2/QUIC - 443 § 170",
+    "🇳🇱 56 - NL - Hysteria2/QUIC - 443 § 171",
+    "🇳🇱 57 - NL - Hysteria2/QUIC - 8443 § 172",
+    "🇳🇱 58 - NL - Hysteria2/QUIC - 8443 § 173",
+    "🇳🇱 59 - NL - Hysteria2/QUIC - 8443 § 174",
+    "🇳🇱 60 - NL - Hysteria2/QUIC - 8443 § 175",
+    "🇳🇱 61 - NL - Hysteria2/QUIC - 8443 § 176",
+    "🇳🇱 62 - NL - Hysteria2/QUIC - 8443 § 177",
+    "🇳🇱 63 - NL - Hysteria2/QUIC - 8443 § 178",
+    "🇳🇱 64 - NL - Hysteria2/QUIC - 8443 § 179",
+    "🇳🇱 65 - NL - Hysteria2/QUIC - 8443 § 180",
+    "🇺🇸 66 - US - Hysteria2/QUIC - 443 § 181",
+    "🇺🇸 67 - US - Hysteria2/QUIC - 443 § 182",
+    "🇺🇸 68 - US - Hysteria2/QUIC - 443 § 183",
+    "🇺🇸 69 - US - Hysteria2/QUIC - 8443 § 184",
+    "🇩🇪 70 - DE - Hysteria2/QUIC - 443 § 185",
+    "🇩🇪 71 - DE - Hysteria2/QUIC - 443 § 186",
+    "🇷🇺 72 - RU - Hysteria2/QUIC - 443 § 187",
+    "🇳🇱 73 - NL - Hysteria2/QUIC - 443 § 188",
+    "🇳🇱 74 - NL - Hysteria2/QUIC - 443 § 189",
+    "🇩🇪 75 - DE - Hysteria2/QUIC - 6443 § 190",
+    "🇸🇬 19 - SG - VMess - 18000 § 191",
+    "🇸🇬 31 - SG - VMess - 18000 § 192"
    ],
    "url": "https://www.youtube.com/generate_204",
    "interval": "3m",
@@ -815,129 +611,15 @@
   },
   {
    "type": "vless",
-   "tag": "🇺🇸 11 - US - VLESS/REALITY/PBK/VISION - 443 § 0",
-   "server": "47.253.226.114",
+   "tag": "Telegram---bored_vpn&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=b33ec4a1s226.fuhuovps.xyz&fp=chrome&ech=cloudflare-ech.com+udp://1.1.1.1&type=xhttp&allowInsecure=0&sni=b33ec4a1s226.fuhuovps.xyz#🇺🇸 57 - US - VLESS/XHTTP/TLS/UTLS - 443 § 0",
+   "server": "188.114.97.6",
    "server_port": 443,
-   "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.cloudflare.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
-     "short_id": ""
-    }
-   }
+   "uuid": "30e52776-55ac-3cb4-8d36-e2910f07e2c3",
+   "packet_encoding": "xudp"
   },
   {
    "type": "vless",
-   "tag": "🇫🇮 28 - FI - VLESS/REALITY/PBK/SID/UTLS - 2053 § 1",
-   "server": "95.216.27.15",
-   "server_port": 2053,
-   "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.google.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-     "short_id": "d368b94e275ab080"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇩🇪 36 - DE - VLESS/REALITY/PBK/SID/UTLS - 1081 § 2",
-   "server": "ststictr.hamiramkemax.ir",
-   "server_port": 1081,
-   "uuid": "250865f0-4a0f-4e2e-8d14-4c39a25d0bef",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www12.gameservice-iramn3.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "edge"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "_UlBf1BRa52KM89xxvfbSHuLZWrvWuGuhvbsL3gx01A",
-     "short_id": "daa22fbb023ab4a2"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇩🇪 47 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 3",
-   "server": "13.143.166.245",
-   "server_port": 443,
-   "uuid": "2a0b565e-904e-4d3b-a7eb-0725d6a2c7cd",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "cdn.jsdelivr.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "safari"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "FuKGULeQ9xZMJN8hWz6J_49tDJKT9HA-nsAXOOVRmyM",
-     "short_id": "ff867ed245c73f43"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇸🇬 54 - SG - VLESS/REALITY/PBK/SID/VISION - 19825 § 4",
-   "server": "146.235.16.130",
-   "server_port": 19825,
-   "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "sg2-8sb.6121999.dpdns.org",
-    "reality": {
-     "enabled": true,
-     "public_key": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
-     "short_id": "6ba85179e30d4fc2"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇬🇧 68 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 51847 § 5",
-   "server": "3.9.135.156",
-   "server_port": 51847,
-   "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.tesla.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc",
-     "short_id": "0eec442e7b34d2f2"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇺🇸 88 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 6",
+   "tag": "🇺🇸 93 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 1",
    "server": "15.204.97.195",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -959,7 +641,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇺🇸 89 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 7",
+   "tag": "🇺🇸 94 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 2",
    "server": "15.204.97.197",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -981,7 +663,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇺🇸 90 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 8",
+   "tag": "🇺🇸 95 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 3",
    "server": "15.204.97.198",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1003,7 +685,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇺🇸 91 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 9",
+   "tag": "🇺🇸 96 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 4",
    "server": "15.204.97.206",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1025,7 +707,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇺🇸 92 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 10",
+   "tag": "🇺🇸 97 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 5",
    "server": "15.204.97.214",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1047,7 +729,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇺🇸 93 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 11",
+   "tag": "🇺🇸 98 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 6",
    "server": "15.204.97.216",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1069,7 +751,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇺🇸 94 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 12",
+   "tag": "🇺🇸 99 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 7",
    "server": "15.204.97.219",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1091,7 +773,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 95 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 13",
+   "tag": "🇳🇱 100 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 8",
    "server": "51.158.206.103",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1113,7 +795,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 96 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 14",
+   "tag": "🇳🇱 101 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 9",
    "server": "51.158.206.12",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1135,7 +817,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 97 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 15",
+   "tag": "🇳🇱 102 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 10",
    "server": "51.158.206.19",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1153,7 +835,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 98 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 16",
+   "tag": "🇳🇱 103 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 11",
    "server": "51.158.206.20",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1171,7 +853,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 99 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 17",
+   "tag": "🇳🇱 104 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 12",
    "server": "51.158.206.25",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1189,7 +871,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 100 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 18",
+   "tag": "🇳🇱 105 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 13",
    "server": "51.158.206.26",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1207,7 +889,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 101 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 19",
+   "tag": "🇳🇱 106 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 14",
    "server": "51.158.206.29",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1225,7 +907,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 102 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 20",
+   "tag": "🇳🇱 107 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 15",
    "server": "51.158.206.34",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1243,7 +925,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 103 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 21",
+   "tag": "🇳🇱 108 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 16",
    "server": "51.158.206.80",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1265,7 +947,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 104 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 22",
+   "tag": "🇳🇱 109 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 17",
    "server": "51.158.206.86",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1283,7 +965,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 105 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 23",
+   "tag": "🇳🇱 110 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 18",
    "server": "51.158.206.87",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1301,7 +983,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 106 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 24",
+   "tag": "🇳🇱 111 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 19",
    "server": "51.158.206.8",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1323,7 +1005,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 107 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 25",
+   "tag": "🇳🇱 112 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 20",
    "server": "51.158.206.93",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1341,7 +1023,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 108 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 26",
+   "tag": "🇳🇱 113 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576 § 21",
    "server": "51.158.206.96",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1363,7 +1045,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 109 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 27",
+   "tag": "🇳🇱 114 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 22",
    "server": "51.158.206.97",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1381,7 +1063,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇳🇱 110 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 28",
+   "tag": "🇳🇱 115 - NL - VLESS/REALITY/PBK/SID/VISION - 23576 § 23",
    "server": "51.158.206.98",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1399,7 +1081,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇫🇷 111 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 29",
+   "tag": "🇫🇷 116 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 24",
    "server": "62.210.91.10",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1417,7 +1099,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇫🇷 112 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 30",
+   "tag": "🇫🇷 117 - FR - VLESS/REALITY/PBK/SID/VISION - 23576 § 25",
    "server": "62.210.91.2",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1435,7 +1117,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇺🇸 113 - US - VLESS/REALITY/PBK/SID/VISION - 23576 § 31",
+   "tag": "🇺🇸 118 - US - VLESS/REALITY/PBK/SID/VISION - 23576 § 26",
    "server": "ww13.levikogjgfdd.ir",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -1453,7 +1135,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇷🇺 133 - RU - VLESS/RAW/REALITY/PBK/SID/UTLS - 26424 § 32",
+   "tag": "🇷🇺 150 - RU - VLESS/RAW/REALITY/PBK/SID/UTLS - 26424 § 27",
    "server": "45.12.75.242",
    "server_port": 26424,
    "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -1474,7 +1156,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇪🇪 140 - EE - VLESS/WS/TLS - 8443 § 33",
+   "tag": "🇪🇪 154 - EE - VLESS/WS/TLS - 8443 § 28",
    "server": "77.72.85.246",
    "server_port": 8443,
    "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
@@ -1496,88 +1178,29 @@
   },
   {
    "type": "vless",
-   "tag": "🇬🇧 208 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 34",
-   "server": "91.208.92.210",
+   "tag": "🇸🇪 306 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 29",
+   "server": "169.40.42.104",
    "server_port": 443,
-   "uuid": "8fc806fa-350b-4548-937a-2bf35f7fe7eb",
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
    "flow": "xtls-rprx-vision",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "uk1.sky-vault.top",
+    "server_name": "yahoo.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "safari"
+     "fingerprint": "ios"
     },
     "reality": {
      "enabled": true,
-     "public_key": "_KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0",
-     "short_id": "ae64c9b46bff174a"
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
     }
    }
   },
   {
    "type": "vless",
-   "tag": "🇫🇷 254 - FR - VLESS/WS/TLS - 443 § 35",
-   "server": "149.202.58.99",
-   "server_port": 443,
-   "uuid": "b585dc5e-55bf-4a8b-913a-27c9ccac05c3",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "bab-6.site",
-    "insecure": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/vws/"
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇩🇪 255 - DE - VLESS/WS/TLS/UTLS - 443 § 36",
-   "server": "81.95.4.189",
-   "server_port": 443,
-   "uuid": "b585dc5e-55bf-4a8b-913a-27c9ccac05c3",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "bab-6.site",
-    "insecure": false,
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/vws/",
-    "headers": {
-     "Host": "bab-6.site"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇺🇸 284 - US - VLESS/REALITY/PBK/VISION - 36925 § 37",
-   "server": "ww9.levikogjgfdd.ir",
-   "server_port": 36925,
-   "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.cloudflare.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0",
-     "short_id": ""
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇸🇪 291 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 38",
+   "tag": "🇸🇪 307 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 30",
    "server": "169.40.42.15",
    "server_port": 443,
    "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -1599,69 +1222,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇸🇪 292 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 39",
-   "server": "169.40.42.184",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "yahoo.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇸🇪 293 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 40",
-   "server": "169.40.42.212",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "yahoo.com",
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇸🇪 294 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 41",
-   "server": "169.40.42.224",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "yahoo.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇸🇪 295 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 42",
+   "tag": "🇸🇪 309 - SE - VLESS/REALITY/PBK/SID/VISION - 443 § 31",
    "server": "169.40.42.232",
    "server_port": 443,
    "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -1682,29 +1243,7 @@
   },
   {
    "type": "vless",
-   "tag": "🇸🇪 296 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 43",
-   "server": "169.40.42.52",
-   "server_port": 443,
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "yahoo.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇺🇸 297 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 44",
+   "tag": "🇸🇪 310 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 32",
    "server": "169.40.42.75",
    "server_port": 443,
    "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -1729,8 +1268,8 @@
   },
   {
    "type": "vless",
-   "tag": "🇸🇪 298 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 45",
-   "server": "169.40.42.95",
+   "tag": "🇸🇪 311 - SE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 33",
+   "server": "169.40.42.89",
    "server_port": 443,
    "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
    "flow": "xtls-rprx-vision",
@@ -1740,7 +1279,7 @@
     "server_name": "yahoo.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "ios"
+     "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
@@ -1751,7 +1290,25 @@
   },
   {
    "type": "vless",
-   "tag": "🇬🇧 311 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 46",
+   "tag": "🇩🇪 313 - DE - VLESS/REALITY/PBK/SID/VISION - 443 § 34",
+   "server": "82.39.171.12",
+   "server_port": 443,
+   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "flow": "xtls-rprx-vision",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "yahoo.com",
+    "reality": {
+     "enabled": true,
+     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "short_id": "c39cc7310a"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "🇬🇧 327 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 35",
    "server": "157.228.155.185",
    "server_port": 443,
    "uuid": "df53b6c2-8005-475c-9eb9-74e1be785dc8",
@@ -1772,1246 +1329,16 @@
    }
   },
   {
-   "type": "vless",
-   "tag": "🇬🇧 312 - GB - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 47",
-   "server": "157.228.160.166",
-   "server_port": 443,
-   "uuid": "df53b6c2-8005-475c-9eb9-74e1be785dc8",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "addons.mozilla.org",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M",
-     "short_id": "3cef317b"
-    }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "🇱🇹 342 - LT - VLESS/REALITY/PBK/SID/VISION/UTLS - 443 § 48",
-   "server": "server.slavkiti.monster",
-   "server_port": 443,
-   "uuid": "fad0b9a6-187d-4fcc-96fc-498bc5b3135a",
-   "flow": "xtls-rprx-vision",
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.foxsports.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
-     "short_id": "8325360e8bd2"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇩🇪 1 - DE - Trojan/TLS/UTLS - 443 § 49",
-   "server": "51.68.164.10",
-   "server_port": 443,
-   "password": "2e631f0c-226a-484b-9e7c-d6c9c444ef13",
-   "tls": {
-    "enabled": true,
-    "server_name": "fmwf6gbnad0a.dop16.com",
-    "alpn": [
-     "http/1.1"
-    ],
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇩🇪 2 - DE - Trojan/TLS/UTLS - 443 § 50",
-   "server": "fmwf6gbnad0a.dop16.com",
-   "server_port": 443,
-   "password": "2e631f0c-226a-484b-9e7c-d6c9c444ef13",
-   "tls": {
-    "enabled": true,
-    "server_name": "fmwf6gbnad0a.dop16.com",
-    "alpn": [
-     "http/1.1"
-    ],
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇺🇸 4 - US - Trojan/WS/TLS/UTLS - 443 § 51",
-   "server": "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev",
-   "server_port": 443,
-   "password": "LcICDcp!jD9TFV$NbH",
-   "tls": {
-    "enabled": true,
-    "server_name": "dl2uF-iVdeZILZ3E86rK18.Hhvt37tjm2XBOsQL5HXogN-Y.woRKERS.dEv",
-    "insecure": false,
-    "alpn": [
-     "http/1.1"
-    ],
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "max_early_data": 2560,
-    "early_data_header_name": "Sec-WebSocket-Protocol",
-    "path": "/tr/pg4wM48V9O859nmqsJg22EOFKN4S570y",
-    "headers": {
-     "Host": "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 6 - KR - Trojan/TLS - 443 § 52",
-   "server": "13.125.69.162",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "engaging-toucan.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇸🇬 7 - SG - Trojan/TLS - 443 § 53",
-   "server": "13.212.81.3",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "holy-lamb.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 8 - JP - Trojan/TLS - 443 § 54",
-   "server": "13.230.139.12",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "brief-glider.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 9 - JP - Trojan/TLS/UTLS - 443 § 55",
-   "server": "13.230.91.226",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "musical-terrier.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 10 - JP - Trojan/TLS/UTLS - 443 § 56",
-   "server": "13.231.247.130",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "concrete-aardvark.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 11 - JP - Trojan/TLS - 443 § 57",
-   "server": "176.34.5.100",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "assuring-skink.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 12 - JP - Trojan/TLS/UTLS - 443 § 58",
-   "server": "18.176.61.69",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "intense-sole.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇭🇰 13 - HK - Trojan/TLS - 443 § 59",
-   "server": "185.244.208.69",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "strong-haddock.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇵🇱 14 - PL - Trojan/TLS - 443 § 60",
-   "server": "202.78.163.237",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "cheerful-swan.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 15 - JP - Trojan/TLS/UTLS - 443 § 61",
-   "server": "3.112.245.255",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "dynamic-imp.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇮🇪 16 - IE - Trojan/TLS - 443 § 62",
-   "server": "3.253.106.233",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "loved-shark.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 17 - KR - Trojan/TLS - 443 § 63",
-   "server": "3.34.131.153",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "pretty-rat.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 18 - KR - Trojan/TLS - 443 § 64",
-   "server": "3.35.168.225",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "noted-cougar.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 19 - KR - Trojan/TLS - 443 § 65",
-   "server": "3.35.207.188",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "main-fawn.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 20 - KR - Trojan/TLS/UTLS - 443 § 66",
-   "server": "3.35.217.113",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "amazing-peacock.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 21 - KR - Trojan/TLS/UTLS - 443 § 67",
-   "server": "3.39.225.215",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "kind-stork.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇺🇸 22 - US - Trojan/TLS/UTLS - 443 § 68",
-   "server": "34.220.15.24",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "guided-ferret.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 23 - KR - Trojan/TLS/UTLS - 443 § 69",
-   "server": "43.201.100.203",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "optimum-snapper.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 24 - KR - Trojan/TLS - 443 § 70",
-   "server": "43.201.252.164",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "balanced-stag.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 25 - KR - Trojan/TLS - 443 § 71",
-   "server": "43.203.172.96",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "neutral-quail.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 26 - JP - Trojan/TLS - 443 § 72",
-   "server": "43.207.198.39",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "fancy-javelin.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 27 - JP - Trojan/TLS - 443 § 73",
-   "server": "43.207.89.91",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "organic-caribou.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇺🇸 28 - US - Trojan/TLS - 443 § 74",
-   "server": "44.255.123.205",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "happy-gibbon.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 29 - JP - Trojan/TLS - 443 § 75",
-   "server": "52.192.217.187",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "evolving-platypus.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 30 - JP - Trojan/TLS - 443 § 76",
-   "server": "52.192.45.137",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "promoted-rattler.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇸🇬 31 - SG - Trojan/TLS - 443 § 77",
-   "server": "52.221.218.179",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "real-cardinal.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇸🇬 32 - SG - Trojan/TLS/UTLS - 443 § 78",
-   "server": "52.221.220.227",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "pet-antelope.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 33 - KR - Trojan/TLS - 443 § 79",
-   "server": "52.78.203.191",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "delicate-buck.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 34 - JP - Trojan/TLS/UTLS - 443 § 80",
-   "server": "54.199.66.128",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "integral-rodent.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 35 - JP - Trojan/TLS - 443 § 81",
-   "server": "54.238.153.132",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "obliging-louse.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 36 - JP - Trojan/TLS/UTLS - 443 § 82",
-   "server": "54.249.36.167",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "comic-poodle.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 37 - JP - Trojan/TLS - 443 § 83",
-   "server": "54.249.55.154",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "prime-corgi.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 38 - JP - Trojan/TLS/UTLS - 443 § 84",
-   "server": "54.250.237.143",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "accurate-frog.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇸🇬 39 - SG - Trojan/TLS - 443 § 85",
-   "server": "54.254.59.149",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "desired-boxer.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 40 - JP - Trojan/TLS/UTLS - 443 § 86",
-   "server": "54.65.177.190",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "winning-marten.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 41 - JP - Trojan/TLS/UTLS - 443 § 87",
-   "server": "accurate-frog.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "accurate-frog.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇩🇪 42 - DE - Trojan/TLS - 443 § 88",
-   "server": "actual-squid.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "actual-squid.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 43 - KR - Trojan/TLS/UTLS - 443 § 89",
-   "server": "amazing-peacock.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "amazing-peacock.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 44 - JP - Trojan/TLS/UTLS - 443 § 90",
-   "server": "assuring-skink.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "assuring-skink.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 45 - KR - Trojan/TLS/UTLS - 443 § 91",
-   "server": "balanced-stag.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "balanced-stag.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 46 - JP - Trojan/TLS/UTLS - 443 § 92",
-   "server": "brief-glider.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "brief-glider.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇵🇱 47 - PL - Trojan/TLS - 443 § 93",
-   "server": "cheerful-swan.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "cheerful-swan.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 48 - JP - Trojan/TLS/UTLS - 443 § 94",
-   "server": "comic-poodle.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "comic-poodle.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 49 - JP - Trojan/TLS/UTLS - 443 § 95",
-   "server": "concrete-aardvark.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "concrete-aardvark.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 50 - KR - Trojan/TLS/UTLS - 443 § 96",
-   "server": "delicate-buck.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "delicate-buck.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇸🇬 51 - SG - Trojan/TLS/UTLS - 443 § 97",
-   "server": "desired-boxer.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "desired-boxer.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 52 - JP - Trojan/TLS/UTLS - 443 § 98",
-   "server": "dynamic-imp.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "dynamic-imp.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 53 - KR - Trojan/TLS/UTLS - 443 § 99",
-   "server": "engaging-toucan.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "engaging-toucan.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 54 - JP - Trojan/TLS/UTLS - 443 § 100",
-   "server": "evolving-platypus.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "evolving-platypus.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 55 - JP - Trojan/TLS/UTLS - 443 § 101",
-   "server": "fancy-javelin.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "fancy-javelin.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇸🇬 56 - SG - Trojan/TLS/UTLS - 443 § 102",
-   "server": "glowing-marmoset.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "glowing-marmoset.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇺🇸 57 - US - Trojan/TLS/UTLS - 443 § 103",
-   "server": "guided-ferret.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "guided-ferret.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇺🇸 58 - US - Trojan/TLS/UTLS - 443 § 104",
-   "server": "happy-gibbon.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "happy-gibbon.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇸🇬 59 - SG - Trojan/TLS/UTLS - 443 § 105",
-   "server": "holy-lamb.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "holy-lamb.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 60 - JP - Trojan/TLS/UTLS - 443 § 106",
-   "server": "integral-rodent.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "integral-rodent.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 61 - JP - Trojan/TLS/UTLS - 443 § 107",
-   "server": "intense-sole.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "intense-sole.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇸🇬 62 - SG - Trojan/TLS/UTLS - 443 § 108",
-   "server": "inviting-ferret.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "inviting-ferret.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 63 - KR - Trojan/TLS/UTLS - 443 § 109",
-   "server": "kind-stork.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "kind-stork.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇮🇪 64 - IE - Trojan/TLS/UTLS - 443 § 110",
-   "server": "loved-shark.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "loved-shark.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 65 - KR - Trojan/TLS/UTLS - 443 § 111",
-   "server": "main-fawn.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "main-fawn.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇩🇪 66 - DE - Trojan/TLS/UTLS - 443 § 112",
-   "server": "meet-goshawk.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "meet-goshawk.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 67 - JP - Trojan/TLS/UTLS - 443 § 113",
-   "server": "musical-terrier.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "musical-terrier.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 68 - KR - Trojan/TLS/UTLS - 443 § 114",
-   "server": "neutral-quail.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "neutral-quail.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 69 - KR - Trojan/TLS/UTLS - 443 § 115",
-   "server": "noted-cougar.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "noted-cougar.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 70 - JP - Trojan/TLS/UTLS - 443 § 116",
-   "server": "obliging-louse.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "obliging-louse.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 71 - KR - Trojan/TLS/UTLS - 443 § 117",
-   "server": "optimum-snapper.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "optimum-snapper.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 72 - JP - Trojan/TLS/UTLS - 443 § 118",
-   "server": "organic-caribou.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "organic-caribou.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇸🇬 73 - SG - Trojan/TLS/UTLS - 443 § 119",
-   "server": "pet-antelope.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "pet-antelope.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇩🇪 74 - DE - Trojan/TLS - 443 § 120",
-   "server": "pleased-albacore.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "pleased-albacore.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇰🇷 75 - KR - Trojan/TLS/UTLS - 443 § 121",
-   "server": "pretty-rat.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "pretty-rat.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 76 - JP - Trojan/TLS/UTLS - 443 § 122",
-   "server": "prime-corgi.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "prime-corgi.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 77 - JP - Trojan/TLS/UTLS - 443 § 123",
-   "server": "promoted-rattler.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "promoted-rattler.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇸🇬 78 - SG - Trojan/TLS/UTLS - 443 § 124",
-   "server": "real-cardinal.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "real-cardinal.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇮🇪 79 - IE - Trojan/TLS/UTLS - 443 § 125",
-   "server": "sacred-anemone.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "sacred-anemone.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇭🇰 80 - HK - Trojan/TLS - 443 § 126",
-   "server": "strong-haddock.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "strong-haddock.rooster465.autos"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇺🇸 81 - US - Trojan/TLS/UTLS - 443 § 127",
-   "server": "ultimate-jaguar.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "ultimate-jaguar.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇯🇵 82 - JP - Trojan/TLS/UTLS - 443 § 128",
-   "server": "winning-marten.rooster465.autos",
-   "server_port": 443,
-   "password": "UX82473651",
-   "tls": {
-    "enabled": true,
-    "server_name": "winning-marten.rooster465.autos",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇫🇮 83 - FI - Trojan/TLS/UTLS - 443 § 129",
-   "server": "fi.zhabulik.ru",
-   "server_port": 443,
-   "password": "WFer-5gN21nfHbVB2N8s71Z74EPUfzVj",
-   "tls": {
-    "enabled": true,
-    "server_name": "fi.zhabulik.ru",
-    "insecure": false,
-    "alpn": [
-     "h2",
-     "http/1.1"
-    ],
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇦🇪 84 - AE - Trojan/TLS/UTLS - 443 § 130",
-   "server": "nl.zhabulik.ru",
-   "server_port": 443,
-   "password": "WFer-5gN21nfHbVB2N8s71Z74EPUfzVj",
-   "tls": {
-    "enabled": true,
-    "server_name": "nl.zhabulik.ru",
-    "alpn": [
-     "h2",
-     "http/1.1"
-    ],
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇭🇰 85 - HK - Trojan/TLS/UTLS - 45464 § 131",
-   "server": "2.27.109.179",
-   "server_port": 45464,
-   "password": "XuMweB2PWs",
-   "tls": {
-    "enabled": true,
-    "server_name": "2.27.109.179.sslip.io",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "🇺🇸 86 - US - Trojan/WS/TLS/UTLS - 2087 § 132",
-   "server": "waysi.waysi6688.workers.dev",
-   "server_port": 2087,
-   "password": "eabf1999fefbb7d2",
-   "tls": {
-    "enabled": true,
-    "server_name": "WaYSi.wAYsI6688.WOrkeRS.deV",
-    "alpn": [
-     "http/1.1"
-    ],
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ",
-    "headers": {
-     "Host": "waysi.waysi6688.workers.dev"
-    }
-   }
+   "type": "shadowsocks",
+   "tag": "🇳🇱 1 - NL - SS/AEAD - 8080 § 36",
+   "server": "193.29.139.234",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "4a2rfixophdjffa8KVA4Aa"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇮🇩 3 - ID - SS/AEAD - 31348 § 133",
+   "tag": "🇮🇩 4 - ID - SS/AEAD - 31348 § 37",
    "server": "103.160.63.199",
    "server_port": 31348,
    "method": "chacha20-ietf-poly1305",
@@ -3019,7 +1346,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇩🇪 6 - DE - SS/AEAD - 8388 § 134",
+   "tag": "🇩🇪 8 - DE - SS/AEAD - 8388 § 38",
+   "server": "209.46.102.22",
+   "server_port": 8388,
+   "method": "chacha20-ietf-poly1305",
+   "password": "1hhrqrokj3ag"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇩🇪 9 - DE - SS/AEAD - 8388 § 39",
    "server": "51.195.126.38",
    "server_port": 8388,
    "method": "chacha20-ietf-poly1305",
@@ -3027,47 +1362,23 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇬🇧 15 - GB - SS/AEAD - 8388 § 135",
-   "server": "51.77.225.200",
+   "tag": "🇿🇦 10 - ZA - SS/AEAD - 8388 § 40",
+   "server": "139.84.247.164",
    "server_port": 8388,
    "method": "chacha20-ietf-poly1305",
-   "password": "zRZNBszYyWo5"
+   "password": "tfAcRikawhNoZAhu"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇫🇷 16 - FR - SS/AEAD - 8388 § 136",
-   "server": "51.255.13.232",
-   "server_port": 8388,
-   "method": "chacha20-ietf-poly1305",
-   "password": "BqnqToih0PbU"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 17 - NL - SS/AEAD - 8388 § 137",
-   "server": "108.181.126.122",
-   "server_port": 8388,
-   "method": "chacha20-ietf-poly1305",
-   "password": "CJmTCCx7Ltud"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇳🇱 18 - NL - SS/AEAD - 8388 § 138",
-   "server": "108.181.58.239",
-   "server_port": 8388,
-   "method": "chacha20-ietf-poly1305",
-   "password": "CJmTCCx7Ltud"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "🇮🇪 19 - IE - SS/AEAD - 443 § 139",
-   "server": "20.223.236.165",
+   "tag": "🇳🇱 13 - NL - SS/AEAD - 443 § 41",
+   "server": "c3.nastuh.link",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
-   "password": "CNL3mxdfZKiPKizL"
+   "password": "y7KeRTzmH0vXT2kp"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 23 - NL - SS/AEAD - 8080 § 140",
+   "tag": "🇳🇱 28 - NL - SS/AEAD - 8080 § 42",
    "server": "193.29.139.168",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3075,7 +1386,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 24 - NL - SS/AEAD - 8080 § 141",
+   "tag": "🇳🇱 29 - NL - SS/AEAD - 8080 § 43",
    "server": "193.29.139.212",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3083,7 +1394,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇺🇸 27 - US - SS/AEAD - 443 § 142",
+   "tag": "🇿🇦 32 - ZA - SS/AEAD - 16233 § 44",
+   "server": "102.133.165.160",
+   "server_port": 16233,
+   "method": "chacha20-ietf-poly1305",
+   "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 34 - US - SS/AEAD - 443 § 45",
    "server": "198.98.53.130",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -3091,7 +1410,39 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 30 - NL - SS/AEAD - 8080 § 143",
+   "tag": "🇳🇱 37 - NL - SS/AEAD - 8080 § 46",
+   "server": "193.29.139.132",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 38 - NL - SS/AEAD - 8080 § 47",
+   "server": "193.29.139.147",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 39 - NL - SS/AEAD - 8080 § 48",
+   "server": "193.29.139.198",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 40 - NL - SS/AEAD - 8080 § 49",
+   "server": "193.29.139.223",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "k1dBOmOB4oqi7Ump37a1bQ"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 41 - NL - SS/AEAD - 8080 § 50",
    "server": "82.38.31.176",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3099,7 +1450,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 31 - NL - SS/AEAD - 8080 § 144",
+   "tag": "🇳🇱 42 - NL - SS/AEAD - 8080 § 51",
    "server": "82.38.31.179",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3107,7 +1458,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 32 - NL - SS/AEAD - 8080 § 145",
+   "tag": "🇳🇱 43 - NL - SS/AEAD - 8080 § 52",
    "server": "82.38.31.186",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3115,7 +1466,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 33 - NL - SS/AEAD - 8080 § 146",
+   "tag": "🇳🇱 44 - NL - SS/AEAD - 8080 § 53",
    "server": "82.38.31.198",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3123,7 +1474,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 34 - NL - SS/AEAD - 8080 § 147",
+   "tag": "🇳🇱 45 - NL - SS/AEAD - 8080 § 54",
    "server": "82.38.31.201",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3131,7 +1482,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 35 - NL - SS/AEAD - 8080 § 148",
+   "tag": "🇳🇱 46 - NL - SS/AEAD - 8080 § 55",
    "server": "82.38.31.205",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3139,7 +1490,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 36 - NL - SS/AEAD - 8080 § 149",
+   "tag": "🇳🇱 47 - NL - SS/AEAD - 8080 § 56",
    "server": "82.38.31.218",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3147,7 +1498,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 39 - NL - SS/AEAD - 8080 § 150",
+   "tag": "🇳🇱 51 - NL - SS/AEAD - 8080 § 57",
    "server": "193.29.139.151",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3155,7 +1506,47 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 41 - NL - SS/AEAD - 8080 § 151",
+   "tag": "🇳🇱 52 - NL - SS/AEAD - 8080 § 58",
+   "server": "193.29.139.179",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 54 - NL - SS/AEAD - 8080 § 59",
+   "server": "193.29.139.188",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 55 - NL - SS/AEAD - 8080 § 60",
+   "server": "193.29.139.197",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 56 - NL - SS/AEAD - 8080 § 61",
+   "server": "193.29.139.202",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 57 - NL - SS/AEAD - 8080 § 62",
+   "server": "193.29.139.204",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 58 - NL - SS/AEAD - 8080 § 63",
    "server": "193.29.139.225",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3163,7 +1554,31 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 45 - NL - SS/AEAD - 8080 § 152",
+   "tag": "🇳🇱 61 - NL - SS/AEAD - 443 § 64",
+   "server": "193.29.139.235",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 63 - NL - SS/AEAD - 8080 § 65",
+   "server": "82.38.31.10",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 65 - NL - SS/AEAD - 8080 § 66",
+   "server": "82.38.31.11",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 66 - NL - SS/AEAD - 8080 § 67",
    "server": "82.38.31.13",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3171,7 +1586,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 46 - NL - SS/AEAD - 8080 § 153",
+   "tag": "🇳🇱 67 - NL - SS/AEAD - 443 § 68",
+   "server": "82.38.31.149",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 68 - NL - SS/AEAD - 8080 § 69",
    "server": "82.38.31.155",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3179,7 +1602,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 47 - NL - SS/AEAD - 443 § 154",
+   "tag": "🇳🇱 69 - NL - SS/AEAD - 443 § 70",
+   "server": "82.38.31.159",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 70 - NL - SS/AEAD - 443 § 71",
    "server": "82.38.31.162",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -3187,15 +1618,199 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 48 - NL - SS/AEAD - 8080 § 155",
-   "server": "82.38.31.174",
+   "tag": "🇳🇱 71 - NL - SS/AEAD - 8080 § 72",
+   "server": "82.38.31.16",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
    "password": "oZIoA69Q8yhcQV8ka3Pa3A"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 50 - NL - SS/AEAD - 8080 § 156",
+   "tag": "🇳🇱 72 - NL - SS/AEAD - 443 § 73",
+   "server": "82.38.31.174",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 73 - NL - SS/AEAD - 443 § 74",
+   "server": "82.38.31.175",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 74 - NL - SS/AEAD - 8080 § 75",
+   "server": "82.38.31.17",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 75 - NL - SS/AEAD - 8080 § 76",
+   "server": "82.38.31.18",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 76 - NL - SS/AEAD - 8080 § 77",
+   "server": "82.38.31.26",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 77 - NL - SS/AEAD - 8080 § 78",
+   "server": "82.38.31.28",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 78 - NL - SS/AEAD - 8080 § 79",
+   "server": "82.38.31.2",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 79 - NL - SS/AEAD - 8080 § 80",
+   "server": "82.38.31.34",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 80 - NL - SS/AEAD - 8080 § 81",
+   "server": "82.38.31.35",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 81 - NL - SS/AEAD - 8080 § 82",
+   "server": "82.38.31.36",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 82 - NL - SS/AEAD - 8080 § 83",
+   "server": "82.38.31.39",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 83 - NL - SS/AEAD - 8080 § 84",
+   "server": "82.38.31.3",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 85 - NL - SS/AEAD - 8080 § 85",
+   "server": "82.38.31.42",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 86 - NL - SS/AEAD - 8080 § 86",
+   "server": "82.38.31.46",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 87 - NL - SS/AEAD - 8080 § 87",
+   "server": "82.38.31.47",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 88 - NL - SS/AEAD - 8080 § 88",
+   "server": "82.38.31.48",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 89 - NL - SS/AEAD - 8080 § 89",
+   "server": "82.38.31.49",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 90 - NL - SS/AEAD - 8080 § 90",
+   "server": "82.38.31.61",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 91 - NL - SS/AEAD - 8080 § 91",
+   "server": "82.38.31.62",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 92 - NL - SS/AEAD - 8080 § 92",
+   "server": "82.38.31.66",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 93 - NL - SS/AEAD - 8080 § 93",
+   "server": "82.38.31.69",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 94 - NL - SS/AEAD - 8080 § 94",
+   "server": "82.38.31.7",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 95 - NL - SS/AEAD - 8080 § 95",
+   "server": "82.38.31.82",
+   "server_port": 8080,
+   "method": "chacha20-ietf-poly1305",
+   "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 96 - NL - SS/AEAD - 8080 § 96",
    "server": "82.38.31.9",
    "server_port": 8080,
    "method": "chacha20-ietf-poly1305",
@@ -3203,7 +1818,23 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇳🇱 52 - NL - SS/AEAD - 443 § 157",
+   "tag": "🇬🇧 100 - GB - SS/AEAD - 443 § 97",
+   "server": "141.98.101.181",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 101 - US - SS/AEAD - 443 § 98",
+   "server": "156.146.38.169",
+   "server_port": 443,
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇳🇱 103 - NL - SS/AEAD - 443 § 99",
    "server": "158.173.20.208",
    "server_port": 443,
    "method": "aes-128-gcm",
@@ -3211,7 +1842,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇺🇸 55 - US - SS/AEAD - 7307 § 158",
+   "tag": "🇯🇵 129 - JP - SS/AEAD - 443 § 100",
+   "server": "84.247.155.196",
+   "server_port": 443,
+   "method": "aes-256-gcm",
+   "password": "3eOFeNssde7PYYMv"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇺🇸 131 - US - SS/AEAD - 7307 § 101",
    "server": "15.204.246.132",
    "server_port": 7307,
    "method": "aes-256-gcm",
@@ -3219,7 +1858,47 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇩🇪 57 - DE - SS/AEAD - 8008 § 159",
+   "tag": "🇬🇧 132 - GB - SS/AEAD - 443 § 102",
+   "server": "149.102.149.207",
+   "server_port": 443,
+   "method": "aes-256-gcm",
+   "password": "LXchLsIwtCeUAUgu"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇬🇧 133 - GB - SS/AEAD - 80 § 103",
+   "server": "149.102.149.207",
+   "server_port": 80,
+   "method": "aes-256-gcm",
+   "password": "LXchLsIwtCeUAUgu"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇮🇳 134 - IN - SS/AEAD - 7002 § 104",
+   "server": "172.105.39.124",
+   "server_port": 7002,
+   "method": "aes-256-gcm",
+   "password": "RexnBgU7EV5ADxG"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇩🇪 135 - DE - SS/AEAD - 7001 § 105",
+   "server": "213.202.208.199",
+   "server_port": 7001,
+   "method": "aes-256-gcm",
+   "password": "RexnBgU7EV5ADxG"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇬🇧 136 - GB - SS/AEAD - 7001 § 106",
+   "server": "94.156.250.148",
+   "server_port": 7001,
+   "method": "aes-256-gcm",
+   "password": "RexnBgU7EV5ADxG"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇩🇪 138 - DE - SS/AEAD - 8008 § 107",
    "server": "185.226.172.8",
    "server_port": 8008,
    "method": "aes-256-gcm",
@@ -3227,7 +1906,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇺🇸 59 - US - SS/AEAD - 8888 § 160",
+   "tag": "🇺🇸 140 - US - SS/AEAD - 8888 § 108",
    "server": "15.204.246.107",
    "server_port": 8888,
    "method": "aes-256-gcm",
@@ -3235,7 +1914,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇨🇦 60 - CA - SS/AEAD - 8118 § 161",
+   "tag": "🇨🇦 141 - CA - SS/AEAD - 8118 § 109",
    "server": "51.79.85.185",
    "server_port": 8118,
    "method": "aes-256-gcm",
@@ -3243,31 +1922,39 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇭🇰 61 - HK - SS/AEAD - 443 § 162",
-   "server": "45.207.207.25",
+   "tag": "🇬🇧 146 - GB - SS/AEAD - 443 § 110",
+   "server": "149.102.132.184",
    "server_port": 443,
    "method": "aes-256-gcm",
-   "password": "gj1+XKulKV0nmw6IThckOkkJh5DSM7+C"
+   "password": "g5h5jleTRSyO3Rk4"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇺🇸 63 - US - SS/AEAD - 2375 § 163",
-   "server": "15.204.247.124",
-   "server_port": 2375,
+   "tag": "🇬🇧 147 - GB - SS/AEAD - 80 § 111",
+   "server": "149.102.132.184",
+   "server_port": 80,
    "method": "aes-256-gcm",
-   "password": "faBAoD54k87UJG7"
+   "password": "g5h5jleTRSyO3Rk4"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇨🇦 65 - CA - SS/AEAD - 8882 § 164",
-   "server": "51.79.49.116",
+   "tag": "🇺🇸 148 - US - SS/AEAD - 8882 § 112",
+   "server": "15.204.233.41",
    "server_port": 8882,
    "method": "aes-256-gcm",
    "password": "kDWvXYZoTBcGkC4"
   },
   {
    "type": "shadowsocks",
-   "tag": "🇩🇪 66 - DE - SS/AEAD - 80 § 165",
+   "tag": "🇩🇪 151 - DE - SS/AEAD - 443 § 113",
+   "server": "2.58.81.221",
+   "server_port": 443,
+   "method": "aes-256-gcm",
+   "password": "kKEd0rBrd56Furjz"
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "🇩🇪 152 - DE - SS/AEAD - 80 § 114",
    "server": "2.58.81.221",
    "server_port": 80,
    "method": "aes-256-gcm",
@@ -3275,15 +1962,15 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "🇰🇷 69 - KR - SS/AEAD - 5498 § 166",
-   "server": "141.164.45.187",
-   "server_port": 5498,
+   "tag": "🇺🇸 157 - US - SS/AEAD - 4444 § 115",
+   "server": "15.204.247.206",
+   "server_port": 4444,
    "method": "aes-256-gcm",
-   "password": "lGqs95QkFHo2NV"
+   "password": "pKEW8JPByTVTLtM"
   },
   {
    "type": "hysteria2",
-   "tag": "🇹🇭 1 - TH - Hysteria2/QUIC - 55443 § 167",
+   "tag": "🇹🇭 1 - TH - Hysteria2/QUIC - 55443 § 116",
    "server": "167.179.34.31",
    "server_port": 55443,
    "password": "083417772bc618cd61f0cca23dd91680",
@@ -3295,7 +1982,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 2 - DE - Hysteria2/QUIC - 443 § 168",
+   "tag": "🇩🇪 2 - DE - Hysteria2/QUIC - 443 § 117",
    "server": "144.31.148.87",
    "server_port": 443,
    "password": "2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f",
@@ -3307,7 +1994,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 3 - DE - Hysteria2/QUIC - 443 § 169",
+   "tag": "🇩🇪 3 - DE - Hysteria2/QUIC - 443 § 118",
    "server": "replay.wwwinternetvideo.click",
    "server_port": 443,
    "password": "2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f",
@@ -3319,7 +2006,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 4 - DE - Hysteria2/QUIC - 443 § 170",
+   "tag": "🇩🇪 4 - DE - Hysteria2/QUIC - 443 § 119",
    "server": "89.125.156.80",
    "server_port": 443,
    "password": "2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o",
@@ -3331,7 +2018,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 5 - DE - Hysteria2/QUIC - 443 § 171",
+   "tag": "🇩🇪 5 - DE - Hysteria2/QUIC - 443 § 120",
    "server": "pixelcast.wwwinternetvideo.click",
    "server_port": 443,
    "password": "2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o",
@@ -3343,18 +2030,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇺🇸 6 - US - Hysteria2/QUIC - 443 § 172",
-   "server": "meow-berlin.nethcloud.top",
-   "server_port": 443,
-   "password": "4cbefb4d-328c-411d-bf76-780df1082df8",
-   "tls": {
-    "enabled": true,
-    "server_name": "meow-berlin.nethcloud.top"
-   }
-  },
-  {
-   "type": "hysteria2",
-   "tag": "🇹🇭 7 - TH - Hysteria2/QUIC - 55443 § 173",
+   "tag": "🇹🇭 6 - TH - Hysteria2/QUIC - 55443 § 121",
    "server": "167.179.34.13",
    "server_port": 55443,
    "password": "6f7a8009ecf6a12e10d03f9d88493c89",
@@ -3366,7 +2042,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇵🇱 8 - PL - Hysteria2/QUIC - 443 § 174",
+   "tag": "🇵🇱 7 - PL - Hysteria2/QUIC - 443 § 122",
    "server": "31.76.22.210",
    "server_port": 443,
    "password": "8674df07-56b3-43ea-b687-aef2b1a20137",
@@ -3378,7 +2054,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 9 - DE - Hysteria2/QUIC - 443 § 175",
+   "tag": "🇩🇪 8 - DE - Hysteria2/QUIC - 443 § 123",
    "server": "fin14qr.wwwinternetvideo.click",
    "server_port": 443,
    "password": "BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=",
@@ -3390,7 +2066,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 10 - NL - Hysteria2/QUIC - 443 § 176",
+   "tag": "🇳🇱 9 - NL - Hysteria2/QUIC - 443 § 124",
    "server": "72.56.102.31",
    "server_port": 443,
    "password": "BWAFlp8g53",
@@ -3401,7 +2077,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 11 - NL - Hysteria2/QUIC - 443 § 177",
+   "tag": "🇳🇱 10 - NL - Hysteria2/QUIC - 443 § 125",
    "server": "hys28.wba-pn.ru",
    "server_port": 443,
    "password": "BWAFlp8g53",
@@ -3412,7 +2088,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇫🇮 12 - FI - Hysteria2/QUIC - 443 § 178",
+   "tag": "🇫🇮 11 - FI - Hysteria2/QUIC - 443 § 126",
    "server": "31.76.30.97",
    "server_port": 443,
    "password": "C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE",
@@ -3424,7 +2100,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇫🇮 13 - FI - Hysteria2/QUIC - 443 § 179",
+   "tag": "🇫🇮 12 - FI - Hysteria2/QUIC - 443 § 127",
    "server": "fast.wwwinternetvideo.click",
    "server_port": 443,
    "password": "C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE",
@@ -3436,7 +2112,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 14 - NL - Hysteria2/QUIC - 443 § 180",
+   "tag": "🇳🇱 13 - NL - Hysteria2/QUIC - 443 § 128",
    "server": "72.56.92.120",
    "server_port": 443,
    "password": "CnVfXXvMzh",
@@ -3448,7 +2124,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 15 - NL - Hysteria2/QUIC - 443 § 181",
+   "tag": "🇳🇱 14 - NL - Hysteria2/QUIC - 443 § 129",
    "server": "hys13.wba-pn.ru",
    "server_port": 443,
    "password": "CnVfXXvMzh",
@@ -3460,7 +2136,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 16 - NL - Hysteria2/QUIC - 443 § 182",
+   "tag": "🇳🇱 15 - NL - Hysteria2/QUIC - 443 § 130",
    "server": "72.56.16.243",
    "server_port": 443,
    "password": "EkF2Yw0Lc7",
@@ -3472,7 +2148,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 17 - NL - Hysteria2/QUIC - 443 § 183",
+   "tag": "🇳🇱 16 - NL - Hysteria2/QUIC - 443 § 131",
    "server": "hys34.wba-pn.ru",
    "server_port": 443,
    "password": "EkF2Yw0Lc7",
@@ -3484,7 +2160,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇱🇻 18 - LV - Hysteria2/QUIC - 443 § 184",
+   "tag": "🇱🇻 17 - LV - Hysteria2/QUIC - 443 § 132",
    "server": "hy2-latvia2.unlimited-access.ru",
    "server_port": 443,
    "password": "GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_",
@@ -3495,7 +2171,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇹🇼 19 - TW - Hysteria2/QUIC - 443 § 185",
+   "tag": "🇹🇼 18 - TW - Hysteria2/QUIC - 443 § 133",
    "server": "103.115.109.49",
    "server_port": 443,
    "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -3507,7 +2183,31 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇨🇦 20 - CA - Hysteria2/QUIC - 443 § 186",
+   "tag": "🇫🇷 19 - FR - Hysteria2/QUIC - 443 § 134",
+   "server": "13.36.234.11",
+   "server_port": 443,
+   "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+   "tls": {
+    "enabled": true,
+    "server_name": "vpn-fr-001.fastervpn.world",
+    "insecure": true
+   }
+  },
+  {
+   "type": "hysteria2",
+   "tag": "🇫🇷 20 - FR - Hysteria2/QUIC - 443 § 135",
+   "server": "13.38.44.64",
+   "server_port": 443,
+   "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+   "tls": {
+    "enabled": true,
+    "server_name": "off",
+    "insecure": true
+   }
+  },
+  {
+   "type": "hysteria2",
+   "tag": "🇨🇦 21 - CA - Hysteria2/QUIC - 443 § 136",
    "server": "15.223.183.81",
    "server_port": 443,
    "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -3519,7 +2219,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇭🇰 21 - HK - Hysteria2/QUIC - 443 § 187",
+   "tag": "🇭🇰 22 - HK - Hysteria2/QUIC - 443 § 137",
    "server": "202.146.222.29",
    "server_port": 443,
    "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -3531,19 +2231,19 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇫🇷 22 - FR - Hysteria2/QUIC - 443 § 188",
+   "tag": "🇫🇷 23 - FR - Hysteria2/QUIC - 443 § 138",
    "server": "35.181.166.40",
    "server_port": 443,
    "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
    "tls": {
     "enabled": true,
-    "server_name": "35.181.166.40",
+    "server_name": "vpn-fr-002.fastervpn.world",
     "insecure": true
    }
   },
   {
    "type": "hysteria2",
-   "tag": "🇨🇦 23 - CA - Hysteria2/QUIC - 443 § 189",
+   "tag": "🇨🇦 24 - CA - Hysteria2/QUIC - 443 § 139",
    "server": "vpn-ca-001.fastervpn.world",
    "server_port": 443,
    "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -3555,7 +2255,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇰🇷 24 - KR - Hysteria2/QUIC - 443 § 190",
+   "tag": "🇰🇷 25 - KR - Hysteria2/QUIC - 443 § 140",
    "server": "vpn-kr-003.fastervpn.world",
    "server_port": 443,
    "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -3567,7 +2267,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇹🇼 25 - TW - Hysteria2/QUIC - 443 § 191",
+   "tag": "🇹🇼 26 - TW - Hysteria2/QUIC - 443 § 141",
    "server": "vpn-tw-002.fastervpn.world",
    "server_port": 443,
    "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -3579,7 +2279,19 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇿 26 - DZ - Hysteria2/QUIC - 8080 § 192",
+   "tag": "🇰🇷 27 - KR - Hysteria2/QUIC - 443 § 142",
+   "server": "vpn-kr-002.fastervpn.world",
+   "server_port": 443,
+   "password": "H7mP2xY9kJ4nQ9wR5tF6vB3z",
+   "tls": {
+    "enabled": true,
+    "server_name": "vpn-kr-002.fastervpn.world",
+    "insecure": true
+   }
+  },
+  {
+   "type": "hysteria2",
+   "tag": "🇩🇿 28 - DZ - Hysteria2/QUIC - 8080 § 143",
    "server": "85.204.107.178",
    "server_port": 8080,
    "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
@@ -3591,7 +2303,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇿 27 - DZ - Hysteria2/QUIC - 8080 § 193",
+   "tag": "🇩🇿 29 - DZ - Hysteria2/QUIC - 8080 § 144",
    "server": "85.204.107.181",
    "server_port": 8080,
    "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
@@ -3603,7 +2315,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 28 - NL - Hysteria2/QUIC - 443 § 194",
+   "tag": "🇳🇱 30 - NL - Hysteria2/QUIC - 443 § 145",
    "server": "195.133.24.124",
    "server_port": 443,
    "password": "OD6gGbGU9a",
@@ -3614,7 +2326,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 29 - NL - Hysteria2/QUIC - 443 § 195",
+   "tag": "🇳🇱 31 - NL - Hysteria2/QUIC - 443 § 146",
    "server": "hys26.wba-pn.ru",
    "server_port": 443,
    "password": "OD6gGbGU9a",
@@ -3625,7 +2337,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇮🇹 30 - IT - Hysteria2/QUIC - 8443 § 196",
+   "tag": "🇮🇹 32 - IT - Hysteria2/QUIC - 8443 § 147",
    "server": "205.237.109.162",
    "server_port": 8443,
    "password": "Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s",
@@ -3637,7 +2349,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇮🇹 31 - IT - Hysteria2/QUIC - 8443 § 197",
+   "tag": "🇮🇹 33 - IT - Hysteria2/QUIC - 8443 § 148",
    "server": "205.237.109.163",
    "server_port": 8443,
    "password": "Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s",
@@ -3649,7 +2361,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 32 - DE - Hysteria2/QUIC - 443 § 198",
+   "tag": "🇩🇪 34 - DE - Hysteria2/QUIC - 443 § 149",
    "server": "144.31.221.57",
    "server_port": 443,
    "password": "V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8",
@@ -3661,7 +2373,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 33 - DE - Hysteria2/QUIC - 443 § 199",
+   "tag": "🇩🇪 35 - DE - Hysteria2/QUIC - 443 § 150",
    "server": "player.wwwinternetvideo.click",
    "server_port": 443,
    "password": "V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8",
@@ -3673,7 +2385,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇺🇸 34 - US - Hysteria2/QUIC - 8443 § 200",
+   "tag": "🇺🇸 36 - US - Hysteria2/QUIC - 8443 § 151",
    "server": "82.38.60.15",
    "server_port": 8443,
    "password": "VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC",
@@ -3685,7 +2397,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇷🇺 35 - RU - Hysteria2/QUIC - 443 § 201",
+   "tag": "🇷🇺 37 - RU - Hysteria2/QUIC - 443 § 152",
    "server": "144.31.49.47",
    "server_port": 443,
    "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
@@ -3697,7 +2409,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇵🇱 36 - PL - Hysteria2/QUIC - 443 § 202",
+   "tag": "🇵🇱 38 - PL - Hysteria2/QUIC - 443 § 153",
    "server": "45.192.12.93",
    "server_port": 443,
    "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
@@ -3708,18 +2420,19 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇵🇱 37 - PL - Hysteria2/QUIC - 443 § 203",
+   "tag": "🇵🇱 39 - PL - Hysteria2/QUIC - 443 § 154",
    "server": "admin.wwwinternetvideo.click",
    "server_port": 443,
    "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
    "tls": {
     "enabled": true,
-    "insecure": true
+    "server_name": "admin.wwwinternetvideo.click",
+    "insecure": false
    }
   },
   {
    "type": "hysteria2",
-   "tag": "🇷🇺 38 - RU - Hysteria2/QUIC - 443 § 204",
+   "tag": "🇷🇺 40 - RU - Hysteria2/QUIC - 443 § 155",
    "server": "go.wwwinternetvideo.click",
    "server_port": 443,
    "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
@@ -3731,7 +2444,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇷🇺 39 - RU - Hysteria2/QUIC - 443 § 205",
+   "tag": "🇷🇺 41 - RU - Hysteria2/QUIC - 443 § 156",
    "server": "go2.wwwinternetvideo.click",
    "server_port": 443,
    "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
@@ -3743,7 +2456,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇺🇸 40 - US - Hysteria2/QUIC - 33333 § 206",
+   "tag": "🇺🇸 42 - US - Hysteria2/QUIC - 33333 § 157",
    "server": "155.248.209.237",
    "server_port": 33333,
    "password": "bce6c821-200d-421f-bf3d-7159e5246ea0",
@@ -3755,7 +2468,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇺🇸 41 - US - Hysteria2/QUIC - 33333 § 207",
+   "tag": "🇺🇸 43 - US - Hysteria2/QUIC - 33333 § 158",
    "server": "hy2.123266.xyz",
    "server_port": 33333,
    "password": "bce6c821-200d-421f-bf3d-7159e5246ea0",
@@ -3766,7 +2479,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇺🇸 42 - US - Hysteria2/QUIC - 44356 § 208",
+   "tag": "🇺🇸 44 - US - Hysteria2/QUIC - 44356 § 159",
    "server": "142.249.37.90",
    "server_port": 44356,
    "password": "dongtaiwang.com",
@@ -3777,7 +2490,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇫🇷 43 - FR - Hysteria2/QUIC - 22000 § 209",
+   "tag": "🇫🇷 45 - FR - Hysteria2/QUIC - 22000 § 160",
    "server": "62.210.124.146",
    "server_port": 22000,
    "password": "dongtaiwang.com",
@@ -3789,7 +2502,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇺🇸 44 - US - Hysteria2/QUIC - 44356 § 210",
+   "tag": "🇺🇸 46 - US - Hysteria2/QUIC - 44356 § 161",
    "server": "hy2.561891.xyz",
    "server_port": 44356,
    "password": "dongtaiwang.com",
@@ -3800,7 +2513,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇰🇿 45 - KZ - Hysteria2/QUIC - 443 § 211",
+   "tag": "🇰🇿 47 - KZ - Hysteria2/QUIC - 443 § 162",
    "server": "194.238.40.185",
    "server_port": 443,
    "password": "eb0e3aec-f67f-4fa2-8577-b0bff0484e77",
@@ -3812,7 +2525,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🏳️ 46 - XX - Hysteria2/QUIC - 443 § 212",
+   "tag": "🏳️ 48 - XX - Hysteria2/QUIC - 443 § 163",
    "server": "kaz0001hy01.packet-drop-society.net",
    "server_port": 443,
    "password": "eb0e3aec-f67f-4fa2-8577-b0bff0484e77",
@@ -3824,7 +2537,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇫🇮 47 - FI - Hysteria2/QUIC - 8080 § 213",
+   "tag": "🇫🇮 49 - FI - Hysteria2/QUIC - 8080 § 164",
    "server": "138.124.0.168",
    "server_port": 8080,
    "password": "h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT",
@@ -3836,7 +2549,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇫🇮 48 - FI - Hysteria2/QUIC - 8443 § 214",
+   "tag": "🇫🇮 50 - FI - Hysteria2/QUIC - 8443 § 165",
    "server": "222.167.212.81",
    "server_port": 8443,
    "password": "h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT",
@@ -3847,7 +2560,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇫🇮 49 - FI - Hysteria2/QUIC - 8443 § 215",
+   "tag": "🇫🇮 51 - FI - Hysteria2/QUIC - 8443 § 166",
    "server": "222.167.212.82",
    "server_port": 8443,
    "password": "h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT",
@@ -3859,7 +2572,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 50 - DE - Hysteria2/QUIC - 443 § 216",
+   "tag": "🇩🇪 52 - DE - Hysteria2/QUIC - 443 § 167",
    "server": "64.188.98.171",
    "server_port": 443,
    "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
@@ -3871,7 +2584,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 51 - DE - Hysteria2/QUIC - 443 § 217",
+   "tag": "🇩🇪 53 - DE - Hysteria2/QUIC - 443 § 168",
    "server": "91.196.32.163",
    "server_port": 443,
    "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
@@ -3883,7 +2596,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 52 - DE - Hysteria2/QUIC - 443 § 218",
+   "tag": "🇩🇪 54 - DE - Hysteria2/QUIC - 443 § 169",
    "server": "de.1.23.h2corp.org",
    "server_port": 443,
    "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
@@ -3895,7 +2608,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 53 - NL - Hysteria2/QUIC - 443 § 219",
+   "tag": "🇳🇱 55 - NL - Hysteria2/QUIC - 443 § 170",
    "server": "201.51.24.4",
    "server_port": 443,
    "password": "oCYFcbOo8s",
@@ -3906,7 +2619,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 54 - NL - Hysteria2/QUIC - 443 § 220",
+   "tag": "🇳🇱 56 - NL - Hysteria2/QUIC - 443 § 171",
    "server": "hys22.wba-pn.ru",
    "server_port": 443,
    "password": "oCYFcbOo8s",
@@ -3917,7 +2630,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 55 - NL - Hysteria2/QUIC - 8443 § 221",
+   "tag": "🇳🇱 57 - NL - Hysteria2/QUIC - 8443 § 172",
    "server": "46.229.243.131",
    "server_port": 8443,
    "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
@@ -3928,7 +2641,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 56 - NL - Hysteria2/QUIC - 8443 § 222",
+   "tag": "🇳🇱 58 - NL - Hysteria2/QUIC - 8443 § 173",
    "server": "46.229.243.132",
    "server_port": 8443,
    "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
@@ -3940,7 +2653,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 57 - NL - Hysteria2/QUIC - 8443 § 223",
+   "tag": "🇳🇱 59 - NL - Hysteria2/QUIC - 8443 § 174",
    "server": "46.229.243.133",
    "server_port": 8443,
    "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
@@ -3951,7 +2664,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 58 - NL - Hysteria2/QUIC - 8443 § 224",
+   "tag": "🇳🇱 60 - NL - Hysteria2/QUIC - 8443 § 175",
    "server": "46.229.243.137",
    "server_port": 8443,
    "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
@@ -3962,7 +2675,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 59 - NL - Hysteria2/QUIC - 8443 § 225",
+   "tag": "🇳🇱 61 - NL - Hysteria2/QUIC - 8443 § 176",
    "server": "46.229.243.138",
    "server_port": 8443,
    "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
@@ -3973,7 +2686,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 60 - NL - Hysteria2/QUIC - 8443 § 226",
+   "tag": "🇳🇱 62 - NL - Hysteria2/QUIC - 8443 § 177",
    "server": "46.229.243.139",
    "server_port": 8443,
    "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
@@ -3985,7 +2698,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 61 - NL - Hysteria2/QUIC - 8443 § 227",
+   "tag": "🇳🇱 63 - NL - Hysteria2/QUIC - 8443 § 178",
    "server": "46.229.243.140",
    "server_port": 8443,
    "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
@@ -3996,7 +2709,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 62 - NL - Hysteria2/QUIC - 8443 § 228",
+   "tag": "🇳🇱 64 - NL - Hysteria2/QUIC - 8443 § 179",
    "server": "46.229.243.142",
    "server_port": 8443,
    "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
@@ -4008,7 +2721,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 63 - NL - Hysteria2/QUIC - 8443 § 229",
+   "tag": "🇳🇱 65 - NL - Hysteria2/QUIC - 8443 § 180",
    "server": "46.229.243.147",
    "server_port": 8443,
    "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
@@ -4020,7 +2733,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇺🇸 64 - US - Hysteria2/QUIC - 443 § 230",
+   "tag": "🇺🇸 66 - US - Hysteria2/QUIC - 443 § 181",
    "server": "217.60.182.79",
    "server_port": 443,
    "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
@@ -4032,7 +2745,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇺🇸 65 - US - Hysteria2/QUIC - 443 § 231",
+   "tag": "🇺🇸 67 - US - Hysteria2/QUIC - 443 § 182",
    "server": "cabinet.wwwinternetvideo.click",
    "server_port": 443,
    "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
@@ -4044,7 +2757,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇺🇸 66 - US - Hysteria2/QUIC - 443 § 232",
+   "tag": "🇺🇸 68 - US - Hysteria2/QUIC - 443 § 183",
    "server": "faq.wwwinternetvideo.click",
    "server_port": 443,
    "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
@@ -4056,7 +2769,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇺🇸 67 - US - Hysteria2/QUIC - 8443 § 233",
+   "tag": "🇺🇸 69 - US - Hysteria2/QUIC - 8443 § 184",
    "server": "159.223.157.129",
    "server_port": 8443,
    "password": "suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g",
@@ -4067,7 +2780,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 68 - DE - Hysteria2/QUIC - 443 § 234",
+   "tag": "🇩🇪 70 - DE - Hysteria2/QUIC - 443 § 185",
    "server": "5.83.129.11",
    "server_port": 443,
    "password": "umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx",
@@ -4079,7 +2792,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 69 - DE - Hysteria2/QUIC - 443 § 235",
+   "tag": "🇩🇪 71 - DE - Hysteria2/QUIC - 443 § 186",
    "server": "de.1.22.washing.help",
    "server_port": 443,
    "password": "umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx",
@@ -4091,7 +2804,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇷🇺 70 - RU - Hysteria2/QUIC - 443 § 236",
+   "tag": "🇷🇺 72 - RU - Hysteria2/QUIC - 443 § 187",
    "server": "hold.wwwinternetvideo.click",
    "server_port": 443,
    "password": "umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx",
@@ -4103,7 +2816,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 71 - NL - Hysteria2/QUIC - 443 § 237",
+   "tag": "🇳🇱 73 - NL - Hysteria2/QUIC - 443 § 188",
    "server": "72.56.116.57",
    "server_port": 443,
    "password": "wrSuBorIlf",
@@ -4115,7 +2828,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇳🇱 72 - NL - Hysteria2/QUIC - 443 § 238",
+   "tag": "🇳🇱 74 - NL - Hysteria2/QUIC - 443 § 189",
    "server": "hys9.wba-pn.ru",
    "server_port": 443,
    "password": "wrSuBorIlf",
@@ -4126,7 +2839,7 @@
   },
   {
    "type": "hysteria2",
-   "tag": "🇩🇪 73 - DE - Hysteria2/QUIC - 6443 § 239",
+   "tag": "🇩🇪 75 - DE - Hysteria2/QUIC - 6443 § 190",
    "server": "130.61.50.75",
    "server_port": 6443,
    "password": "zhangyang",
@@ -4138,271 +2851,7 @@
   },
   {
    "type": "vmess",
-   "tag": "🇯🇵 7 - JP - VMess/WS - 80 § 240",
-   "server": "168.138.43.75",
-   "server_port": 80,
-   "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/cctv13.m3u8",
-    "headers": {
-     "Host": "jp01.a0a.xyz"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇯🇵 8 - JP - VMess/WS - 80 § 241",
-   "server": "168.138.43.75",
-   "server_port": 80,
-   "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/cctv13.m3u8",
-    "headers": {
-     "Host": "168.138.43.75"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇯🇵 9 - JP - VMess/WS - 80 § 242",
-   "server": "168.138.43.75",
-   "server_port": 80,
-   "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/cctv13.m3u8",
-    "headers": {
-     "Host": "none"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇮🇳 25 - IN - VMess/WS/TLS - 443 § 243",
-   "server": "aksai.org",
-   "server_port": 443,
-   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/linkvws",
-    "headers": {
-     "Host": "aksai.org"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇮🇳 26 - IN - VMess/WS - 80 § 244",
-   "server": "152.67.8.205",
-   "server_port": 80,
-   "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇺🇸 27 - US - VMess/WS/TLS - 443 § 245",
-   "server": "aidrivercat.org",
-   "server_port": 443,
-   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/linkvws",
-    "headers": {
-     "Host": "aidrivercat.org"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇰🇷 30 - KR - VMess/WS - 80 § 246",
-   "server": "132.145.80.230",
-   "server_port": 80,
-   "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/cctv13.m3u8"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇰🇷 31 - KR - VMess - 443 § 247",
-   "server": "140.238.2.250",
-   "server_port": 443,
-   "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "🇳🇱 32 - NL - VMess/WS - 33736 § 248",
-   "server": "151.243.173.119",
-   "server_port": 33736,
-   "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/vmess-ws"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇸🇬 33 - SG - VMess - 18000 § 249",
-   "server": "ww11.levikogjgfdd.ir",
-   "server_port": 18000,
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "🇺🇸 34 - US - VMess/WS - 39495 § 250",
-   "server": "129.146.77.248",
-   "server_port": 39495,
-   "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/cctv13.m3u8",
-    "headers": {
-     "Host": "129.146.77.248"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇺🇸 35 - US - VMess/WS/TLS - 443 § 251",
-   "server": "aidrivercat.org",
-   "server_port": 443,
-   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/linkvws"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇺🇸 36 - US - VMess - 48111 § 252",
-   "server": "129.146.143.80",
-   "server_port": 48111,
-   "uuid": "d4603cc2-e0ee-4651-83f5-1db5b7168177",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "🇺🇸 37 - US - VMess/WS - 39495 § 253",
-   "server": "129.146.77.248",
-   "server_port": 39495,
-   "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/cctv13.m3u8"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇺🇸 38 - US - VMess/WS/TLS - 443 § 254",
-   "server": "vspeedfast.org",
-   "server_port": 443,
-   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "tls": {
-    "enabled": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/linkvws",
-    "headers": {
-     "Host": "vspeedfast.org"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇬🇧 41 - GB - VMess/WS - 80 § 255",
-   "server": "57.129.132.223",
-   "server_port": 80,
-   "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/vmess/",
-    "headers": {
-     "Host": "google.com"
-    }
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇸🇬 52 - SG - VMess - 18000 § 256",
+   "tag": "🇸🇬 19 - SG - VMess - 18000 § 191",
    "server": "149.88.23.207",
    "server_port": 18000,
    "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
@@ -4413,44 +2862,7 @@
   },
   {
    "type": "vmess",
-   "tag": "🇭🇰 53 - HK - VMess/WS - 35043 § 257",
-   "server": "156.245.232.239",
-   "server_port": 35043,
-   "uuid": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp",
-   "transport": {
-    "type": "ws",
-    "path": "/"
-   }
-  },
-  {
-   "type": "vmess",
-   "tag": "🇺🇸 62 - US - VMess - 22324 § 258",
-   "server": "216.106.185.141",
-   "server_port": 22324,
-   "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "🇺🇸 64 - US - VMess - 22324 § 259",
-   "server": "216.152.152.187",
-   "server_port": 22324,
-   "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-   "security": "auto",
-   "alter_id": 0,
-   "authenticated_length": true,
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vmess",
-   "tag": "🇸🇬 66 - SG - VMess - 18000 § 260",
+   "tag": "🇸🇬 31 - SG - VMess - 18000 § 192",
    "server": "ww11.levikogjgfdd.ir",
    "server_port": 18000,
    "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
